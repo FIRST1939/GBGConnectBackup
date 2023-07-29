@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Reduction of 12V starting speed - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="Hello Everyone, 
+I have heard that the 12 volt units have a starting speed/torque that is to high for the smaller kids and wanted to provide some information on the topic and three posible solutions. 
+A: Simple and safe:&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="384.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Reduction of 12V starting speed&#39;" href="384.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:url" content="../../t/reduction-of-12v-starting-speed/384" />
+<meta name="twitter:url" content="../../t/reduction-of-12v-starting-speed/384" />
+<meta property="og:title" content="Reduction of 12V starting speed" />
+<meta name="twitter:title" content="Reduction of 12V starting speed" />
+<meta property="og:description" content="Hello Everyone,  I have heard that the 12 volt units have a starting speed/torque that is to high for the smaller kids and wanted to provide some information on the topic and three posible solutions.  A: Simple and safe: (1)  I beleive adding a ferrite ring (2) and wrapping the power wire around the toriod (3) will help but I am not sure what the charge time will be, to increase charge time (slowly ramp up speed) a resistor may be needed and for that I need to know the total current going to the..." />
+<meta name="twitter:description" content="Hello Everyone,  I have heard that the 12 volt units have a starting speed/torque that is to high for the smaller kids and wanted to provide some information on the topic and three posible solutions.  A: Simple and safe: (1)  I beleive adding a ferrite ring (2) and wrapping the power wire around the toriod (3) will help but I am not sure what the charge time will be, to increase charge time (slowly ramp up speed) a resistor may be needed and for that I need to know the total current going to the..." />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="3 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="6 ❤" />
+<meta property="article:published_time" content="2019-04-16T16:41:25+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="../../.html">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="384.html">Reduction of 12V starting speed</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="../../c/technical-discussion/8.html" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Reduction of 12V starting speed'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Kevinl7778.html'><span itemprop='name'>Kevinl7778</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-16T16:41:25Z' class='post-time'>
+                    April 16, 2019,  4:41pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-16T16:41:25Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>Hello Everyone,</p>
+<p>I have heard that the 12 volt units have a starting speed/torque that is to high for the smaller kids and wanted to provide some information on the topic and three posible solutions.</p>
+<p>A: Simple and safe: (1)<br>
+I beleive adding a ferrite ring (2) and wrapping the power wire around the toriod (3) will help but I am not sure what the charge time will be, to increase charge time (slowly ramp up speed) a resistor may be needed and for that I need to know the total current going to the motor under full load. Also when the motor power is released there will be a deceleration time that is the same asa the acceleration time.</p>
+<ol>
+<li>
+<p><a href="https://electronics.howstuffworks.com/inductor1.htm" rel="nofollow noopener">https://electronics.howstuffworks.com/inductor1.htm</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/63X38X25mm-ferrite-Isolator-Transformer-Inductor/dp/B019YWLAUS/ref=sr_1_1?keywords=ring+inductor&amp;qid=1555432031&amp;s=wireless&amp;sr=1-1-catcorr" rel="nofollow noopener">https://www.amazon.com/63X38X25mm-ferrite-Isolator-Transformer-Inductor/dp/B019YWLAUS/ref=sr_1_1?keywords=ring+inductor&amp;qid=1555432031&amp;s=wireless&amp;sr=1-1-catcorr</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Toroidal_inductors_and_transformers" rel="nofollow noopener">https://en.wikipedia.org/wiki/Toroidal_inductors_and_transformers</a></p>
+</li>
+</ol>
+<p>B: Simpler but may cause heat<br>
+By adding a inrush current limiting device you will be addinga resistor (resists current flow) that starts to heat when the moter is powered but does not allow current to flow unit it has started to heat up, resistance falls as heating takes place allowing for more current to flow (Higher speed)</p>
+<p>I would be concerned about a hot part on a plastic car with a dissabled child inside.</p>
+<p>C: Complex sollution.<br>
+By using two off the shelf motor controllers (1) and a microcontroller (2) the speed can be fully adjustable, the motor controllers have heat sinks that may get hot and the motors would requre an encoder to have accurate simultanius operation (straight line)</p>
+<ol>
+<li>
+<p><a href="https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6?ref_=fsclp_pl_dp_2" rel="nofollow noopener">https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6?ref_=fsclp_pl_dp_2</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/atmega328-Replace-ATmega128-Arduino-Compatible/dp/B01N1LCHD3/ref=sr_1_11?keywords=arduino+nano&amp;qid=1555432628&amp;s=hi&amp;sr=1-11" rel="nofollow noopener">https://www.amazon.com/atmega328-Replace-ATmega128-Arduino-Compatible/dp/B01N1LCHD3/ref=sr_1_11?keywords=arduino+nano&amp;qid=1555432628&amp;s=hi&amp;sr=1-11</a></p>
+</li>
+</ol>
+<p>I will look in my basement to see if I have a ferrite ring ( i think i do) and test some values, if method <span class="hashtag">#1</span> works I can take photos f a sample and provide fabrication instructions.</p>
+<p>i am currently looking foor my first build and ging through this site reading instructions.</p>
+<p>Kevin</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/decf5b10a08241456f89790645494849f0e792f1.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-16T16:57:54Z' class='post-time'>
+                    April 16, 2019,  4:57pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-16T16:57:54Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Kevin,<br>
+Yes, we have seen the same problem with 12v cars. Some kids just cannot tolerate the starting jerk and speed.</p>
+<p>We just put a stand-alone motor controller on each motor. Something like this:<br>
+<aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/gp/product/B07HBV91NL/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:423/400;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/decf5b10a08241456f89790645494849f0e792f1.jpeg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/gp/product/B07HBV91NL/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">Amazon.com: WINGONEER® Universal DC10-60V 20A PWM HHO RC Motor Speed Regulator...</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>With this stand-alone controller,  I have never found the heat sinks to get too hot, and you don’t need the Arduino. Also, there is no problem in adjusting them close enough to keep a straight line. The tolerance of all the cars we’ve used this on has been very wide (remember that many smaller cars only use one drive wheel and work fine).</p>
+<p>If you want to preserve the reverse function (we usually do not) it’s only a matter of adding a double relay board between the controller and the motor.</p>
+<p>I wouldn’t mess with ferrite cores and especially not with resistors. It sounds simple but actually is not.</p>
+<p>Hope this is helpful.</p>
+<pre><code> --Doug</code></pre>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/rick-smile-center.html'><span itemprop='name'>rick-smile-center</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-17T18:22:53Z' class='post-time'>
+                    April 17, 2019,  6:22pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-17T18:22:53Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hello,<br>
+Just a reminder that all SUPERtrax (<a href="http://supertraxcars.com" rel="nofollow noopener">supertraxcars.com</a>) cars come with soft-start.  Because they are also remote controlled, GoBabygo! chapters that use SUPERtrax cars have told us that the internal wiring can greatly streamline the modification process.  As always, Rolling Hills Trading offers special pricing for GoBabygo! chapters (call for this) and S.M.I.L.E. (<a href="http://smile-center.org" rel="nofollow noopener">smile-center.org</a>) can help with funding if needed.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-17T19:17:25Z' class='post-time'>
+                    April 17, 2019,  7:17pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-17T19:17:25Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Thank goodness for the help w $$’s. Those suckers are pricey!! <img src="https://emoji.discourse-cdn.com/google/grimacing.png?v=9" title=":grimacing:" class="emoji" alt=":grimacing:"><img src="https://emoji.discourse-cdn.com/google/flushed.png?v=9" title=":flushed:" class="emoji" alt=":flushed:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/rdvt.html'><span itemprop='name'>rdvt</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-17T19:41:16Z' class='post-time'>
+                    April 17, 2019,  7:41pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-17T19:41:16Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>This is our standard solution, we use it on every car we build: <a href="https://www.dimensionengineering.com/products/sabertooth2x32" rel="nofollow noopener">https://www.dimensionengineering.com/products/sabertooth2x32</a></p>
+<p>This one board replaces three: 2 motor controllers plus an Arduino. It is a bit pricey, but for us the convenience of a single-board solution that is fully configurable is worth it.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_6' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-17T21:48:29Z' class='post-time'>
+                    April 17, 2019,  9:48pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-17T21:48:29Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>That’s what we use too <img src="https://emoji.discourse-cdn.com/google/+1.png?v=9" title=":+1:" class="emoji" alt=":+1:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_7' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Kevinl7778.html'><span itemprop='name'>Kevinl7778</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-17T22:20:58Z' class='post-time'>
+                    April 17, 2019, 10:20pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-17T22:20:58Z'>
+              <span itemprop='position'>7</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>So it looks like off the shelf pwm’s are the easy route, I like that.</p>
+<p>I guess two of these or similar would do fine:<a href="https://www.amazon.com/gp/aw/d/B07GFM53H7/ref=sspa_mw_detail_1?ie=UTF8&amp;psc=1" rel="nofollow noopener">https://www.amazon.com/gp/aw/d/B07GFM53H7/ref=sspa_mw_detail_1?ie=UTF8&amp;psc=1</a></p>
+<p>I have found a build event in NJ next month so I will go get my hands dirty and get the hang of things.</p>
+<p>I was hoping a simple rl circuit would do the trick but the motor looks to have a 30 amp stall current so at 350 watts the resistors get very large (been there many times).</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="2" />
+              <span class='post-likes'>2 Likes</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_8' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/rick-smile-center.html'><span itemprop='name'>rick-smile-center</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-18T16:13:50Z' class='post-time'>
+                    April 18, 2019,  4:13pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-18T16:13:50Z'>
+              <span itemprop='position'>8</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Pete.  You’re right, the advanced internal electronics, remote control, blue tooth capability, LED lights, and foam rubber tires do add to the cost.  Rolling Hills Trading also has a fully stocked parts department and full-time service tech that can easily talk a modifier through any type of modifying issue. PTs, OTs, and GoBabygo! chapters that use SUPERtrax cars report that they spend less time and money on electronic modifications, and if something breaks in the process (or after the family has the car at home), they can easily get parts.<br>
+Also important to remember- GoBabygo! chapters receive special discounted pricing in addition to being able to access supplemental funding from SMILE.  Please call if you have any questions- we love seeing how these little toy cars can change the outcome for kids.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_9' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Kevinl7778.html'><span itemprop='name'>Kevinl7778</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-19T14:47:34Z' class='post-time'>
+                    April 19, 2019,  2:47pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-19T14:47:34Z'>
+              <span itemprop='position'>9</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>So using a PWM controller only this provides a soft start with a total reduction in final speed, correct?</p>
+<p>I went looking in to the arduino route I can create a daul channel (2x40Amp) PMW motor control with a acceleration/deceleration pot and a max speed pot for about $75.</p>
+<p>Its great to see so many people chiming in on this topic, keep it coming.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_10' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-19T21:35:34Z' class='post-time'>
+                    April 19, 2019,  9:35pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-19T21:35:34Z'>
+              <span itemprop='position'>10</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Kevin,<br>
+Our experience is that the degree of soft start varies by car and controller. Most of the combinations we have had occasion to use do add a nice soft start. The stand-alone controller is unpowered until motor current is applied, and has some large filter capacitors which help give the effect we want. Putting a RIoRand on a Batmobile gave a really nice smooth start. Same controller in a Maserati gave a faster start, but the problem we were trying to solve was that the Maserati built-in slow start was TOO slow and some children were not getting feedback when pushing the button. So this is one where we had to experiment. BTW (you seem like the kind of guy who would be interested in this) I did try modifying stand-alone controllers with RC circuits to increase the start delay. It worked, but also made them more susceptible to noise so I have never deployed that.<br>
+– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_11' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Kevinl7778.html'><span itemprop='name'>Kevinl7778</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-20T13:29:36Z' class='post-time'>
+                    April 20, 2019,  1:29pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-20T13:29:36Z'>
+              <span itemprop='position'>11</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Ok, I will continue to develop this as a option. I have a robot obstacle avoidance that uses two small pwm’s and an arduino so I can start there. I have also made robot arms from arduino using pots and each movment uses a ramp function to amooth out the overall motion.</p>
+<p>As for RC I asume you mean remote controll and not an rc charge time constant, if you were using 2.4ghz and it was still to noisy that would take some thought. But of you were using an am or fm system it makes sence as the back emf , arc’s and switching aspects of a dc motor all contribute to the total amount of noise in this type of problem.</p>
+<p>A bluetooth module and cell phone may be the way to go download. I can see it now: the “Go Baby Go Control” app today!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_12' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Kevinl7778.html'><span itemprop='name'>Kevinl7778</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-20T15:19:57Z' class='post-time'>
+                    April 20, 2019,  3:19pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-20T15:19:57Z'>
+              <span itemprop='position'>12</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Going back to the simple and inexpensive version it may be possible to replace the potentiometer with the appropriate resistor/capacitor to provide a gradual ramp function from 0 volts to Xvolts. By using a combination that allows for the pwm setting desired  (max speed) and the correct sized capacitor  (signal level 6v) this should sweep the pwm from low to high and not require a 300 watt resistor as it would need to be if in line with the load (motors). I will need to buy one of the low cost adustable10amp versions and try it.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_13' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-04-21T00:55:03Z' class='post-time'>
+                    April 21, 2019, 12:55am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-04-21T00:55:03Z'>
+              <span itemprop='position'>13</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>This is what I did.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_14' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Parkere.html'><span itemprop='name'>Parkere</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-01-16T17:53:58Z' class='post-time'>
+                    January 16, 2020,  5:53pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-01-16T17:53:58Z'>
+              <span itemprop='position'>14</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hey everyone!</p>
+<p>I did a project for the Portland, OR GBG chapter with a team, and we used Pulse Width Modulation (PWM) and an Arduino board to control the acceleration of the car.  We did this by writing a code that would detect the button was on, and while that button was on, it would step of the PWM value by a linear increment in small intervals to achieve a linear acceleration to top speed for the kids.  This also allows you to limit what the total top speed of the 12 V car is for the child, so that if the child is smaller or lighter, you can limit the top speed so that it is safe and fun.</p>
+<p>If anyone is interested, I can post the arduino code that we used to achieve this acceleration and total speed limitation.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="2" />
+              </div>
+
+          </div>
+          <div id='post_15' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Jeff_in_TX.html'><span itemprop='name'>Jeff_in_TX</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-02-21T06:27:28Z' class='post-time'>
+                    February 21, 2020,  6:27am
+                  </time>
+                  <meta itemprop='dateModified' content='2020-02-21T06:27:28Z'>
+              <span itemprop='position'>15</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Ancient post for sure, but I cannot understand why nobody said “YES, PLEASE” because that’s what I’m saying.  There seems to be a lot of intelligent work being done but not a lot of sharing.  Please correct me if I am wrong, but I’d like to see what everyone had done so we don’t make the same mistakes over and over…</p>
+<p>Cheers!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_16' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/mollyerickson.html'><span itemprop='name'>mollyerickson</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-08-31T19:52:58Z' class='post-time'>
+                    August 31, 2020,  7:52pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-08-31T19:52:58Z'>
+              <span itemprop='position'>16</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Parkere!</p>
+<p>I am working on a similar project and hoping to use an Arduino. Would you still be willing to share the code you wrote and maybe the wiring diagram?</p>
+<p>Thank you!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="3" />
+              </div>
+
+          </div>
+          <div id='post_17' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Parkere.html'><span itemprop='name'>Parkere</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-09-05T14:58:58Z' class='post-time'>
+                    September 5, 2020,  2:58pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-09-05T14:58:58Z'>
+              <span itemprop='position'>17</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Sorry I haven’t responded to this yet, but absolutely!  I have a “semi block diagram” that I used to make a build doc for our car, I will send that as it shows the rest of the car as well and how to build it.  I’d be happy to send you the Arduino code as well, I just have to dig around and find it in my computer!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_18' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Parkere.html'><span itemprop='name'>Parkere</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-09-05T15:34:47Z' class='post-time'>
+                    September 5, 2020,  3:34pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-09-05T15:34:47Z'>
+              <span itemprop='position'>18</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p><a class="attachment" href="../../uploads/short-url/zhjHaftmxK63GnNmizkDEtDcY2o.pdf">Arduino Code_3 Button PWM System.pdf</a> (25.1 KB)</p>
+<p>Here is the Arduino code we used for our project (it might be an older version though, I’ll keep looking to see if we have an updated version of the code.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_19' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Parkere.html'><span itemprop='name'>Parkere</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-09-05T15:39:49Z' class='post-time'>
+                    September 5, 2020,  3:39pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-09-05T15:39:49Z'>
+              <span itemprop='position'>19</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>The circuit modification diagram that the Arduino code goes with is too big to upload on the website, so I made a shareable link to my gmail drive.  Let me know of this works for accessing the circuit modification diagram.  Also, note that this design was for a 3 button system that allowed the child to control right and left as well as on/off functionality, so the circuit is a bit more complicated than a normal build.</p>
+<aside class="onebox googledrive">
+  <header class="source">
+      <a href="https://drive.google.com/file/d/13RguMZE7FirV4kerLcMkjvpwNY90dR81/view?usp=sharing" target="_blank" rel="nofollow noopener">drive.google.com</a>
+  </header>
+  <article class="onebox-body">
+      <a href="https://drive.google.com/file/d/13RguMZE7FirV4kerLcMkjvpwNY90dR81/view?usp=sharing" target="_blank" rel="nofollow noopener"><span class="googledocs-onebox-logo g-drive-logo"></span></a>
+
+
+
+<h3><a href="https://drive.google.com/file/d/13RguMZE7FirV4kerLcMkjvpwNY90dR81/view?usp=sharing" target="_blank" rel="nofollow noopener">CIRCUIT MODIFICATION GUIDE FINAL.pdf</a></h3>
+
+<p>Google Drive file.</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_20' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/mollyerickson.html'><span itemprop='name'>mollyerickson</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="384.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-09-08T14:56:42Z' class='post-time'>
+                    September 8, 2020,  2:56pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-09-08T14:56:42Z'>
+              <span itemprop='position'>20</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Thank you so much for sharing all of this! This is all great information!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='../../tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='../../privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

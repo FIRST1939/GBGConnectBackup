@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>GoBabyGo Connect Search</ShortName>
+  <Description>Search for posts on GoBabyGo Connect</Description>
+  <Tags>discourse forum</Tags>
+    <Image type="image/png">https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png</Image>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://www.gbgconnect.com/opensearch.xml"/>
+  <Url type="text/html" template="https://www.gbgconnect.com/search?q={searchTerms}"/>
+  <Query role="example" searchTerms="search term"/>
+</OpenSearchDescription>

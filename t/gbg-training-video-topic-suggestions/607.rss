@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>GBG Training Video Topic Suggestions</title>
+    <link>https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607</link>
+    <description>Hello, everyone!
+
+I am working with a group of PT students at the University of Missouri to create a series of short YouTube videos that we can use to reinforce parent training for GoBabyGo cars. We want to create a different video to cover each of the areas of training we provide to parents. The goal is not to replace our existing training, but rather to give parents something to refer back to later if needed.
+
+So far, these are the areas we are considering:
+
+* Switch Style (Floor Pedal, Big Red, Arcade Button, 3D-printed, sit-to-stand)
+
+* Seating System (Lap Belt, 5-point Harness, PVC structure)
+
+* Control Mechanisms (&quot;Kill&quot; Switch, Gear Shift, On/Off Switch, Relays, Wild Thing controls)
+
+* Charging (Direct to battery, charging port)
+
+* Training Activities / Play Ideas
+
+We have two questions for the GBGConnect community:
+
+1. Specifically for the &quot;Training Activities / Play Ideas&quot; category, are there any activities you like to recommend to families? I generally default to saying, &quot;Just play!&quot; but I know some folks give more specific examples.
+
+2. What else are we missing? Are there other training areas or specific common build options we should incorporate? If we are successful and open this up to broader use, what would make it useful to your chapter?
+
+Thanks in advance for any suggestions!
+
+Bill Janes
+University of Missouri GoBabyGo
+https://www.facebook.com/MizzouGoBabyGo</description>
+    
+    <lastBuildDate>Mon, 30 Nov 2020 16:53:18 +0000</lastBuildDate>
+    <category>General Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>GBG Training Video Topic Suggestions</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>Quick update!</p>
+<p>We have started with our first “pilot” video. More details and request for feedback in a new thread:</p><aside class="quote quote-modified" data-post="1" data-topic="621">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img loading="lazy" alt="" width="20" height="20" src="https://sjc6.discourse-cdn.com/standard11/user_avatar/www.gbgconnect.com/bill_janes/40/131_2.png" class="avatar">
+    <a href="https://www.gbgconnect.com/t/gbg-switch-training-video/621">GBG Switch Training Video</a> <a class="badge-wrapper  bullet" href="https://www.gbgconnect.com/c/manuals-and-guides/5"><span class="badge-category-bg" style="background-color: #3AB54A;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="Please post your manuals, guides, instructions, and any other resources that may be helpful to other GoBabyGo! chapters or groups wishing to make a similar modification.">Manuals and Guides</span></a>
+  </div>
+  <blockquote>
+    We here at the University of Missouri are considering creating a series of YouTube videos to help parents and caregivers better understand their children’s GoBabyGo cars. We’re thinking about videos on switch adaptations, battery charging, seating considerations, recommended play activities, etc. The thought is that these could be provided to families before or after a car is built, to augment whatever training you may provide. 
+Below is our first attempt at a video explaining the most common ty…
+  </blockquote>
+</aside>
+
+          <p><a href="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607/4</link>
+        <pubDate>Mon, 30 Nov 2020 16:53:18 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-607-4</guid>
+        <source url="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607.rss">GBG Training Video Topic Suggestions</source>
+      </item>
+      <item>
+        <title>GBG Training Video Topic Suggestions</title>
+        <dc:creator><![CDATA[Uskobus]]></dc:creator>
+        <description><![CDATA[
+            <p>We added a remote control kill switch to our wild thing car. The child using the car is 3 and likes to run into trees, the side of the house, and people sitting in lawn chairs. We have had to use the remote kill switch many times including him heading for the street. We are still trying to teach him want stop means but until then we rely on the kill switch. You have to remain within the range of the switch also and not be distracted when the child it driving. Their safety depends on YOU!</p>
+<p>We molded a high back seat and it is hard to remove to charge the battery. Unfortunately the wild thing charging port has to have the battery unplugged from the car to charge. It would be nice to have the charging cord always connected so you just have to plug the cord into the outlet instead of taking the seat out and swapping the cords.</p>
+<p>We modified the battery option and mounted two lithium rechargable 20 volt batteries on the outside of the car.  This has the batteries last a lot longer but then we had to step down the voltage from 20V for the andrino card. Now we simply slide the battery off and put it on a regular charger that we already have for power tools and not have to deal with the seat and charging port on the original battery. We left the battery in for the weight it adds for the car.</p>
+<p>We added a weight on the back of the car because on grass the back would raise up when the car hit a rut and the front end would dip. Since the frame is so close to the ground the unit is hard to tip forward but we added the weight as a safety measure.</p>
+<p>We used a joystick based on the physical limitations of the child. We envision needing to move this as the child grows or changes physical reach. When mounting, you should plan for this adjustment.</p>
+<p>We used a harness but probably a 5 point harness might be better and safer. The stability of the car doesn’t have the occupant bouncing around much. The low gravity of the car makes it a safe car.</p>
+<p>The speed control is definitely a good thing to have on the car. There sometimes you want to limit the speed and another times if they’re going just down the sidewalk you might want to increase the speed.</p>
+          <p><a href="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607/3</link>
+        <pubDate>Tue, 06 Oct 2020 03:25:16 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-607-3</guid>
+        <source url="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607.rss">GBG Training Video Topic Suggestions</source>
+      </item>
+      <item>
+        <title>GBG Training Video Topic Suggestions</title>
+        <dc:creator><![CDATA[Pat]]></dc:creator>
+        <description><![CDATA[
+            <p>In addition to the training instruction areas you have listed, we also include basic safety training when using the Go Baby Go car that includes: the need to provide constant, nearby supervision to maintain the child’s safety (e.g., the parent must remain within reach of the child and/or within the range that the remote can control), reminders that the car should not be operated on hills, near water, stairs or traffic.  We also recommend to parents that the car is to be used only by the child for whom it has been built.</p>
+<p>With regard to play ideas, you may want to provide parents with pictures/diagrams for building PVC play structures such as archways, activity boxes, etc. that can be motivational for the children when driving the cars.</p>
+          <p><a href="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607/2</link>
+        <pubDate>Tue, 29 Sep 2020 00:14:04 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-607-2</guid>
+        <source url="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607.rss">GBG Training Video Topic Suggestions</source>
+      </item>
+      <item>
+        <title>GBG Training Video Topic Suggestions</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello, everyone!</p>
+<p>I am working with a group of PT students at the University of Missouri to create a series of short YouTube videos that we can use to reinforce parent training for GoBabyGo cars. We want to create a different video to cover each of the areas of training we provide to parents. The goal is not to replace our existing training, but rather to give parents something to refer back to later if needed.</p>
+<p>So far, these are the areas we are considering:</p>
+<ul>
+<li>
+<p>Switch Style (Floor Pedal, Big Red, Arcade Button, 3D-printed, sit-to-stand)</p>
+</li>
+<li>
+<p>Seating System (Lap Belt, 5-point Harness, PVC structure)</p>
+</li>
+<li>
+<p>Control Mechanisms (“Kill” Switch, Gear Shift, On/Off Switch, Relays, Wild Thing controls)</p>
+</li>
+<li>
+<p>Charging (Direct to battery, charging port)</p>
+</li>
+<li>
+<p>Training Activities / Play Ideas</p>
+</li>
+</ul>
+<p>We have two questions for the GBGConnect community:</p>
+<ol>
+<li>
+<p>Specifically for the “Training Activities / Play Ideas” category, are there any activities you like to recommend to families? I generally default to saying, “Just play!” but I know some folks give more specific examples.</p>
+</li>
+<li>
+<p>What else are we missing? Are there other training areas or specific common build options we should incorporate? If we are successful and open this up to broader use, what would make it useful to your chapter?</p>
+</li>
+</ol>
+<p>Thanks in advance for any suggestions!</p>
+<p>Bill Janes<br>
+University of Missouri GoBabyGo<br>
+</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/yz/r/KFyVIAWzntM.ico" class="site-icon" width="16" height="16">
+      <a href="https://www.facebook.com/MizzouGoBabyGo" target="_blank" rel="noopener">facebook.com</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/71d29215b74f2ff8fb9b0598fdf4d1859e9395dd.jpeg" class="thumbnail onebox-avatar" width="200" height="200">
+
+<h3><a href="https://www.facebook.com/MizzouGoBabyGo" target="_blank" rel="noopener">University of Missouri GoBabyGo</a></h3>
+
+<p>University of Missouri GoBabyGo, Columbia, Missouri. 195 likes. GoBabyGo at Mizzou includes students, clinicians, faculty, and staff from rehab and engineering and the local families taking back...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607/1</link>
+        <pubDate>Mon, 28 Sep 2020 19:32:47 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-607-1</guid>
+        <source url="https://www.gbgconnect.com/t/gbg-training-video-topic-suggestions/607.rss">GBG Training Video Topic Suggestions</source>
+      </item>
+  </channel>
+</rss>

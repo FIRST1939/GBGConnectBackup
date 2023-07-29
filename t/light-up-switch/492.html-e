@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Light-Up Switch - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="Hello, all! 
+We have a little lady who would benefit from a light-up switch to activate the car, as she is motivated by lights. Has anyone had success with a specific brand/company? We used one from “Health Products For &amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="492.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Light-Up Switch&#39;" href="492.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/light-up-switch/492" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/light-up-switch/492" />
+<meta property="og:title" content="Light-Up Switch" />
+<meta name="twitter:title" content="Light-Up Switch" />
+<meta property="og:description" content="Hello, all!  We have a little lady who would benefit from a light-up switch to activate the car, as she is motivated by lights. Has anyone had success with a specific brand/company? We used one from “Health Products For You,” but it would stick in the “ON/activated” position, which is obviously not great. Any ideas?  Thanks!  Lizzie, Allison, and Ben  Milwaukee GBG!" />
+<meta name="twitter:description" content="Hello, all!  We have a little lady who would benefit from a light-up switch to activate the car, as she is motivated by lights. Has anyone had success with a specific brand/company? We used one from “Health Products For You,” but it would stick in the “ON/activated” position, which is obviously not great. Any ideas?  Thanks!  Lizzie, Allison, and Ben  Milwaukee GBG!" />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta property="article:published_time" content="2019-10-10T17:33:48+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="492.html">Light-Up Switch</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/technical-discussion/8" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Light-Up Switch'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/MilwaukeeGBG.html'><span itemprop='name'>MilwaukeeGBG</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="492.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-10-10T17:33:48Z' class='post-time'>
+                    October 10, 2019,  5:33pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-10-10T17:33:48Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>Hello, all!</p>
+<p>We have a little lady who would benefit from a light-up switch to activate the car, as she is motivated by lights. Has anyone had success with a specific brand/company? We used one from “Health Products For You,” but it would stick in the “ON/activated” position, which is obviously not great. Any ideas?</p>
+<p>Thanks!</p>
+<p>Lizzie, Allison, and Ben<br>
+Milwaukee GBG!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/gavin.wood.html'><span itemprop='name'>gavin.wood</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="492.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/e6ca8825a64b5d0af8b2fd33fcd64be3deb9c4de.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-10-11T01:07:44Z' class='post-time'>
+                    October 11, 2019,  1:07am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-10-11T01:07:44Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>We have used this button for the last couple years. It basically has a limit switch on the back with two sets of spade connectors, one for the lights and one for the button. Works great and the price is right. They come in different colors too.</p>
+<aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/gp/product/B01LZMANZ7/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:323/332;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/e6ca8825a64b5d0af8b2fd33fcd64be3deb9c4de.jpeg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/gp/product/B01LZMANZ7/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">Amazon.com: EG STARTS Arcade Buttons 100mm Big Dome Convex Type LED Lit...</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/MilwaukeeGBG.html'><span itemprop='name'>MilwaukeeGBG</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="492.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-10-25T15:18:54Z' class='post-time'>
+                    October 25, 2019,  3:18pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-10-25T15:18:54Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Gavin,<br>
+My name is Ben, and I’m the engineering working on the GBG cars here at Marquette University.<br>
+This light up switch is listed as 12volts. I assume that voltage is required for the light, yes? There is no voltage required for the switch itself. It is either open, or manually closed by the child, correct?</p>
+<p>Do you know if there is a 6v version of this switch for 6v cars?</p>
+<p>Thanks,</p>
+<p>ben</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/gavin.wood.html'><span itemprop='name'>gavin.wood</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="492.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-10-28T19:17:48Z' class='post-time'>
+                    October 28, 2019,  7:17pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-10-28T19:17:48Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Ben,</p>
+<p>I took a minute to test one of the light up switches at a lower voltage. I used a 7.2V VEX robotics battery (that probably wasn’t fully charged) and it lit right up. Should be good to go!</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541.jpeg" data-download-href="/uploads/short-url/87vy4uAYh8OXIR1MBjnrcNm1YeR.jpeg?dl=1" title="20191028_141154.jpg"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_375x500.jpeg" alt="20191028_141154" data-base62-sha1="87vy4uAYh8OXIR1MBjnrcNm1YeR" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">20191028_141154.jpg</span><span class="informations">3024×4032 3.21 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/AACSLP.html'><span itemprop='name'>AACSLP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="492.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-12-23T00:16:47Z' class='post-time'>
+                    December 23, 2019, 12:16am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-12-23T00:16:47Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Does this switch work the same as the Big Red switch from Ablenet?  Does the child hit the switch once for the light to come on and again to activate the car, or does the adult turn on the light to draw the child’s attention to the switch.   Thank you!</p>
+<p><a href="https://www.schoolhealth.com/ablenet-big-red-twist-switch?utm_source=google&amp;utm_medium=cpc&amp;adpos=1o1&amp;scid=scplp76126&amp;sc_intid=76126&amp;gclid=EAIaIQobChMI55LPwb3K5gIVQx6tBh2d5gijEAQYASABEgLEavD_BwE" class="onebox" target="_blank" rel="nofollow noopener">https://www.schoolhealth.com/ablenet-big-red-twist-switch?utm_source=google&amp;utm_medium=cpc&amp;adpos=1o1&amp;scid=scplp76126&amp;sc_intid=76126&amp;gclid=EAIaIQobChMI55LPwb3K5gIVQx6tBh2d5gijEAQYASABEgLEavD_BwE</a></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

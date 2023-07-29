@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Site Feedback - GoBabyGo Connect</title>
+    <link>https://www.gbgconnect.com/c/site-feedback/3</link>
+    <description>Topics in the &#39;Site Feedback&#39; category Discussion about this site, its organization, how it works, and how we can improve it.</description>
+    
+      <lastBuildDate>Wed, 09 Aug 2017 03:41:36 +0000</lastBuildDate>
+      <atom:link href="https://www.gbgconnect.com/c/site-feedback/3.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>About the Site Feedback category</title>
+          <dc:creator><![CDATA[system]]></dc:creator>
+          <category>Site Feedback</category>
+          <description><![CDATA[
+            <p>Discussion about this site, its organization, how it works, and how we can improve it.</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/about-the-site-feedback-category/2">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/about-the-site-feedback-category/2</link>
+          <pubDate>Wed, 09 Aug 2017 03:41:36 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-2</guid>
+          <source url="https://www.gbgconnect.com/t/about-the-site-feedback-category/2.rss">About the Site Feedback category</source>
+        </item>
+  </channel>
+</rss>

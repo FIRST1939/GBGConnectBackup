@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Wiring for McLaren 12V</title>
+    <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727</link>
+    <description>We are using a big red button switch, and we cannot get the car to go. We are using a relay, but need some assistance for wiring to determine what we are doing wrong. Any help is greatly appreciated!</description>
+    
+    <lastBuildDate>Sat, 26 Feb 2022 19:16:43 +0000</lastBuildDate>
+    <category>Problem Solver</category>
+    <atom:link href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>OK, thank you, this is commonly used approach and since it requires you to measure voltage I assume you have the multi-meter and know how to use it. When you have a chance to send me the picture of the wires attached to your relay so I can look at which pins they go to, we can decide what to do next. Since you do not hear the relay click we will probably look first at pins 85 and 86.</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/10</link>
+        <pubDate>Sat, 26 Feb 2022 19:16:43 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-10</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[alidasteen]]></dc:creator>
+        <description><![CDATA[
+            <p>Below are the directions we are following. I got them from <a href="https://www.instructables.com/GoBabyGo-Riley/" class="inline-onebox" rel="noopener nofollow ugc">GoBabyGo - Riley : 8 Steps - Instructables</a></p>
+<p>"For ease of use, we removed the pedal in the floorboard which moved the car, and added a Big Red Button.</p>
+<p>However, this complicates things, as we don’t want the full power going across the Big Red Button, so we’re going to use a Relay. We chose the SARL- 112DF, with the wiring diagram pictured.</p>
+<p>To power the coil of the relay, we’re going to tap into the battery power and run it through the big button to power the relay, and then from the relay to the battery ground. To simplify things, we’ll use the hot wire coming off of the emergency stop switch we installed earlier.</p>
+<p>To activate the car, we’ll just use the wires from the pedal we removed to actually start the car. You can see from the picture that the pedal was just a simple switch that connected two leads. These leads are what we’re going to run across the N/O and common connectors. Make sure that 1) you use the normally open connection on the relay, and 2) you connect the “hot” wire to the lead marked 87 (not 87a).</p>
+<p>You can identify the hot wire by turning on the car, and reading the voltage between each wire and ground. The one that shows 12V is the hot wire. (above, the brown wire with the electrical tape is the hot wire from the pedal; the brown wire without the electrical tape is the not-hot wire from the pedal)</p>
+<p>We opted to use quick disconnects on the wires going to the steering wheel so that we could run them easily through the chassis, but it’s not required.</p>
+<p>We installed the relay itself underneath the seat, with the other electronics and battery. Since the relay had a mounting hole on one side, we drilled a small hole in the side wall of the car’s chassis, and connected it with a bolt and nut."</p>
+<p><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/452f891bfe627a39deb876e14ede2533da7030ea.png" alt="image" data-base62-sha1="9S2MYG2X6ERP93DVKRnFQe6vtlU" width="650" height="431"></p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/9</link>
+        <pubDate>Sat, 26 Feb 2022 18:00:18 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-9</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Well, that relay should work for what you are trying to do. Let’s do both – post the pictures of the relay and its connections here, and then email them to me, too. I need to be able to read the numbers off the relay pins. They should be something like 30, 85, 86, 87, etc. and I need to see which wires go to each pin. The reason for continuing to post here is so Pete and others can help. The reason for emailing them is so I can see if that improves the detail. Are you working from a drawing or instructions on how to wire the relay in? If so, could you please send those along since there are several ways to do this? Also, do you have access to a multi-meter and know how to use it to measure voltage?.</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/8</link>
+        <pubDate>Sat, 26 Feb 2022 16:04:51 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-8</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[alidasteen]]></dc:creator>
+        <description><![CDATA[
+            <p>Doug,</p>
+<p>We are using a SARL-112DF relay. I can definitely email you pictures if that would be easier!</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/7</link>
+        <pubDate>Sat, 26 Feb 2022 15:33:41 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-7</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Thank you, that helps a lot. I apologize for the next request, but I can’t see what I need to in the pictures. Could you please take a closeup of the relay with the highest resolution your camera or phone has? We now need to see the pins on the relay and which wires are connected to which pins. The pictures I am getting on this web page are too fuzzy when I try to look for details. Another option would be to directly email me the new pictures as attachments in case they are somehow being compressed via the posting here. Does this make sense?</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/6</link>
+        <pubDate>Sat, 26 Feb 2022 15:03:32 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-6</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[alidasteen]]></dc:creator>
+        <description><![CDATA[
+            <p>We do not hear a click</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/5</link>
+        <pubDate>Sat, 26 Feb 2022 14:28:52 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-5</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[alidasteen]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi all!! I am adding some photos for reference. We took the wiring apart just so it is easier for you to see where everything would connect. Underneath there are two different sets of wires. The black, red, and white ones go to the dashboard and battery. A white and orange one go to the dashboard and the motor. A green/brown, white, and red go to the dashboard and the pedal. I labeled the wires on the inside of the car.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e.jpeg" data-download-href="/uploads/short-url/pbVkhbGvcXDXhdGf6nYrPx9mhJA.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_666x500.jpeg" alt="image" data-base62-sha1="pbVkhbGvcXDXhdGf6nYrPx9mhJA" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_10x10.png"></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd.jpeg" data-download-href="/uploads/short-url/63n12S3khHkj19UzCp7JeaHQPG5.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_375x500.jpeg" alt="image" data-base62-sha1="63n12S3khHkj19UzCp7JeaHQPG5" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_10x10.png"></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe.jpeg" data-download-href="/uploads/short-url/b90vRnkFQ49jyw1NeeldFh3HY2q.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_375x500.jpeg" alt="image" data-base62-sha1="b90vRnkFQ49jyw1NeeldFh3HY2q" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_10x10.png"></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c.jpeg" data-download-href="/uploads/short-url/9W8J001dgrrMBvJ2q7kh4DqnE0.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_375x500.jpeg" alt="image" data-base62-sha1="9W8J001dgrrMBvJ2q7kh4DqnE0" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_10x10.png"></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/74c9b7120ed30b0e762155ac1656319fea3352e0.jpeg" data-download-href="/uploads/short-url/gF9yFEgnmkknQPURBoC2etESS1q.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_273x500.jpeg" alt="image" data-base62-sha1="gF9yFEgnmkknQPURBoC2etESS1q" width="273" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_273x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_409x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_546x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/4</link>
+        <pubDate>Sat, 26 Feb 2022 14:04:39 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-4</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>When you press the Big Red button switch, can you hear the relay click? This will help us determine whether the problem is "in front of the relay " or “behind” it.</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/3</link>
+        <pubDate>Sat, 26 Feb 2022 01:19:13 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-3</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>if you could post some pictures i / we will have a better chance of figuring it out.  happy to help if possible</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/2</link>
+        <pubDate>Tue, 22 Feb 2022 17:48:02 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-2</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+      <item>
+        <title>Wiring for McLaren 12V</title>
+        <dc:creator><![CDATA[alidasteen]]></dc:creator>
+        <description><![CDATA[
+            <p>We are using a big red button switch, and we cannot get the car to go. We are using a relay, but need some assistance for wiring to determine what we are doing wrong. Any help is greatly appreciated!</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727/1</link>
+        <pubDate>Sat, 19 Feb 2022 14:01:16 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-727-1</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727.rss">Wiring for McLaren 12V</source>
+      </item>
+  </channel>
+</rss>

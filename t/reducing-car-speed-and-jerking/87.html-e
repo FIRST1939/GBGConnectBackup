@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Reducing Car Speed and Jerking - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="Sometimes we have a car that goes too fast for the child, or starts with a jerk that scares the child. We then install a motor controller and that solves both problems. It was surprising how the controller would slowly a&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="87.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Reducing Car Speed and Jerking&#39;" href="87.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/37302d3240ad33e0be141a9dbb3fd1159b96d68a.jpg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/37302d3240ad33e0be141a9dbb3fd1159b96d68a.jpg" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/reducing-car-speed-and-jerking/87" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/reducing-car-speed-and-jerking/87" />
+<meta property="og:title" content="Reducing Car Speed and Jerking" />
+<meta name="twitter:title" content="Reducing Car Speed and Jerking" />
+<meta property="og:description" content="Sometimes we have a car that goes too fast for the child, or starts with a jerk that scares the child. We then install a motor controller and that solves both problems. It was surprising how the controller would slowly accelerate to the speed where the potentiometer was set, giving a nice smooth ride. One caution. Some cars come with a non-standard noise control circuit on the motors, utilizing an NP electrolytic. Those are not compatible with this controller. We would just replace that with a s..." />
+<meta name="twitter:description" content="Sometimes we have a car that goes too fast for the child, or starts with a jerk that scares the child. We then install a motor controller and that solves both problems. It was surprising how the controller would slowly accelerate to the speed where the potentiometer was set, giving a nice smooth ride. One caution. Some cars come with a non-standard noise control circuit on the motors, utilizing an NP electrolytic. Those are not compatible with this controller. We would just replace that with a s..." />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="6 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="3 ❤" />
+<meta property="article:published_time" content="2017-11-29T16:31:03+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+        <link rel="next" href="87%3Fpage=2.html">
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="87.html">Reducing Car Speed and Jerking</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/technical-discussion/8" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Reducing Car Speed and Jerking'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/37302d3240ad33e0be141a9dbb3fd1159b96d68a.jpg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2017-11-29T16:31:03Z' class='post-time'>
+                    November 29, 2017,  4:31pm
+                  </time>
+                  <meta itemprop='dateModified' content='2017-11-29T16:31:03Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>Sometimes we have a car that goes too fast for the child, or starts with a jerk that scares the child. We then install a motor controller and that solves both problems. It was surprising how the controller would slowly accelerate to the speed where the potentiometer was set, giving a nice smooth ride. One caution. Some cars come with a non-standard noise control circuit on the motors, utilizing an NP electrolytic. Those are not compatible with this controller. We would just replace that with a standard circuit, but if you don’t want to do that you should check the motor first and avoid any cars with that circuit.</p>
+<p>We bought ours on Amazon, the link is below.</p>
+<p><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/37302d3240ad33e0be141a9dbb3fd1159b96d68a.jpg" alt="com_ RioRand™ Upgraded 6V-90V 15A DC Motor Pump Speed Controller_ C" width="356" height="373"></p>
+<aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/RioRandTM-Upgraded-6V-90V-Motor-Controller/dp/B00F839VNQ/ref=sr_1_2_sspa?ie=UTF8&amp;qid=1511972434&amp;sr=8-2-spons&amp;keywords=riorand+motor+speed+controller&amp;psc=1&amp;smid=A298K45OP416LP" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:423/400;"><img src="https://images-na.ssl-images-amazon.com/images/I/51sZEFy9ShL._AC_SY400_.jpg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/RioRandTM-Upgraded-6V-90V-Motor-Controller/dp/B00F839VNQ/ref=sr_1_2_sspa?ie=UTF8&amp;qid=1511972434&amp;sr=8-2-spons&amp;keywords=riorand+motor+speed+controller&amp;psc=1&amp;smid=A298K45OP416LP" target="_blank" rel="nofollow noopener">Amazon.com: RioRand&amp;trade; Upgraded 6V-90V 15A DC Motor Pump Speed Controller: Computers &amp; Accessories</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/KCeiPT.html'><span itemprop='name'>KCeiPT</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-06-17T03:36:13Z' class='post-time'>
+                    June 17, 2019,  3:36am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-06-17T03:36:13Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I have a kid who cries when the kill switch in his car is turned on (he’s happy as a clam sitting in it until he knows you’re turning it on) so I’d like to try this to see if it helps, but I don’t know how to connect it. The car is a small Lightning McQueen; wiring is as follows:</p>
+<ul>
+<li>Blue wire from battery connector, one wire from switch port, and red wire from trailer connector wired together</li>
+<li>Black wire from battery connector, black wire from motor, and black wire from trailer connector wired together</li>
+<li>Red wire from motor and other wire from switch port wired to kill switch</li>
+</ul>
+<p>So, how would I insert the motor controller into that wiring scenario?</p>
+<p>Thanks!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-06-17T14:29:12Z' class='post-time'>
+                    June 17, 2019,  2:29pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-06-17T15:02:01Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Kathy,</p>
+<p>The wiring is not too hard. There is just one important step. Basically, you are just putting the motor controller “in series" with the wires that connect right onto the motor terminals. You don’t have to worry about any other wiring. However, physically mounting the motor controller is a little more challenging, and you probably will need to splice some wires.</p>
+<p>Here are the steps:</p>
+<p><strong>1) Confirm the polarity of the motor wires and terminals</strong></p>
+<p>This means confirm which wire attached to the motor terminals is positive and which is negative, because it is probably the opposite of what you would expect. This is the important step. You will need a multi-meter and a helper.</p>
+<p>With the multi-meter set for around 20 volts, put the test leads (red and black) on the motor terminals. (Either lead on either terminal is OK to start.) Have the helper tilt the car and start it. Read the voltage. If it is negative (a minus sign (-) on the display), the test leads are backwards. Try it again with the test leads reversed. When you see a positive voltage, mark the wire and terminal where the Red test lead is connected with a + sign. That is the positive terminal on the motor, and the wire going to it has the positive voltage. (I usually mark this with masking tape so I don’t forget.) The other wire is negative voltage, and the motor terminal it connects to is the negative terminal.</p>
+<p>One note. If you have any electrical experts around, they may be surprised to see that a red wire shows up as negative. But yes, this is the way the factory sometimes wires them and it is why you have to check.</p>
+<p><strong>2) Mount the motor controller</strong></p>
+<p>This can be the hard part. I will give an example for the RioRand controller. If you use something different, you will have to tweak this. On the older McQueens, there is usually room for the controller on the floor of the motor compartment on the opposite side of the center post from the battery. The controller board has four holes drilled in the corners. I usually attach the motor controller to the floor of the car with <span class="hashtag">#4x3</span>/4” pan head sheet metal screws. However, don’t screw the controller down directly to the floor. Use standoffs between the controller and the car floor. I usually just use plastic craft beads. Then flip the car over and put thermal glue on the screw ends where they poke out below the car.</p>
+<p>Then, there is the controller potentiometer (speed control). You want to mount it somewhere on the car body where the child can’t bump it. But the leads are only about 7” long. Usually I will mount it on the top side of the car just behind the rear seat edge. Drill a hole through the car body where you want it to go, then a second hole inside the near wall of the motor compartment so you can run the leads back into the motor compartment through that hole. The leads have a connector that you can pull off the motor controller so you can thread them through after you mount the potentiometer.</p>
+<p>Note that the potentiometer has a small tab sticking up on the front face. You have to drill a second tiny hole near the first mounting hole you drilled. The tab has to go into the new tiny hole. The tab prevents the potentiometer body from twisting. If you don’t drill that second hole, the potentiometer will mount crooked. (I realize this is hard to visualize just from my text, so if you want a picture let me know.)</p>
+<p><strong>3) Wire the controller</strong></p>
+<p>Cut the positive wire going from the other wiring to the positive motor terminal right in the middle. Strip the end still attached to the motor and screw it into Motor+ on the controller. Strip the end of the wiring coming from the rest of the wiring, and screw it into Power+ on the controller.</p>
+<p>Then cut the negative wire going from the other wiring to the negative motor terminal right in the middle. Strip the end still attached to the motor and screw it into Motor- on the controller. Strip the end of the wiring coming from the rest of the wiring, and screw it into Power- on the controller.</p>
+<p>Depending on where you mounted the controller, the wires might not easily reach the controller. Don’t stretch them. You might have to splice some extension wires into the existing wires. Let me know if you need some suggestions on that.</p>
+<p>Finally, glue the wires attached to the motor controller to the board and green  terminal block with thermal glue so they don’t loosen.</p>
+<p>Hope this is helpful. If you have any questions or need pictures, just let me know.</p>
+<p>Best regards,</p>
+<p>– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/KCeiPT.html'><span itemprop='name'>KCeiPT</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-06-18T01:21:19Z' class='post-time'>
+                    June 18, 2019,  1:21am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-06-18T01:21:19Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Doug -<br>
+Thank you so much! Your directions make perfect sense. I will definitely need to make the wires longer in order to reach the motor controller; I can use wire nuts for this, correct? Also, I might need to make the wires between the board and the potentiometer longer. Can I do that with wire nuts? Or would soldering be better? Or is it best to find a place that works without having to extend the wires at all?</p>
+<p>Thanks again!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-06-18T02:34:54Z' class='post-time'>
+                    June 18, 2019,  2:34am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-06-18T02:34:54Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Kathy,</p>
+<p>Your best option is to find a location where you don’t have to extend any of the wires, but I usually do have to lengthen the power wires. It’s best to keep them as short as possible, but adding a few inches of the same gauge wire is not going to hurt anything.</p>
+<p>My strong preference for adding extension wires is to solder them and put heat shrink tubing on. But this has to be done by someone who really knows how to solder well, and most of our volunteers did not.  A good solder connection is the most reliable and trouble-free; a bad solder joint is the worst.</p>
+<p>It is possible to use wire nuts to add the power wire extensions if you can’t arrange to get them soldered well, as long as you can get them tight enough. We have had trouble with wire nuts long term if the volunteers didn’t get them tight.</p>
+<p>There are also other ways to add wire extensions, but when compared to a good solder joint, every other approach has some kind of higher risk associated with it.</p>
+<p>Try hard to avoid the need to extend the potentiometer wires. It is far better to extend the power wires a little more to avoid extending the potentiometer wires.  Find some compromise between the placement of the motor controller board and the location of the potentiometer so you don’t have to do that. Reorient the motor controller board so the potentiometer wire connector faces the potentiometer. You can even mount the motor controller vertically on the sides of the motor compartment if that helps. I have extended those potentiometer wires myself when I had a very strong reason to do so, but that’s really risky. It can make the motor controller act erratically. I would really like to say “never do it”, but if you have no other choice, keep the extensions as short as possible, use solder, and be sure to test the car very thoroughly, at various speeds.</p>
+<p>Hope this is helpful.<br>
+Best regards,<br>
+– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_6' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/KCeiPT.html'><span itemprop='name'>KCeiPT</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-06-18T02:47:54Z' class='post-time'>
+                    June 18, 2019,  2:47am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-06-18T02:47:54Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Doug -<br>
+VERY helpful! Thanks!! Crossing my fingers that this helps my little friend not be so scared of his car <img src="https://emoji.discourse-cdn.com/google/crossed_fingers.png?v=9" title=":crossed_fingers:" class="emoji" alt=":crossed_fingers:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_7' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-06-18T02:48:35Z' class='post-time'>
+                    June 18, 2019,  2:48am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-06-18T02:48:35Z'>
+              <span itemprop='position'>7</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Good luck. Please post how it works out.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_8' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/KCeiPT.html'><span itemprop='name'>KCeiPT</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-08-05T00:08:34Z' class='post-time'>
+                    August 5, 2019, 12:08am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-08-05T00:08:34Z'>
+              <span itemprop='position'>8</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Update:<br>
+I successfully wired the controller &amp; pot into the car and brought it to my little guy. Aaaaannnnd, he’s still scared of it, even when it’s moving really slowly <img src="https://emoji.discourse-cdn.com/google/frowning_face.png?v=9" title=":frowning_face:" class="emoji" alt=":frowning_face:">. His parents are troopers, though, and are committed to getting him used to it. I’m going to do this again for another of my kids and see what he thinks.  Thanks for all the help!!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_9' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-08-05T01:13:00Z' class='post-time'>
+                    August 5, 2019,  1:13am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-08-05T01:13:00Z'>
+              <span itemprop='position'>9</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Kathy,<br>
+First, congratulations on getting the controller to work. Now you have another option available for when needed. Sorry to hear the little guy is still unhappy with it. We may have another option available soon. Nick and I have been working on an Arduino-based controller timer that gives even smoother operation than the commercial controllers. Plus it can be programmed for any sort of speed limit and speed ramp-up that you want.  Maybe that would make your little guy become comfortable with the car more quickly. This will be in an experimental phase for a while yet, but we would consider working with someone who could keep a close eye on it while in use, at least to start. Maybe the parents you are working with here would be candidates if they are really serious about this.  I have a couple of videos of a prototype in operation, but Go Baby Go Connect will not let me post them on this site. If you are interested, send me an alternate email address and I can either email them to you directly or put them up on a Google Drive.<br>
+Best regards,<br>
+– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_10' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/KCeiPT.html'><span itemprop='name'>KCeiPT</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-08-06T19:53:44Z' class='post-time'>
+                    August 6, 2019,  7:53pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-08-06T19:53:44Z'>
+              <span itemprop='position'>10</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Doug -<br>
+That sounds great, but expensive. My program’s funding was cut for this next year, so there’s no money to buy anything. I bought the two motor controllers out of my own pocket because they were inexpensive, but I’m not sure how I feel about buying an Arduino-based controller. We do expect full funding next year so perhaps I can convince the higher ups at that time. Thank you for the offer, though!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_11' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-08-06T20:54:29Z' class='post-time'>
+                    August 6, 2019,  8:54pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-08-06T20:54:29Z'>
+              <span itemprop='position'>11</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Kathy,<br>
+Oh, if you decided one would help, I’d just send you one when we have them ready. They will be cheaper to build than the commercial controllers – about $10 for the parts. That was part of the goal. I don’t intend to charge for them.  But I assume for the child you are working with, there is still a lot the parents can do to acclimate him – pushing him around in the car without turning it on, etc. Let me know if you eventually need to try something like we are working on.<br>
+Best regards,<br>
+– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_12' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/KCeiPT.html'><span itemprop='name'>KCeiPT</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-08-06T21:46:55Z' class='post-time'>
+                    August 6, 2019,  9:46pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-08-06T21:46:55Z'>
+              <span itemprop='position'>12</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Oh wow! In all the other builds I’ve seen that have Arduino controllers, the board itself is at least $100, so I kinda just assumed this would be the same <img src="https://emoji.discourse-cdn.com/google/smirk.png?v=9" title=":smirk:" class="emoji" alt=":smirk:">. I’m not sure if it’s the jerking or the fact that he’s moving himself through space (having never done that before) that scares him so I need to figure that out first. I will definitely let you know if it seems like your new board would help. Thank you so much!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_13' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-08-07T11:34:01Z' class='post-time'>
+                    August 7, 2019, 11:34am
+                  </time>
+                  <meta itemprop='dateModified' content='2019-08-07T11:34:01Z'>
+              <span itemprop='position'>13</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Pat and I discussed this. Any possibility it’s the motor noise that bothers him? Those cars actually are pretty noisy (and therefore scary)  for some kids, especially if the child is autistic. Maybe the parents want to see if he would tolerate some comfortable hearing protectors?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_14' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/KCeiPT.html'><span itemprop='name'>KCeiPT</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-08-20T21:44:43Z' class='post-time'>
+                    August 20, 2019,  9:44pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-08-20T21:44:43Z'>
+              <span itemprop='position'>14</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>That’s a great thought! I haven’t noticed any other auditory sensitivities but headphones are worth a try. Thanks!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_15' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/mollyerickson.html'><span itemprop='name'>mollyerickson</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-09-01T14:38:11Z' class='post-time'>
+                    September 1, 2020,  2:38pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-09-01T14:38:11Z'>
+              <span itemprop='position'>15</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Doug,</p>
+<p>I am looking into Arduino-based controller options to slow down the initial acceleration of a car. The problem I am running into is that the car only has a 6V battery, and from what I have read online arduino’s need at least 7V. Have you run into a similar problem? Do you have any suggestions?</p>
+<p>Thank you!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_16' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/1a8c8126a05fd56d06ac38116512bba91c0f4c1f.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-09-01T16:42:01Z' class='post-time'>
+                    September 1, 2020,  4:42pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-09-01T16:42:01Z'>
+              <span itemprop='position'>16</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Molly,<br>
+Yes, we have hit this one too. In practice, one way you can encounter such a problem is if the parents let the battery run down, and then if the child stalls the car  the voltage to the electronics can drop. This is one thing to test before you release the car, make sure it just shuts down and doesn’t do anything unexpected.</p>
+<p>You have several options. First, there are indeed Arduinos that operate at lower voltages. I will try to attach some scans from Make’s Guide to Boards and you can see some where the input voltage can be as low as 3.7 volts. Maybe one of those will meet your needs.</p>
+<p>If none of those boards are satisfactory, you can power just the Arduino board (not the motor controller board) from a separate small battery. Either wire in a separate on/off switch for that, or use a relay to turn it on when they turn the car on.</p>
+<p>You can also buy a voltage step-up board that will increase the voltage from what the battery is supplying to what the electronics needs. I will try to attach a scan of one such board, you can read what it will do. There are a lot of these available, this one costs $7.</p>
+<p>Hope this is helpful!</p>
+<p>Best regards,<br>
+– Doug</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/1a8c8126a05fd56d06ac38116512bba91c0f4c1f.jpeg" data-download-href="/uploads/short-url/3MRrvG9uKvmaE9BsrgkJHg2D0oD.jpeg?dl=1" title="Arduinos from Board Guide 001" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1a8c8126a05fd56d06ac38116512bba91c0f4c1f_2_442x500.jpeg" alt="Arduinos from Board Guide 001" data-base62-sha1="3MRrvG9uKvmaE9BsrgkJHg2D0oD" width="442" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1a8c8126a05fd56d06ac38116512bba91c0f4c1f_2_442x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1a8c8126a05fd56d06ac38116512bba91c0f4c1f_2_663x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1a8c8126a05fd56d06ac38116512bba91c0f4c1f_2_884x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1a8c8126a05fd56d06ac38116512bba91c0f4c1f_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Arduinos from Board Guide 001</span><span class="informations">1700×1920 1.32 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/6f099e9ce23111737fa591d0378a100230e7368c.jpeg" data-download-href="/uploads/short-url/fQhBLiiQEsCLIIaEx086Yxeus1e.jpeg?dl=1" title="Arduinos from Board Guide 002" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/6f099e9ce23111737fa591d0378a100230e7368c_2_442x500.jpeg" alt="Arduinos from Board Guide 002" data-base62-sha1="fQhBLiiQEsCLIIaEx086Yxeus1e" width="442" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/6f099e9ce23111737fa591d0378a100230e7368c_2_442x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/6f099e9ce23111737fa591d0378a100230e7368c_2_663x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/6f099e9ce23111737fa591d0378a100230e7368c_2_884x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/6f099e9ce23111737fa591d0378a100230e7368c_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Arduinos from Board Guide 002</span><span class="informations">1700×1920 1.29 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/e5370e168481502cc48cdc045f9261797fb7bb4d.jpeg" data-download-href="/uploads/short-url/wHJikg4F5lyPl37b3zO72DUuXjn.jpeg?dl=1" title="Arduinos from Board Guide 003" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/e5370e168481502cc48cdc045f9261797fb7bb4d_2_442x500.jpeg" alt="Arduinos from Board Guide 003" data-base62-sha1="wHJikg4F5lyPl37b3zO72DUuXjn" width="442" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/e5370e168481502cc48cdc045f9261797fb7bb4d_2_442x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/e5370e168481502cc48cdc045f9261797fb7bb4d_2_663x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/e5370e168481502cc48cdc045f9261797fb7bb4d_2_884x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/e5370e168481502cc48cdc045f9261797fb7bb4d_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Arduinos from Board Guide 003</span><span class="informations">1700×1920 1.21 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/2dd3209be17fa8f9fe42ebe7ffb405dd1a2fc8ca.jpeg" data-download-href="/uploads/short-url/6xnP7lFCn0xFyGxPURBWa9qrC4i.jpeg?dl=1" title="Arduinos from Board Guide" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2dd3209be17fa8f9fe42ebe7ffb405dd1a2fc8ca_2_442x500.jpeg" alt="Arduinos from Board Guide" data-base62-sha1="6xnP7lFCn0xFyGxPURBWa9qrC4i" width="442" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2dd3209be17fa8f9fe42ebe7ffb405dd1a2fc8ca_2_442x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2dd3209be17fa8f9fe42ebe7ffb405dd1a2fc8ca_2_663x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2dd3209be17fa8f9fe42ebe7ffb405dd1a2fc8ca_2_884x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2dd3209be17fa8f9fe42ebe7ffb405dd1a2fc8ca_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Arduinos from Board Guide</span><span class="informations">1700×1920 1.27 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/871a32b792374d88c21fc22eac9a45b4179a0f45.jpeg" data-download-href="/uploads/short-url/jhaAr9LJFfDNVt6rxd1w1SvQjBP.jpeg?dl=1" title="2020-09-01 12_20_37-Window" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/871a32b792374d88c21fc22eac9a45b4179a0f45_2_690x311.jpeg" alt="2020-09-01 12_20_37-Window" data-base62-sha1="jhaAr9LJFfDNVt6rxd1w1SvQjBP" width="690" height="311" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/871a32b792374d88c21fc22eac9a45b4179a0f45_2_690x311.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/871a32b792374d88c21fc22eac9a45b4179a0f45_2_1035x466.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/871a32b792374d88c21fc22eac9a45b4179a0f45_2_1380x622.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/871a32b792374d88c21fc22eac9a45b4179a0f45_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">2020-09-01 12_20_37-Window</span><span class="informations">1487×671 182 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_17' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/mollyerickson.html'><span itemprop='name'>mollyerickson</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-09-01T19:59:37Z' class='post-time'>
+                    September 1, 2020,  7:59pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-09-01T19:59:37Z'>
+              <span itemprop='position'>17</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Doug,</p>
+<p>Thank you for all of these suggestions! I will look into all of them further, but I think at least one of these will work for use!</p>
+<p>Thank you,<br>
+Molly</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_18' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/SmilerSkyler.html'><span itemprop='name'>SmilerSkyler</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-12-28T20:27:23Z' class='post-time'>
+                    December 28, 2022,  8:27pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-12-28T20:27:23Z'>
+              <span itemprop='position'>18</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Doug, I need your help for sure with this issue with my son’s F150.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_19' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-12-29T13:04:26Z' class='post-time'>
+                    December 29, 2022,  1:04pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-12-29T13:04:26Z'>
+              <span itemprop='position'>19</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Sure, happy to help. Could you first tell me what you are trying to achieve with the car and how you planning to go about it? As I look back through the thread, it seems like the most recent poster wanted to slow the car down but also wanted to use an Arduino to do it. We have slowed down a previous version of the F150 just using a pair of RioRand motor controllers, and that was a a simpler modification. The general approach is described in the older part of the thread, 2017-2019. Would you please start by sending me some pictures of the truck and the exact model number?<br>
+– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_20' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/SmilerSkyler.html'><span itemprop='name'>SmilerSkyler</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/596ccef7aae382ed05c680c67ea3d56e38d1687d.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-26T22:37:34Z' class='post-time'>
+                    January 26, 2023, 10:37pm
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-26T22:37:34Z'>
+              <span itemprop='position'>20</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Sorry for the delay.    the issue we are having is when you push the button it’s 100% full throttle. it jerks and scares my son. if we can have it be more smooth and slow we would be in good shape. I might be able to get a video also. I also know very little about these things but Im sure i can figure it out with your help and a video. I build computers and networks all day so Im some what handy.<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/596ccef7aae382ed05c680c67ea3d56e38d1687d.jpeg" data-download-href="/uploads/short-url/cL5CbErx9u1ckMAO333iYpV1OKF.jpeg?dl=1" title="20230126_173255" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/596ccef7aae382ed05c680c67ea3d56e38d1687d_2_690x388.jpeg" alt="20230126_173255" data-base62-sha1="cL5CbErx9u1ckMAO333iYpV1OKF" width="690" height="388" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/596ccef7aae382ed05c680c67ea3d56e38d1687d_2_690x388.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/596ccef7aae382ed05c680c67ea3d56e38d1687d_2_1035x582.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/596ccef7aae382ed05c680c67ea3d56e38d1687d_2_1380x776.jpeg 2x" data-dominant-color="59433A"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">20230126_173255</span><span class="informations">1920×1080 154 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>Thank you for your time.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+    </div>
+
+    <div role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement' class="topic-body crawler-post">
+        <span itemprop='name'><b><a rel="next" itemprop="url" href="87%3Fpage=2.html">next page →</a></b></span>
+    </div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

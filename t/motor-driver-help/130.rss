@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Motor driver help</title>
+    <link>https://www.gbgconnect.com/t/motor-driver-help/130</link>
+    <description>HI!  Ok, I have 2 questions for those of you doing joystick modifications on cars......
+1. Is anyone having issues with a Sabertooth motor driver?  I have several hooked into a couple of cars, and half are having the same issue- they work fine to start, and then a couple of weeks in, you have to turn the car on/off twice to get it to respond to the joystick. Once it is on it works fine, but don&#39;t like the double start.  I have totally rewired a couple of cars, but still the same issue. I am pretty sure I need to add a capacitor, but am waiting to hear back from Dimension engineering.  Anyone with good electrical knowledge have some other ideas?
+2. I have a kiddo that I will be modifying an Escalade for. It will be modded somewhat similar to the firetruck, but since it is 12V, it already has 2 motors. She will either be driving with a joystick or multiple switches (imagine very little movement in her uppers, but normal trunk and leg&#39;s- I would like to do mult switches with her feet, but parents really want joystick with her hand which has very weak grasp). Most of the cars I have done have been for single riders, but she has an older sister who will be sitting with her in the car. (meaning increasing the AMP&#39;s put on my motor driver/motors. )  Do you all have a favorite, easy to program motor driver that is sturdy?  I am looking at this: https://ozrobotics.com/shop/smart-drive-duo-30-drive-power-brushed-dc-motor-with-current-up-to-80a/
+But I am open to other options. I have an arduino program already to use with the switches, and will control speed thru a potentiometer. As always, I don&#39;t want to spend an arm and leg on a motor driver.....
+Thoughts????</description>
+    
+    <lastBuildDate>Tue, 30 Jan 2018 13:00:30 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/motor-driver-help/130.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Motor driver help</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>If you use the 32Amp version of Sabertooth you can actually program the Sabertooth itself … independant of the Arduino … and limit the number of amps it will allow. If it was me, and knowing how expensive those suckers are to replace, I’d build an in-line 30A fuse into the power line going to each motor. Fuses are a lot cheaper to replace <img src="https://emoji.discourse-cdn.com/google/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:"></p>
+          <p><a href="https://www.gbgconnect.com/t/motor-driver-help/130/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/motor-driver-help/130/2</link>
+        <pubDate>Tue, 30 Jan 2018 13:00:30 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-130-2</guid>
+        <source url="https://www.gbgconnect.com/t/motor-driver-help/130.rss">Motor driver help</source>
+      </item>
+      <item>
+        <title>Motor driver help</title>
+        <dc:creator><![CDATA[earlywheels]]></dc:creator>
+        <description><![CDATA[
+            <p>HI!  Ok, I have 2 questions for those of you doing joystick modifications on cars…</p>
+<ol>
+<li>Is anyone having issues with a Sabertooth motor driver?  I have several hooked into a couple of cars, and half are having the same issue- they work fine to start, and then a couple of weeks in, you have to turn the car on/off twice to get it to respond to the joystick. Once it is on it works fine, but don’t like the double start.  I have totally rewired a couple of cars, but still the same issue. I am pretty sure I need to add a capacitor, but am waiting to hear back from Dimension engineering.  Anyone with good electrical knowledge have some other ideas?</li>
+<li>I have a kiddo that I will be modifying an Escalade for. It will be modded somewhat similar to the firetruck, but since it is 12V, it already has 2 motors. She will either be driving with a joystick or multiple switches (imagine very little movement in her uppers, but normal trunk and leg’s- I would like to do mult switches with her feet, but parents really want joystick with her hand which has very weak grasp). Most of the cars I have done have been for single riders, but she has an older sister who will be sitting with her in the car. (meaning increasing the AMP’s put on my motor driver/motors. )  Do you all have a favorite, easy to program motor driver that is sturdy?  I am looking at this: <a href="https://ozrobotics.com/shop/smart-drive-duo-30-drive-power-brushed-dc-motor-with-current-up-to-80a/" rel="nofollow noopener">https://ozrobotics.com/shop/smart-drive-duo-30-drive-power-brushed-dc-motor-with-current-up-to-80a/</a><br>
+But I am open to other options. I have an arduino program already to use with the switches, and will control speed thru a potentiometer. As always, I don’t want to spend an arm and leg on a motor driver…<br>
+Thoughts???</li>
+</ol>
+          <p><a href="https://www.gbgconnect.com/t/motor-driver-help/130/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/motor-driver-help/130/1</link>
+        <pubDate>Sun, 28 Jan 2018 19:44:04 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-130-1</guid>
+        <source url="https://www.gbgconnect.com/t/motor-driver-help/130.rss">Motor driver help</source>
+      </item>
+  </channel>
+</rss>

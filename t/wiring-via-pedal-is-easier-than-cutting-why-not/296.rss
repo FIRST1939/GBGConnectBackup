@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Wiring via Pedal is Easier Than Cutting - Why Not?</title>
+    <link>https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296</link>
+    <description>All,
+
+Sorry if this is a silly question. I&#39;m not an EE; I&#39;m an OT with just enough knowledge to get myself in trouble.
+
+I&#39;m wondering why most build guides advocate cutting existing wiring to splice in the momentary switch (e.g.: Big Red) rather than disconnecting and using the existing spade connectors to the foot pedal switch. This seems like an easier solution with the added benefit of maintaining full (or near-full) speed and direction functionality.
+
+Consider the venerable 6v Frozen. The pedal is simple to pop out using just your thumbs. Inside is a SPDT momentary switch:
+
+![IMG_20181213_142021536|690x388](upload://oOKfrJP5iBzZM72Glw5ld8aSleS.jpeg) 
+
+Blue-white is normally closed, causing a braking effect. Green-white is normally open - that&#39;s your &quot;go&quot; circuit. Each wire ends with a female spade terminal. Why not just put pull them off the switch with needle-nose pliers, crimp male spade terminals onto the wires from your Big Red, and connect directly to the green and white wires? Then tuck the connections back into the pedal cavity, snap the (disconnected) pedal back in place, and proceed to wiring the kill switch.
+
+Sure, you lose the braking function, but we&#39;re losing that when we cut the wires anyway! This way you cut fewer wires, maintain forward/reverse function, and preserve the ability to revert back to pedal control later. I don&#39;t see a downside.
+
+Heck, this is even easier with some of the 12-volt cars we&#39;ve done lately. The manufacturers have gotten smart and put the pedal on an isolated relay. That means the same SPDT switch only has two tiny 18AWG wires running to it. No guess work as to which wires to use!
+
+This gets more complicated with the big DPDT switches, but I haven&#39;t come across many of those.
+
+So, bottom line: Why not use this approach instead of cutting unnecessarily? What am I missing?
+
+Thanks!
+Bill</description>
+    
+    <lastBuildDate>Wed, 01 May 2019 23:02:11 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Wiring via Pedal is Easier Than Cutting - Why Not?</title>
+        <dc:creator><![CDATA[BEnnis47]]></dc:creator>
+        <description><![CDATA[
+            <p>FYI, the various cars that come with remote controls have relays already wired in, which keeps the various types of switches from frying.  <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=9" title=":slight_smile:" class="emoji" alt=":slight_smile:"> This is probably already widely known, but was a wonderful surprise from our electrician when we found it.</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/7</link>
+        <pubDate>Wed, 01 May 2019 23:02:11 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-296-7</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296.rss">Wiring via Pedal is Easier Than Cutting - Why Not?</source>
+      </item>
+      <item>
+        <title>Wiring via Pedal is Easier Than Cutting - Why Not?</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>If it works, do it to it <img src="https://emoji.discourse-cdn.com/google/wink.png?v=6" title=":wink:" class="emoji" alt=":wink:"> Depending on circumstances (type of switch the kiddo needs, wattage capacity of wiring setup, etc), sounds like your solution is entirely valid, &amp; maybe even easier. Thanks for the suggestion <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=6" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/6</link>
+        <pubDate>Wed, 19 Dec 2018 18:12:57 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-296-6</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296.rss">Wiring via Pedal is Easier Than Cutting - Why Not?</source>
+      </item>
+      <item>
+        <title>Wiring via Pedal is Easier Than Cutting - Why Not?</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>I understand the value of relays and use them quite a bit, depending on the car. The question of relays is really ancillary to the point.</p>
+<p>We have numerous build guides that call for cutting wires when A) it’s not necessary and B) it reduces functionality of the car. My question to the group is: in cars that start with a simple switch is there any reason not to interface the switch (potentially including relay) via the existing spade terminals rather than cutting into the wires?</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/5</link>
+        <pubDate>Wed, 19 Dec 2018 02:15:01 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-296-5</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296.rss">Wiring via Pedal is Easier Than Cutting - Why Not?</source>
+      </item>
+      <item>
+        <title>Wiring via Pedal is Easier Than Cutting - Why Not?</title>
+        <dc:creator><![CDATA[GaryLiseo]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello Bill,<br>
+We found that wiring the button directly to a vehicle without using a relay can sometimes fry the button and effectively cost us more than adding a relay. I do like the idea you have on using existing wires from the button, but not all pedals operate similar to the 6V Frozen car, meaning it may not be possible with all cars to do this.</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/4</link>
+        <pubDate>Wed, 19 Dec 2018 01:51:47 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-296-4</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296.rss">Wiring via Pedal is Easier Than Cutting - Why Not?</source>
+      </item>
+      <item>
+        <title>Wiring via Pedal is Easier Than Cutting - Why Not?</title>
+        <dc:creator><![CDATA[asabet]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey Bill!<br>
+Love the suggestion.<br>
+I do know that many builds are now including a relay (as stated earlier) to (conceptually) ask the switch to only be a switch and not deal with too much current</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/3</link>
+        <pubDate>Tue, 18 Dec 2018 15:38:26 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-296-3</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296.rss">Wiring via Pedal is Easier Than Cutting - Why Not?</source>
+      </item>
+      <item>
+        <title>Wiring via Pedal is Easier Than Cutting - Why Not?</title>
+        <dc:creator><![CDATA[jkauppil]]></dc:creator>
+        <description><![CDATA[
+            <p>My experience is that it is much easier to wire in a relay, than fuss with getting to the foot pedal. I use a relay to minimize current to what ever switch ( and student) I use.</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/2</link>
+        <pubDate>Fri, 14 Dec 2018 19:20:39 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-296-2</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296.rss">Wiring via Pedal is Easier Than Cutting - Why Not?</source>
+      </item>
+      <item>
+        <title>Wiring via Pedal is Easier Than Cutting - Why Not?</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>All,</p>
+<p>Sorry if this is a silly question. I’m not an EE; I’m an OT with just enough knowledge to get myself in trouble.</p>
+<p>I’m wondering why most build guides advocate cutting existing wiring to splice in the momentary switch (e.g.: Big Red) rather than disconnecting and using the existing spade connectors to the foot pedal switch. This seems like an easier solution with the added benefit of maintaining full (or near-full) speed and direction functionality.</p>
+<p>Consider the venerable 6v Frozen. The pedal is simple to pop out using just your thumbs. Inside is a SPDT momentary switch:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e.jpeg" title="IMG_20181213_142021536.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_690x388.jpeg" alt="IMG_20181213_142021536" width="690" height="388" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_690x388.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_1035x582.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_1380x776.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_10x10.png"></a></div><p></p>
+<p>Blue-white is normally closed, causing a braking effect. Green-white is normally open - that’s your “go” circuit. Each wire ends with a female spade terminal. Why not just put pull them off the switch with needle-nose pliers, crimp male spade terminals onto the wires from your Big Red, and connect directly to the green and white wires? Then tuck the connections back into the pedal cavity, snap the (disconnected) pedal back in place, and proceed to wiring the kill switch.</p>
+<p>Sure, you lose the braking function, but we’re losing that when we cut the wires anyway! This way you cut fewer wires, maintain forward/reverse function, and preserve the ability to revert back to pedal control later. I don’t see a downside.</p>
+<p>Heck, this is even easier with some of the 12-volt cars we’ve done lately. The manufacturers have gotten smart and put the pedal on an isolated relay. That means the same SPDT switch only has two tiny 18AWG wires running to it. No guess work as to which wires to use!</p>
+<p>This gets more complicated with the big DPDT switches, but I haven’t come across many of those.</p>
+<p>So, bottom line: Why not use this approach instead of cutting unnecessarily? What am I missing?</p>
+<p>Thanks!<br>
+Bill</p>
+          <p><a href="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296/1</link>
+        <pubDate>Thu, 13 Dec 2018 20:38:55 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-296-1</guid>
+        <source url="https://www.gbgconnect.com/t/wiring-via-pedal-is-easier-than-cutting-why-not/296.rss">Wiring via Pedal is Easier Than Cutting - Why Not?</source>
+      </item>
+  </channel>
+</rss>

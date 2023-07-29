@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Battery Testing Suggestions - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="All, 
+We’re developing a written protocol for repurposing used cars. I know some folks advise just replacing used batteries outright, but that seems wasteful. With that in mind, two related questions: 
+
+Other than the fa&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="580.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Battery Testing Suggestions&#39;" href="580.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/battery-testing-suggestions/580" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/battery-testing-suggestions/580" />
+<meta property="og:title" content="Battery Testing Suggestions" />
+<meta name="twitter:title" content="Battery Testing Suggestions" />
+<meta property="og:description" content="All,  We’re developing a written protocol for repurposing used cars. I know some folks advise just replacing used batteries outright, but that seems wasteful. With that in mind, two related questions:   Other than the fact that the batteries hold charge less well over time, are there other reasons why it might be important to replace them before re-using them? Am I missing some safety issue with older batteries? If it is safe to re-use an old battery, what are best practices for testing the batt..." />
+<meta name="twitter:description" content="All,  We’re developing a written protocol for repurposing used cars. I know some folks advise just replacing used batteries outright, but that seems wasteful. With that in mind, two related questions:   Other than the fact that the batteries hold charge less well over time, are there other reasons why it might be important to replace them before re-using them? Am I missing some safety issue with older batteries? If it is safe to re-use an old battery, what are best practices for testing the batt..." />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="1 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="3 ❤" />
+<meta property="article:published_time" content="2020-04-03T12:55:53+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="580.html">Battery Testing Suggestions</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/technical-discussion/8" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Battery Testing Suggestions'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Bill_Janes.html'><span itemprop='name'>Bill_Janes</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="580.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-04-03T12:55:53Z' class='post-time'>
+                    April 3, 2020, 12:55pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-04-03T12:55:53Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>All,</p>
+<p>We’re developing a written protocol for repurposing used cars. I know some folks advise just replacing used batteries outright, but that seems wasteful. With that in mind, two related questions:</p>
+<ol>
+<li>Other than the fact that the batteries hold charge less well over time, are there other reasons why it might be important to replace them before re-using them? Am I missing some safety issue with older batteries?</li>
+<li>If it is safe to re-use an old battery, what are best practices for testing the battery before sending it back out into the world? Is it sufficient to charge the battery and slap a voltmeter on it? Are there other steps we could take to make sure the battery will hold a charge?</li>
+</ol>
+<p>Thanks for any tips!</p>
+<p>Bill</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/jacgallo'><span itemprop='name'>jacgallo</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="580.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-04-03T13:27:49Z' class='post-time'>
+                    April 3, 2020,  1:27pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-04-03T13:27:49Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>wonderful news on the protocol - please share with the group and if you dont mind i would love a personal copy (jacgallo@udel.edu) - can I use it in our k-12 STEM curriculum?</p>
+<p>very best, Cole</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Greg.html'><span itemprop='name'>Greg</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="580.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-04-03T18:20:08Z' class='post-time'>
+                    April 3, 2020,  6:20pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-04-03T18:20:08Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>You could adapt the battery testing used for power mobility repair to Go Baby Go cars, the concept is the same - you are just using a very scaled down version with a ride-on car.</p>
+<p>For power mobility repair there are protocols that include testing the voltage when the battery is fully charged and then monitoring the voltage drop while running the motors for 2 minutes (with the ride on car up on little blocks I would imagine).  You would need to know what is normal for a fully charged 6v (12v should be about 12.8v - 13.1v charged, from what I am reading 6.4v - 6.6v is normal for a 6v system) and what a normal drop for a health battery would be.  Then if the voltage drop is too much, the battery is bad.  I am usually running these tests on 24v systems, and in that case a 2v drop over the run time indicates batteries that need replacement.</p>
+<p>Also look for big drops in voltage under load and a return to a more normal voltage when the load is removed - this is also a bad battery.  The inability to move a load up an incline would be another way to check for this.</p>
+<p>There are battery load testers that engage a heating element and monitor the voltage with the element on for 10 seconds or so, but the load itself for these are may damage the small batteries used in ride on toys.  <a href="https://www.harborfreight.com/automotive/diagnostic-testing-scanning/battery-testing/100-amp-612v-battery-load-tester-61747.html" rel="nofollow noopener">https://www.harborfreight.com/automotive/diagnostic-testing-scanning/battery-testing/100-amp-612v-battery-load-tester-61747.html</a></p>
+<p>There are also more expensive specialized load testers that can vary the load and monitor and graph the voltage - but they are very expensive, and will also just be able to tell you that the battery needs replacing.</p>
+<p>You might be able to recondition the batteries using a special battery charger - which we have used with mixed success.  Sorry, i can’t find the link to the one we use.</p>
+<p>It’s almost always the batteries that have gone bad but your protocols should also include testing the chargers, which are another common area of failure, make sure that voltage actually goes up when the charger is attached. For a 12v you should see 13.8v-14.2v with most chargers - the point is there should be an increase in voltage when you attach the charger over the fully charged battery voltage.</p>
+<p>Batteries will loose the ability to hold a charge over time, the more they are run down the faster this occurs.  I do understand not wanting to be wasteful - but batteries will wear out over time, essentially they are consumables not unlike your car’s break pads. Please do make sure they get recycled and not thrown away.</p>
+<p>A huge step in increasing usable battery life is to educate the end users to make sure they fully charge the batteries - a saturation charge that is reached a few hours after the light turns green is much better for the batteries than just pulling off the charger the second the light turns green.  Likewise a simple (non-smart) charger left on too long will overheat the battery and damage it also.</p>
+<p>At some point I might be able to get back into my office and scan the load test write ups of the various power mobility providers, once I do I can forward them to you and you can decide whether or not they are applicable.</p>
+<p>Good Luck,<br>
+Greg (from Together We Grow)</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Bill_Janes.html'><span itemprop='name'>Bill_Janes</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="580.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-04-03T18:40:08Z' class='post-time'>
+                    April 3, 2020,  6:40pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-04-03T18:40:08Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Greg,</p>
+<p>This is incredibly helpful; thank you! Every single point is clear.</p>
+<p>We will do some testing when we can get back into our space. I think we’ll set up a protocol to test the battery under a couple of circumstances (as you described) over time and also to test the charger. We should also be doing more to educate people on proper care of the batteries. We spend a lot of time on explaining our modifications, but honestly we have batteries fail more often than our wiring!</p>
+<p>Those load test write ups would be a great help - when you’re able to get them safely.</p>
+<p>Thank You,<br>
+Bill</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Parkere.html'><span itemprop='name'>Parkere</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="580.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-04-09T16:36:08Z' class='post-time'>
+                    April 9, 2020,  4:36pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-04-09T16:36:08Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Agreed, this is super helpful criteria for evaluating the health/performance of a battery!  We are having the same battery issue as well, and I’m currently looking into best practices with charging the cars (since in reading one of the manuals, it said that the batteries can be damaged by overcharging since they have no smart charge measures).</p>
+<p>If you do test the cars and batteries, please post the results here!  I would love to have some metrics for testing returning batteries or even new ones to make sure they are working before sending them out to be used in the community!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

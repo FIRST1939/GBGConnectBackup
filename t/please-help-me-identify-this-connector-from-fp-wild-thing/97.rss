@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Please help me identify this connector from FP Wild Thing</title>
+    <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97</link>
+    <description>![IMG_5222|375x500](upload://jUmi2HywcQYl5KDmdUgjl7AEJ36.JPG)![IMG_5221|666x500](upload://smU2UK8nMOH6jsksdRnsYUBCBUw.JPG)![IMG_5220|375x500](upload://eq2mtIqojmIn1KyOGP7V0NnBaKG.JPG)![IMG_5219|375x500](upload://iJA4XCMOO4c67G7sggUmGXWw8EU.JPG)
+
+Dear GBG&#39;ers,
+
+Trying to interface the Wild Thing proportional joysticks with either an Arduino board or directly to the Sabertooth motor controller we use here at POP/ GBG-RockyTop as part of our &quot;MotherBox&quot; control systems.  The plan would be to disconnect the female connector from the Wild Thing PCB, then have a matching male connector wire harness to connect it to the modular MotherBox.  Having a hard time figuring out where FP got these pin connectors from :-(  Have looked on Mouser, Molex, TE, JST and DigiKey so far but no luck.  Has anybody else already asked FP/PW where they got this part from, or figured it out themselves.  Trying to save myself the hassle of having to rewire both the male and female sides of this connection if at all possible ... smarter, not harder, whenever I can ;)
+
+Thanks for any assistance folks.  Kind regards,
+Pete @ POP</description>
+    
+    <lastBuildDate>Sun, 29 Apr 2018 12:48:45 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Please help me identify this connector from FP Wild Thing</title>
+        <dc:creator><![CDATA[Mary]]></dc:creator>
+        <description><![CDATA[
+            <p>A high school student in Vermont posted his on Instructables<br>
+</p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://www.instructables.com/assets/img/siteassets/favicon.ico" class="site-icon" width="" height="">
+      <a href="https://www.instructables.com/id/Modified-Wild-Thing-Joystick-Steering-New-and-Impr/" target="_blank" rel="nofollow noopener">Instructables</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:599/500;"><img src="https://cdn.instructables.com/FXZ/J95V/J97LD28S/FXZJ95VJ97LD28S.LARGE.jpg" class="thumbnail" width="599" height="500"></div>
+
+<h3><a href="https://www.instructables.com/id/Modified-Wild-Thing-Joystick-Steering-New-and-Impr/" target="_blank" rel="nofollow noopener">Modified Wild Thing - Joystick Steering - New and Improved</a></h3>
+
+<p>Modified Wild Thing - Joystick Steering - New and Improved: Update 8/1/2019: Two years after completing this project, I've designed and manufactured several circuit boards to ease in converting these wheelchairs. The first circuit board is almost the...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+His adaptation worked very well.<p></p>
+          <p><a href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/8</link>
+        <pubDate>Sun, 29 Apr 2018 12:48:45 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-97-8</guid>
+        <source url="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss">Please help me identify this connector from FP Wild Thing</source>
+      </item>
+      <item>
+        <title>Please help me identify this connector from FP Wild Thing</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Nick … u da man!! Thanks for tracking that down somehow. Will see what i can figure out from here.</p>
+          <p><a href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/7</link>
+        <pubDate>Sun, 15 Apr 2018 15:21:12 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-97-7</guid>
+        <source url="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss">Please help me identify this connector from FP Wild Thing</source>
+      </item>
+      <item>
+        <title>Please help me identify this connector from FP Wild Thing</title>
+        <dc:creator><![CDATA[Nick]]></dc:creator>
+        <description><![CDATA[
+            <p>Good news and bad news.</p>
+<p>It looks like the connector is a 2mm pitch 1125 Series from NS-Tech:<br>
+<a href="http://www.nstech.com.cn/en/products_1.asp?menuid=19&amp;menuid2=38&amp;id=14" rel="nofollow noopener">Wire to Board connector &gt; PITCH 2.00mm &gt; 1125 Series</a></p>
+<p>In a 4 pin version they are very common, being used on all of the Grove boards from Seeed Studio. The 5 pin versions on the other hand seem rarer than hens teeth.</p>
+<p>I did not find any distributors carrying the NS-tech brand but you can try contacting them directly.</p>
+<p>I also found that the connector looks a bit similar to the Sherlock series from Molex.<br>
+<a href="https://www.molex.com/molex/products/datasheet.jsp?part=active/0353620550_PCB_HEADERS.xml" rel="nofollow noopener">https://www.molex.com/molex/products/datasheet.jsp?part=active/0353620550_PCB_HEADERS.xml</a>.<br>
+It looks like the rails down the side of the connector will fit, but the locking mechanisms don’t seem compatible. You may still be able to use it for the electrical connection but you just don’t get the physical lock.</p>
+          <p><a href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/6</link>
+        <pubDate>Fri, 13 Apr 2018 20:41:23 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-97-6</guid>
+        <source url="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss">Please help me identify this connector from FP Wild Thing</source>
+      </item>
+      <item>
+        <title>Please help me identify this connector from FP Wild Thing</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Not about bigger … it’s about cheaper <img src="https://discourse-cdn-sjc1.com/standard6/images/emoji/google/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:"> but that joystick you linked looks pretty cool. Thanks</p>
+          <p><a href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/5</link>
+        <pubDate>Fri, 15 Dec 2017 02:24:59 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-97-5</guid>
+        <source url="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss">Please help me identify this connector from FP Wild Thing</source>
+      </item>
+      <item>
+        <title>Please help me identify this connector from FP Wild Thing</title>
+        <dc:creator><![CDATA[earlywheels]]></dc:creator>
+        <description><![CDATA[
+            <p>Pete: shoot me some really good pictures and I will take them to my favorite electronics store. On the joystick, sometimes bigger is not better. I use these smaller ones and add even just a strip of colored electrical tape at the top, or a ball.  I like that you can add the discs at the bottom to limit movement.<br>
+<a href="http://www.newark.com/apem/100113/joystick-microswitch-6a-250v-solder/dp/98K5262?ost=98K5262" rel="nofollow noopener">http://www.newark.com/apem/100113/joystick-microswitch-6a-250v-solder/dp/98K5262?ost=98K5262</a>  Then you just pop of the single axis to allow 2 axis control.</p>
+          <p><a href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/4</link>
+        <pubDate>Thu, 14 Dec 2017 23:55:55 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-97-4</guid>
+        <source url="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss">Please help me identify this connector from FP Wild Thing</source>
+      </item>
+      <item>
+        <title>Please help me identify this connector from FP Wild Thing</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Back when I was providing custom mobility devices to kids as an ATP, I had to have as many tools in my tool belt as humanly possible to try and come up with the best solution for each kid in terms of how they would access drive controls.  The continuum stretched from single switch to multiple switch, switch joystick, proportional joystick … with other solutions inbetween.  If FP/PW have been generous enough to provide us with a single axis proportional input, I’d love to put it to good use wherever possible; not only to save some $$'s but as a viable alternative inbetween switch joystick and fully proportional.  If I can find the matching, positive lock, male connector I plan to add it as another option to what we offer already on MotherBox.  That way as one of our drivers hopefully progresses in skill we can progress the drive control method fairly simply.  Or even use the WT joysticks on a different vehicle.  It is what it is but it will be what we make it <img src="https://discourse-cdn-sjc1.com/standard6/images/emoji/google/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:"></p>
+          <p><a href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/3</link>
+        <pubDate>Mon, 11 Dec 2017 17:45:36 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-97-3</guid>
+        <source url="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss">Please help me identify this connector from FP Wild Thing</source>
+      </item>
+      <item>
+        <title>Please help me identify this connector from FP Wild Thing</title>
+        <dc:creator><![CDATA[gavin.wood]]></dc:creator>
+        <description><![CDATA[
+            <p>Quick question. Since the joysticks that come with the Wild Thing are only one axis, what are you using them for? Just curious because if you are sticking with two joysticks I’m not sure why you would modify it at all. If you are moving to single joystick control, how are you planning to incorporate the original joysticks?</p>
+<p>I’m sorry I’m not much help on the connector type. We just finished another single joystick WildThing and we just took it down to the motors and started from scratch with the electronics because it seems like the board it comes with is proprietary and we couldn’t figure it out. This is the joystick we used. We used a standard Arduino Uno for controls with Spark speed controllers (we had some extras from the robotics team).</p>
+<p>Also, very interested in your “MotherBox.” Would like to know more about that.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/6ab01e2ae7c408a83da48a70f445f7e169b5b44b.jpg" title="image.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/6ab01e2ae7c408a83da48a70f445f7e169b5b44b.jpg" alt="image" width="656" height="500" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/6ab01e2ae7c408a83da48a70f445f7e169b5b44b_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/2</link>
+        <pubDate>Mon, 11 Dec 2017 15:13:46 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-97-2</guid>
+        <source url="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss">Please help me identify this connector from FP Wild Thing</source>
+      </item>
+      <item>
+        <title>Please help me identify this connector from FP Wild Thing</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/8b8840ff8db725a58a7ec4ab3b40b20080bd7854.JPG" title="IMG_5222.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8b8840ff8db725a58a7ec4ab3b40b20080bd7854_2_375x500.JPG" alt="IMG_5222" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8b8840ff8db725a58a7ec4ab3b40b20080bd7854_2_375x500.JPG, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8b8840ff8db725a58a7ec4ab3b40b20080bd7854_2_562x750.JPG 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8b8840ff8db725a58a7ec4ab3b40b20080bd7854_2_750x1000.JPG 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8b8840ff8db725a58a7ec4ab3b40b20080bd7854_2_10x10.png"></a></div><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/c6d3ac5adb1caf2af64ce05e27b23dec6ffcdf64.JPG" title="IMG_5221.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c6d3ac5adb1caf2af64ce05e27b23dec6ffcdf64_2_666x500.JPG" alt="IMG_5221" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c6d3ac5adb1caf2af64ce05e27b23dec6ffcdf64_2_666x500.JPG, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c6d3ac5adb1caf2af64ce05e27b23dec6ffcdf64_2_999x750.JPG 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c6d3ac5adb1caf2af64ce05e27b23dec6ffcdf64_2_1332x1000.JPG 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c6d3ac5adb1caf2af64ce05e27b23dec6ffcdf64_2_10x10.png"></a></div><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/650fef0ee41f825e1dd3de234db7abfd4b6a331e.JPG" title="IMG_5220.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/650fef0ee41f825e1dd3de234db7abfd4b6a331e_2_375x500.JPG" alt="IMG_5220" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/650fef0ee41f825e1dd3de234db7abfd4b6a331e_2_375x500.JPG, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/650fef0ee41f825e1dd3de234db7abfd4b6a331e_2_562x750.JPG 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/650fef0ee41f825e1dd3de234db7abfd4b6a331e_2_750x1000.JPG 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/650fef0ee41f825e1dd3de234db7abfd4b6a331e_2_10x10.png"></a></div><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/834e31d8abcdbd4255761c0f680219c44598d0c8.JPG" title="IMG_5219.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/834e31d8abcdbd4255761c0f680219c44598d0c8_2_375x500.JPG" alt="IMG_5219" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/834e31d8abcdbd4255761c0f680219c44598d0c8_2_375x500.JPG, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/834e31d8abcdbd4255761c0f680219c44598d0c8_2_562x750.JPG 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/834e31d8abcdbd4255761c0f680219c44598d0c8_2_750x1000.JPG 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/834e31d8abcdbd4255761c0f680219c44598d0c8_2_10x10.png"></a></div><p></p>
+<p>Dear GBG’ers,</p>
+<p>Trying to interface the Wild Thing proportional joysticks with either an Arduino board or directly to the Sabertooth motor controller we use here at POP/ GBG-RockyTop as part of our “MotherBox” control systems.  The plan would be to disconnect the female connector from the Wild Thing PCB, then have a matching male connector wire harness to connect it to the modular MotherBox.  Having a hard time figuring out where FP got these pin connectors from <img src="https://emoji.discourse-cdn.com/google/frowning.png?v=9" title=":frowning:" class="emoji" alt=":frowning:">  Have looked on Mouser, Molex, TE, JST and DigiKey so far but no luck.  Has anybody else already asked FP/PW where they got this part from, or figured it out themselves.  Trying to save myself the hassle of having to rewire both the male and female sides of this connection if at all possible … smarter, not harder, whenever I can <img src="https://emoji.discourse-cdn.com/google/wink.png?v=9" title=":wink:" class="emoji" alt=":wink:"></p>
+<p>Thanks for any assistance folks.  Kind regards,<br>
+Pete @ POP</p>
+          <p><a href="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97/1</link>
+        <pubDate>Fri, 08 Dec 2017 16:20:02 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-97-1</guid>
+        <source url="https://www.gbgconnect.com/t/please-help-me-identify-this-connector-from-fp-wild-thing/97.rss">Please help me identify this connector from FP Wild Thing</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Reduction of 12V starting speed</title>
+    <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384</link>
+    <description>Hello Everyone,
+
+I have heard that the 12 volt units have a starting speed/torque that is to high for the smaller kids and wanted to provide some information on the topic and three posible solutions.
+
+A: Simple and safe: (1)
+I beleive adding a ferrite ring (2) and wrapping the power wire around the toriod (3) will help but I am not sure what the charge time will be, to increase charge time (slowly ramp up speed) a resistor may be needed and for that I need to know the total current going to the motor under full load. Also when the motor power is released there will be a deceleration time that is the same asa the acceleration time.
+
+
+1) https://electronics.howstuffworks.com/inductor1.htm
+
+2) https://www.amazon.com/63X38X25mm-ferrite-Isolator-Transformer-Inductor/dp/B019YWLAUS/ref=sr_1_1?keywords=ring+inductor&amp;qid=1555432031&amp;s=wireless&amp;sr=1-1-catcorr
+
+3) https://en.wikipedia.org/wiki/Toroidal_inductors_and_transformers
+
+B: Simpler but may cause heat 
+By adding a inrush current limiting device you will be addinga resistor (resists current flow) that starts to heat when the moter is powered but does not allow current to flow unit it has started to heat up, resistance falls as heating takes place allowing for more current to flow (Higher speed)
+
+I would be concerned about a hot part on a plastic car with a dissabled child inside.
+
+C: Complex sollution.
+By using two off the shelf motor controllers (1) and a microcontroller (2) the speed can be fully adjustable, the motor controllers have heat sinks that may get hot and the motors would requre an encoder to have accurate simultanius operation (straight line)
+
+1) https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6?ref_=fsclp_pl_dp_2
+
+2) https://www.amazon.com/atmega328-Replace-ATmega128-Arduino-Compatible/dp/B01N1LCHD3/ref=sr_1_11?keywords=arduino+nano&amp;qid=1555432628&amp;s=hi&amp;sr=1-11
+
+I will look in my basement to see if I have a ferrite ring ( i think i do) and test some values, if method #1 works I can take photos f a sample and provide fabrication instructions.
+
+i am currently looking foor my first build and ging through this site reading instructions.
+
+Kevin</description>
+    
+    <lastBuildDate>Tue, 08 Sep 2020 14:56:42 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[mollyerickson]]></dc:creator>
+        <description><![CDATA[
+            <p>Thank you so much for sharing all of this! This is all great information!</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/20">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/20</link>
+        <pubDate>Tue, 08 Sep 2020 14:56:42 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-20</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Parkere]]></dc:creator>
+        <description><![CDATA[
+            <p>The circuit modification diagram that the Arduino code goes with is too big to upload on the website, so I made a shareable link to my gmail drive.  Let me know of this works for accessing the circuit modification diagram.  Also, note that this design was for a 3 button system that allowed the child to control right and left as well as on/off functionality, so the circuit is a bit more complicated than a normal build.</p>
+<aside class="onebox googledrive">
+  <header class="source">
+      <a href="https://drive.google.com/file/d/13RguMZE7FirV4kerLcMkjvpwNY90dR81/view?usp=sharing" target="_blank" rel="nofollow noopener">drive.google.com</a>
+  </header>
+  <article class="onebox-body">
+      <a href="https://drive.google.com/file/d/13RguMZE7FirV4kerLcMkjvpwNY90dR81/view?usp=sharing" target="_blank" rel="nofollow noopener"><span class="googledocs-onebox-logo g-drive-logo"></span></a>
+
+
+
+<h3><a href="https://drive.google.com/file/d/13RguMZE7FirV4kerLcMkjvpwNY90dR81/view?usp=sharing" target="_blank" rel="nofollow noopener">CIRCUIT MODIFICATION GUIDE FINAL.pdf</a></h3>
+
+<p>Google Drive file.</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/19">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/19</link>
+        <pubDate>Sat, 05 Sep 2020 15:39:49 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-19</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Parkere]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="attachment" href="https://www.gbgconnect.com/uploads/short-url/zhjHaftmxK63GnNmizkDEtDcY2o.pdf">Arduino Code_3 Button PWM System.pdf</a> (25.1 KB)</p>
+<p>Here is the Arduino code we used for our project (it might be an older version though, I’ll keep looking to see if we have an updated version of the code.</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/18">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/18</link>
+        <pubDate>Sat, 05 Sep 2020 15:34:47 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-18</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Parkere]]></dc:creator>
+        <description><![CDATA[
+            <p>Sorry I haven’t responded to this yet, but absolutely!  I have a “semi block diagram” that I used to make a build doc for our car, I will send that as it shows the rest of the car as well and how to build it.  I’d be happy to send you the Arduino code as well, I just have to dig around and find it in my computer!</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/17">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/17</link>
+        <pubDate>Sat, 05 Sep 2020 14:58:58 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-17</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[mollyerickson]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Parkere!</p>
+<p>I am working on a similar project and hoping to use an Arduino. Would you still be willing to share the code you wrote and maybe the wiring diagram?</p>
+<p>Thank you!</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/16</link>
+        <pubDate>Mon, 31 Aug 2020 19:52:58 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-16</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Jeff_in_TX]]></dc:creator>
+        <description><![CDATA[
+            <p>Ancient post for sure, but I cannot understand why nobody said “YES, PLEASE” because that’s what I’m saying.  There seems to be a lot of intelligent work being done but not a lot of sharing.  Please correct me if I am wrong, but I’d like to see what everyone had done so we don’t make the same mistakes over and over…</p>
+<p>Cheers!</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/15</link>
+        <pubDate>Fri, 21 Feb 2020 06:27:28 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-15</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Parkere]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey everyone!</p>
+<p>I did a project for the Portland, OR GBG chapter with a team, and we used Pulse Width Modulation (PWM) and an Arduino board to control the acceleration of the car.  We did this by writing a code that would detect the button was on, and while that button was on, it would step of the PWM value by a linear increment in small intervals to achieve a linear acceleration to top speed for the kids.  This also allows you to limit what the total top speed of the 12 V car is for the child, so that if the child is smaller or lighter, you can limit the top speed so that it is safe and fun.</p>
+<p>If anyone is interested, I can post the arduino code that we used to achieve this acceleration and total speed limitation.</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/14</link>
+        <pubDate>Thu, 16 Jan 2020 17:53:58 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-14</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>This is what I did.</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/13</link>
+        <pubDate>Sun, 21 Apr 2019 00:55:03 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-13</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Kevinl7778]]></dc:creator>
+        <description><![CDATA[
+            <p>Going back to the simple and inexpensive version it may be possible to replace the potentiometer with the appropriate resistor/capacitor to provide a gradual ramp function from 0 volts to Xvolts. By using a combination that allows for the pwm setting desired  (max speed) and the correct sized capacitor  (signal level 6v) this should sweep the pwm from low to high and not require a 300 watt resistor as it would need to be if in line with the load (motors). I will need to buy one of the low cost adustable10amp versions and try it.</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/12</link>
+        <pubDate>Sat, 20 Apr 2019 15:19:57 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-12</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Kevinl7778]]></dc:creator>
+        <description><![CDATA[
+            <p>Ok, I will continue to develop this as a option. I have a robot obstacle avoidance that uses two small pwm’s and an arduino so I can start there. I have also made robot arms from arduino using pots and each movment uses a ramp function to amooth out the overall motion.</p>
+<p>As for RC I asume you mean remote controll and not an rc charge time constant, if you were using 2.4ghz and it was still to noisy that would take some thought. But of you were using an am or fm system it makes sence as the back emf , arc’s and switching aspects of a dc motor all contribute to the total amount of noise in this type of problem.</p>
+<p>A bluetooth module and cell phone may be the way to go download. I can see it now: the “Go Baby Go Control” app today!</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/11</link>
+        <pubDate>Sat, 20 Apr 2019 13:29:36 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-11</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Kevin,<br>
+Our experience is that the degree of soft start varies by car and controller. Most of the combinations we have had occasion to use do add a nice soft start. The stand-alone controller is unpowered until motor current is applied, and has some large filter capacitors which help give the effect we want. Putting a RIoRand on a Batmobile gave a really nice smooth start. Same controller in a Maserati gave a faster start, but the problem we were trying to solve was that the Maserati built-in slow start was TOO slow and some children were not getting feedback when pushing the button. So this is one where we had to experiment. BTW (you seem like the kind of guy who would be interested in this) I did try modifying stand-alone controllers with RC circuits to increase the start delay. It worked, but also made them more susceptible to noise so I have never deployed that.<br>
+– Doug</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/10</link>
+        <pubDate>Fri, 19 Apr 2019 21:35:34 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-10</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Kevinl7778]]></dc:creator>
+        <description><![CDATA[
+            <p>So using a PWM controller only this provides a soft start with a total reduction in final speed, correct?</p>
+<p>I went looking in to the arduino route I can create a daul channel (2x40Amp) PMW motor control with a acceleration/deceleration pot and a max speed pot for about $75.</p>
+<p>Its great to see so many people chiming in on this topic, keep it coming.</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/9</link>
+        <pubDate>Fri, 19 Apr 2019 14:47:34 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-9</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[rick-smile-center]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Pete.  You’re right, the advanced internal electronics, remote control, blue tooth capability, LED lights, and foam rubber tires do add to the cost.  Rolling Hills Trading also has a fully stocked parts department and full-time service tech that can easily talk a modifier through any type of modifying issue. PTs, OTs, and GoBabygo! chapters that use SUPERtrax cars report that they spend less time and money on electronic modifications, and if something breaks in the process (or after the family has the car at home), they can easily get parts.<br>
+Also important to remember- GoBabygo! chapters receive special discounted pricing in addition to being able to access supplemental funding from SMILE.  Please call if you have any questions- we love seeing how these little toy cars can change the outcome for kids.</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/8</link>
+        <pubDate>Thu, 18 Apr 2019 16:13:50 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-8</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Kevinl7778]]></dc:creator>
+        <description><![CDATA[
+            <p>So it looks like off the shelf pwm’s are the easy route, I like that.</p>
+<p>I guess two of these or similar would do fine:<a href="https://www.amazon.com/gp/aw/d/B07GFM53H7/ref=sspa_mw_detail_1?ie=UTF8&amp;psc=1" rel="nofollow noopener">https://www.amazon.com/gp/aw/d/B07GFM53H7/ref=sspa_mw_detail_1?ie=UTF8&amp;psc=1</a></p>
+<p>I have found a build event in NJ next month so I will go get my hands dirty and get the hang of things.</p>
+<p>I was hoping a simple rl circuit would do the trick but the motor looks to have a 30 amp stall current so at 350 watts the resistors get very large (been there many times).</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/7</link>
+        <pubDate>Wed, 17 Apr 2019 22:20:58 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-7</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>That’s what we use too <img src="https://emoji.discourse-cdn.com/google/+1.png?v=9" title=":+1:" class="emoji" alt=":+1:"></p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/6</link>
+        <pubDate>Wed, 17 Apr 2019 21:48:29 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-6</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[rdvt]]></dc:creator>
+        <description><![CDATA[
+            <p>This is our standard solution, we use it on every car we build: <a href="https://www.dimensionengineering.com/products/sabertooth2x32" rel="nofollow noopener">https://www.dimensionengineering.com/products/sabertooth2x32</a></p>
+<p>This one board replaces three: 2 motor controllers plus an Arduino. It is a bit pricey, but for us the convenience of a single-board solution that is fully configurable is worth it.</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/5</link>
+        <pubDate>Wed, 17 Apr 2019 19:41:16 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-5</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Thank goodness for the help w $$’s. Those suckers are pricey!! <img src="https://emoji.discourse-cdn.com/google/grimacing.png?v=9" title=":grimacing:" class="emoji" alt=":grimacing:"><img src="https://emoji.discourse-cdn.com/google/flushed.png?v=9" title=":flushed:" class="emoji" alt=":flushed:"></p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/4</link>
+        <pubDate>Wed, 17 Apr 2019 19:17:25 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-4</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[rick-smile-center]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello,<br>
+Just a reminder that all SUPERtrax (<a href="http://supertraxcars.com" rel="nofollow noopener">supertraxcars.com</a>) cars come with soft-start.  Because they are also remote controlled, GoBabygo! chapters that use SUPERtrax cars have told us that the internal wiring can greatly streamline the modification process.  As always, Rolling Hills Trading offers special pricing for GoBabygo! chapters (call for this) and S.M.I.L.E. (<a href="http://smile-center.org" rel="nofollow noopener">smile-center.org</a>) can help with funding if needed.</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/3</link>
+        <pubDate>Wed, 17 Apr 2019 18:22:53 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-3</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Kevin,<br>
+Yes, we have seen the same problem with 12v cars. Some kids just cannot tolerate the starting jerk and speed.</p>
+<p>We just put a stand-alone motor controller on each motor. Something like this:<br>
+</p><aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/gp/product/B07HBV91NL/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:423/400;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/decf5b10a08241456f89790645494849f0e792f1.jpeg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/gp/product/B07HBV91NL/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">Amazon.com: WINGONEER® Universal DC10-60V 20A PWM HHO RC Motor Speed Regulator...</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<p></p>
+<p>With this stand-alone controller,  I have never found the heat sinks to get too hot, and you don’t need the Arduino. Also, there is no problem in adjusting them close enough to keep a straight line. The tolerance of all the cars we’ve used this on has been very wide (remember that many smaller cars only use one drive wheel and work fine).</p>
+<p>If you want to preserve the reverse function (we usually do not) it’s only a matter of adding a double relay board between the controller and the motor.</p>
+<p>I wouldn’t mess with ferrite cores and especially not with resistors. It sounds simple but actually is not.</p>
+<p>Hope this is helpful.</p>
+<pre><code> --Doug</code></pre>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/2</link>
+        <pubDate>Tue, 16 Apr 2019 16:57:54 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-2</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+      <item>
+        <title>Reduction of 12V starting speed</title>
+        <dc:creator><![CDATA[Kevinl7778]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello Everyone,</p>
+<p>I have heard that the 12 volt units have a starting speed/torque that is to high for the smaller kids and wanted to provide some information on the topic and three posible solutions.</p>
+<p>A: Simple and safe: (1)<br>
+I beleive adding a ferrite ring (2) and wrapping the power wire around the toriod (3) will help but I am not sure what the charge time will be, to increase charge time (slowly ramp up speed) a resistor may be needed and for that I need to know the total current going to the motor under full load. Also when the motor power is released there will be a deceleration time that is the same asa the acceleration time.</p>
+<ol>
+<li>
+<p><a href="https://electronics.howstuffworks.com/inductor1.htm" rel="nofollow noopener">https://electronics.howstuffworks.com/inductor1.htm</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/63X38X25mm-ferrite-Isolator-Transformer-Inductor/dp/B019YWLAUS/ref=sr_1_1?keywords=ring+inductor&amp;qid=1555432031&amp;s=wireless&amp;sr=1-1-catcorr" rel="nofollow noopener">https://www.amazon.com/63X38X25mm-ferrite-Isolator-Transformer-Inductor/dp/B019YWLAUS/ref=sr_1_1?keywords=ring+inductor&amp;qid=1555432031&amp;s=wireless&amp;sr=1-1-catcorr</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Toroidal_inductors_and_transformers" rel="nofollow noopener">https://en.wikipedia.org/wiki/Toroidal_inductors_and_transformers</a></p>
+</li>
+</ol>
+<p>B: Simpler but may cause heat<br>
+By adding a inrush current limiting device you will be addinga resistor (resists current flow) that starts to heat when the moter is powered but does not allow current to flow unit it has started to heat up, resistance falls as heating takes place allowing for more current to flow (Higher speed)</p>
+<p>I would be concerned about a hot part on a plastic car with a dissabled child inside.</p>
+<p>C: Complex sollution.<br>
+By using two off the shelf motor controllers (1) and a microcontroller (2) the speed can be fully adjustable, the motor controllers have heat sinks that may get hot and the motors would requre an encoder to have accurate simultanius operation (straight line)</p>
+<ol>
+<li>
+<p><a href="https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6?ref_=fsclp_pl_dp_2" rel="nofollow noopener">https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6?ref_=fsclp_pl_dp_2</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/atmega328-Replace-ATmega128-Arduino-Compatible/dp/B01N1LCHD3/ref=sr_1_11?keywords=arduino+nano&amp;qid=1555432628&amp;s=hi&amp;sr=1-11" rel="nofollow noopener">https://www.amazon.com/atmega328-Replace-ATmega128-Arduino-Compatible/dp/B01N1LCHD3/ref=sr_1_11?keywords=arduino+nano&amp;qid=1555432628&amp;s=hi&amp;sr=1-11</a></p>
+</li>
+</ol>
+<p>I will look in my basement to see if I have a ferrite ring ( i think i do) and test some values, if method <span class="hashtag">#1</span> works I can take photos f a sample and provide fabrication instructions.</p>
+<p>i am currently looking foor my first build and ging through this site reading instructions.</p>
+<p>Kevin</p>
+          <p><a href="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384/1</link>
+        <pubDate>Tue, 16 Apr 2019 16:41:25 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-384-1</guid>
+        <source url="https://www.gbgconnect.com/t/reduction-of-12v-starting-speed/384.rss">Reduction of 12V starting speed</source>
+      </item>
+  </channel>
+</rss>

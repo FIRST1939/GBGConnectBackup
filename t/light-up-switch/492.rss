@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Light-Up Switch</title>
+    <link>https://www.gbgconnect.com/t/light-up-switch/492</link>
+    <description>Hello, all!
+
+We have a little lady who would benefit from a light-up switch to activate the car, as she is motivated by lights. Has anyone had success with a specific brand/company? We used one from &quot;Health Products For You,&quot; but it would stick in the &quot;ON/activated&quot; position, which is obviously not great. Any ideas?
+
+Thanks!
+
+Lizzie, Allison, and Ben
+Milwaukee GBG!</description>
+    
+    <lastBuildDate>Mon, 23 Dec 2019 00:16:47 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/light-up-switch/492.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Light-Up Switch</title>
+        <dc:creator><![CDATA[AACSLP]]></dc:creator>
+        <description><![CDATA[
+            <p>Does this switch work the same as the Big Red switch from Ablenet?  Does the child hit the switch once for the light to come on and again to activate the car, or does the adult turn on the light to draw the child’s attention to the switch.   Thank you!</p>
+<p><a href="https://www.schoolhealth.com/ablenet-big-red-twist-switch?utm_source=google&amp;utm_medium=cpc&amp;adpos=1o1&amp;scid=scplp76126&amp;sc_intid=76126&amp;gclid=EAIaIQobChMI55LPwb3K5gIVQx6tBh2d5gijEAQYASABEgLEavD_BwE" class="onebox" target="_blank" rel="nofollow noopener">https://www.schoolhealth.com/ablenet-big-red-twist-switch?utm_source=google&amp;utm_medium=cpc&amp;adpos=1o1&amp;scid=scplp76126&amp;sc_intid=76126&amp;gclid=EAIaIQobChMI55LPwb3K5gIVQx6tBh2d5gijEAQYASABEgLEavD_BwE</a></p>
+          <p><a href="https://www.gbgconnect.com/t/light-up-switch/492/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/light-up-switch/492/5</link>
+        <pubDate>Mon, 23 Dec 2019 00:16:47 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-492-5</guid>
+        <source url="https://www.gbgconnect.com/t/light-up-switch/492.rss">Light-Up Switch</source>
+      </item>
+      <item>
+        <title>Light-Up Switch</title>
+        <dc:creator><![CDATA[gavin.wood]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Ben,</p>
+<p>I took a minute to test one of the light up switches at a lower voltage. I used a 7.2V VEX robotics battery (that probably wasn’t fully charged) and it lit right up. Should be good to go!</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541.jpeg" data-download-href="/uploads/short-url/87vy4uAYh8OXIR1MBjnrcNm1YeR.jpeg?dl=1" title="20191028_141154.jpg"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_375x500.jpeg" alt="20191028_141154" data-base62-sha1="87vy4uAYh8OXIR1MBjnrcNm1YeR" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/38eaaf7838717e9c8de6009c5d4cf30a1ef88541_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/light-up-switch/492/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/light-up-switch/492/4</link>
+        <pubDate>Mon, 28 Oct 2019 19:17:48 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-492-4</guid>
+        <source url="https://www.gbgconnect.com/t/light-up-switch/492.rss">Light-Up Switch</source>
+      </item>
+      <item>
+        <title>Light-Up Switch</title>
+        <dc:creator><![CDATA[MilwaukeeGBG]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Gavin,<br>
+My name is Ben, and I’m the engineering working on the GBG cars here at Marquette University.<br>
+This light up switch is listed as 12volts. I assume that voltage is required for the light, yes? There is no voltage required for the switch itself. It is either open, or manually closed by the child, correct?</p>
+<p>Do you know if there is a 6v version of this switch for 6v cars?</p>
+<p>Thanks,</p>
+<p>ben</p>
+          <p><a href="https://www.gbgconnect.com/t/light-up-switch/492/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/light-up-switch/492/3</link>
+        <pubDate>Fri, 25 Oct 2019 15:18:54 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-492-3</guid>
+        <source url="https://www.gbgconnect.com/t/light-up-switch/492.rss">Light-Up Switch</source>
+      </item>
+      <item>
+        <title>Light-Up Switch</title>
+        <dc:creator><![CDATA[gavin.wood]]></dc:creator>
+        <description><![CDATA[
+            <p>We have used this button for the last couple years. It basically has a limit switch on the back with two sets of spade connectors, one for the lights and one for the button. Works great and the price is right. They come in different colors too.</p>
+<aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/gp/product/B01LZMANZ7/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:323/332;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/e6ca8825a64b5d0af8b2fd33fcd64be3deb9c4de.jpeg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/gp/product/B01LZMANZ7/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">Amazon.com: EG STARTS Arcade Buttons 100mm Big Dome Convex Type LED Lit...</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://www.gbgconnect.com/t/light-up-switch/492/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/light-up-switch/492/2</link>
+        <pubDate>Fri, 11 Oct 2019 01:07:44 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-492-2</guid>
+        <source url="https://www.gbgconnect.com/t/light-up-switch/492.rss">Light-Up Switch</source>
+      </item>
+      <item>
+        <title>Light-Up Switch</title>
+        <dc:creator><![CDATA[MilwaukeeGBG]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello, all!</p>
+<p>We have a little lady who would benefit from a light-up switch to activate the car, as she is motivated by lights. Has anyone had success with a specific brand/company? We used one from “Health Products For You,” but it would stick in the “ON/activated” position, which is obviously not great. Any ideas?</p>
+<p>Thanks!</p>
+<p>Lizzie, Allison, and Ben<br>
+Milwaukee GBG!</p>
+          <p><a href="https://www.gbgconnect.com/t/light-up-switch/492/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/light-up-switch/492/1</link>
+        <pubDate>Thu, 10 Oct 2019 17:33:48 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-492-1</guid>
+        <source url="https://www.gbgconnect.com/t/light-up-switch/492.rss">Light-Up Switch</source>
+      </item>
+  </channel>
+</rss>

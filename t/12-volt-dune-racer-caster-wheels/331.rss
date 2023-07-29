@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>12 volt Dune Racer &amp; Caster wheels</title>
+    <link>https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331</link>
+    <description>We&#39;re adapting a 12 volt dune racer to use with a joystick, this adaptation will mean that we need to use caster wheels . Has anyone tried this?</description>
+    
+    <lastBuildDate>Mon, 17 Feb 2020 22:05:18 +0000</lastBuildDate>
+    <category>Problem Solver</category>
+    <atom:link href="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>12 volt Dune Racer &amp; Caster wheels</title>
+        <dc:creator><![CDATA[Mary]]></dc:creator>
+        <description><![CDATA[
+            <p>Her challenge was with strength so we ended up getting her into a wild thing with a joy stick adaptation.</p>
+          <p><a href="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/7</link>
+        <pubDate>Mon, 17 Feb 2020 22:05:18 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-331-7</guid>
+        <source url="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331.rss">12 volt Dune Racer &amp; Caster wheels</source>
+      </item>
+      <item>
+        <title>12 volt Dune Racer &amp; Caster wheels</title>
+        <dc:creator><![CDATA[chupka]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello Aiden.  I am new to this board so I hope I am doing this the correct way.  I am working with the robotics team from one of the school I work at to modify a car with a similar t-bar design.  Would you still be willing to share the cad model of the PVC lever?</p>
+          <p><a href="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/6</link>
+        <pubDate>Fri, 29 Mar 2019 20:28:04 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-331-6</guid>
+        <source url="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331.rss">12 volt Dune Racer &amp; Caster wheels</source>
+      </item>
+      <item>
+        <title>12 volt Dune Racer &amp; Caster wheels</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Yep … we’ve added caster wheels to bigger vehicles. It’s certainly doable. Will probably need to add increased grip to the rear wheels to allow for the increased traction required. You might also consider trying a Wild Thing instead <img src="https://emoji.discourse-cdn.com/google/wink.png?v=6" title=":wink:" class="emoji" alt=":wink:"></p>
+          <p><a href="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/5</link>
+        <pubDate>Sat, 16 Feb 2019 21:07:30 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-331-5</guid>
+        <source url="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331.rss">12 volt Dune Racer &amp; Caster wheels</source>
+      </item>
+      <item>
+        <title>12 volt Dune Racer &amp; Caster wheels</title>
+        <dc:creator><![CDATA[Aiden]]></dc:creator>
+        <description><![CDATA[
+            <p>In what way is she struggling with steering, is it a problem with leverage or just how hard it is to turn the wheel? Also what appendages does she have the best control of? One way to do it may be to make a larger lever that she can use to get more leverage ( kind-of like a motorcycle</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/1fcc95e867e6255fbfa7b86021cb4a87e8a4d8cd.jpeg" title="P1033106.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1fcc95e867e6255fbfa7b86021cb4a87e8a4d8cd_2_690x459.jpeg" alt="P1033106" width="690" height="459" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1fcc95e867e6255fbfa7b86021cb4a87e8a4d8cd_2_690x459.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1fcc95e867e6255fbfa7b86021cb4a87e8a4d8cd_2_1035x688.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1fcc95e867e6255fbfa7b86021cb4a87e8a4d8cd_2_1380x918.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1fcc95e867e6255fbfa7b86021cb4a87e8a4d8cd_2_10x10.png"></a></div>.I have cad models of the PVC lever used in the picture if you would like them. It would be preferable to avoid needing a joystick as it adds lots of complexity (arduinos, mounting a caster ect). Another way to do steering instead of a caster wheel is to attach a motor to front drive shaft that she can use to steer. How I saw it implemented was a foot pedal that when pressed one way would turn the motor and the wheels to the right and when pressed on the other side it would turn it to the left. This may turn out simpler and help conserve the stability of having 4 wheels<p></p>
+          <p><a href="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/4</link>
+        <pubDate>Sun, 10 Feb 2019 18:24:17 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-331-4</guid>
+        <source url="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331.rss">12 volt Dune Racer &amp; Caster wheels</source>
+      </item>
+      <item>
+        <title>12 volt Dune Racer &amp; Caster wheels</title>
+        <dc:creator><![CDATA[Mary]]></dc:creator>
+        <description><![CDATA[
+            <p>Electronically we have added a potentiometer and saber tooth. We’ve developed a kill switch to be used when parents detect a problem.  Now Katie is having difficultly<br>
+with steering &amp; we’re thinking we need to go to a joy stick. Ideas?</p>
+<p>Thanks for your interest and help.</p>
+<p>Mary Beth</p>
+<p>Mary Beth Doyle,<br>
+Ph.D.</p>
+<p>Professor of Education</p>
+<p>Saint Michael’s College</p>
+<p>1 Winooski Park (Box 281)</p>
+<p>Colchester, Vermont 05439</p>
+<p>802 654 2279</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/25240828eaf2bf11054b0b478c8e8fcbe1709b0a.jpeg" title="IMG_3094.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/25240828eaf2bf11054b0b478c8e8fcbe1709b0a_2_375x500.jpeg" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/25240828eaf2bf11054b0b478c8e8fcbe1709b0a_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/25240828eaf2bf11054b0b478c8e8fcbe1709b0a_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/25240828eaf2bf11054b0b478c8e8fcbe1709b0a_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/25240828eaf2bf11054b0b478c8e8fcbe1709b0a_2_10x10.png"></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b235e8f96e5d5436e0a1b542d255cecaf5c3ae9f.jpeg" title="IMG_3099.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b235e8f96e5d5436e0a1b542d255cecaf5c3ae9f_2_375x500.jpeg" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b235e8f96e5d5436e0a1b542d255cecaf5c3ae9f_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b235e8f96e5d5436e0a1b542d255cecaf5c3ae9f_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b235e8f96e5d5436e0a1b542d255cecaf5c3ae9f_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b235e8f96e5d5436e0a1b542d255cecaf5c3ae9f_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/3</link>
+        <pubDate>Sun, 10 Feb 2019 17:26:43 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-331-3</guid>
+        <source url="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331.rss">12 volt Dune Racer &amp; Caster wheels</source>
+      </item>
+      <item>
+        <title>12 volt Dune Racer &amp; Caster wheels</title>
+        <dc:creator><![CDATA[Aiden]]></dc:creator>
+        <description><![CDATA[
+            <p>Do you have a link to the car so we could see what it looks like?</p>
+          <p><a href="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/2</link>
+        <pubDate>Sun, 10 Feb 2019 15:37:27 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-331-2</guid>
+        <source url="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331.rss">12 volt Dune Racer &amp; Caster wheels</source>
+      </item>
+      <item>
+        <title>12 volt Dune Racer &amp; Caster wheels</title>
+        <dc:creator><![CDATA[Mary]]></dc:creator>
+        <description><![CDATA[
+            <p>We’re adapting a 12 volt dune racer to use with a joystick, this adaptation will mean that we need to use caster wheels . Has anyone tried this?</p>
+          <p><a href="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331/1</link>
+        <pubDate>Sun, 10 Feb 2019 12:11:17 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-331-1</guid>
+        <source url="https://www.gbgconnect.com/t/12-volt-dune-racer-caster-wheels/331.rss">12 volt Dune Racer &amp; Caster wheels</source>
+      </item>
+  </channel>
+</rss>

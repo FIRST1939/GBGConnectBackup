@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Steering modification - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="One of the most frequent forms of feedback we get is from parents who want to know what they can do to assist their child with steering (without breaking their backs). Thought this was a cool idea, sent to our chapter by&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="47.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Steering modification&#39;" href="47.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb_2_768x1024.JPG" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb_2_768x1024.JPG" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/steering-modification/47" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/steering-modification/47" />
+<meta property="og:title" content="Steering modification" />
+<meta name="twitter:title" content="Steering modification" />
+<meta property="og:description" content="One of the most frequent forms of feedback we get is from parents who want to know what they can do to assist their child with steering (without breaking their backs). Thought this was a cool idea, sent to our chapter by a family. I think their neighbor actually did the modification and put together the instructions. MalsHandle.pdf (529.3 KB)" />
+<meta name="twitter:description" content="One of the most frequent forms of feedback we get is from parents who want to know what they can do to assist their child with steering (without breaking their backs). Thought this was a cool idea, sent to our chapter by a family. I think their neighbor actually did the modification and put together the instructions. MalsHandle.pdf (529.3 KB)" />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta property="article:published_time" content="2017-10-23T18:32:36+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+        <link rel="next" href="47%3Fpage=2.html">
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="47.html">Steering modification</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/technical-discussion/8" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Steering modification'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/kendragagnon'><span itemprop='name'>kendragagnon</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb.JPG">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2017-10-23T18:32:36Z' class='post-time'>
+                    October 23, 2017,  6:32pm
+                  </time>
+                  <meta itemprop='dateModified' content='2017-10-23T18:32:36Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>One of the most frequent forms of feedback we get is from parents who want to know what they can do to assist their child with steering (without breaking their backs). Thought this was a cool idea, sent to our chapter by a family. I think their neighbor actually did the modification and put together the instructions. <a class="attachment" href="https://www.gbgconnect.com/uploads/gbgconnect/original/1X/d7e4503e92bad6377871ab6209fb391828a5be28.pdf">MalsHandle.pdf</a> (529.3 KB)<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb.JPG" title="IMG_9768.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb_2_375x500.JPG" alt="IMG_9768" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb_2_375x500.JPG, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb_2_562x750.JPG 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb_2_750x1000.JPG 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/c11ef4109e7a8871b851d9c2be9d0a93a093bceb_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_9768.JPG</span><span class="informations">1649×2198 868 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/gavin.wood.html'><span itemprop='name'>gavin.wood</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2017-11-06T16:51:05Z' class='post-time'>
+                    November 6, 2017,  4:51pm
+                  </time>
+                  <meta itemprop='dateModified' content='2017-11-06T16:51:05Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>This is a fantastic idea. It would definitely help with safety and help parents keep their kiddos on track. It seems like there is a welded piece on there and I think that might be the biggest hurdle for most people. Maybe there is a way we can simplify it. Perhaps a 3D printed piece that attaches to the steering wheel?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/917e91828a20f502573d006b69215df8c679352e.JPG">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2017-11-28T16:28:10Z' class='post-time'>
+                    November 28, 2017,  4:28pm
+                  </time>
+                  <meta itemprop='dateModified' content='2017-11-28T16:28:10Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>We have addressed this several ways, depending on the car, child, and parent. Sometimes we added a steering post to the rear of the car, sometimes replaced the steering wheel with a bar. Here is an approach we took when the child had almost no use of arms and no reach, and the parent was tall. It looks very awkward but the parent found it comfortable.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/917e91828a20f502573d006b69215df8c679352e.JPG" title="PB114679.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/917e91828a20f502573d006b69215df8c679352e_2_666x500.JPG" alt="PB114679" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/917e91828a20f502573d006b69215df8c679352e_2_666x500.JPG, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/917e91828a20f502573d006b69215df8c679352e_2_999x750.JPG 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/917e91828a20f502573d006b69215df8c679352e_2_1332x1000.JPG 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/917e91828a20f502573d006b69215df8c679352e_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">PB114679.JPG</span><span class="informations">1600×1200 325 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pat.html'><span itemprop='name'>Pat</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2017-11-29T15:26:08Z' class='post-time'>
+                    November 29, 2017,  3:26pm
+                  </time>
+                  <meta itemprop='dateModified' content='2017-11-29T15:26:08Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Great ideas for parent assisted steering.  One car that I’ve found that’s available with a parent steer assist is the 'Lil Lighting McQueen by Kid Trax.  It’s currently available at ToysRUs:<a href="https://www.toysrus.com/product?productId=120591236" rel="nofollow noopener">https://www.toysrus.com/product?productId=120591236</a>.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/huttererj19.html'><span itemprop='name'>huttererj19</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-01-08T20:11:51Z' class='post-time'>
+                    January 8, 2018,  8:11pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-01-08T20:11:51Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I love these ideas for parent assisted steering. Have any of you seen any steering modifications for the child that doesn’t need parents assisting? One thing we have been running into is the ability for kids to press &amp; release the button, but often they are not able to turn or control the turning quickly/ accurately. In the past we have created a kind of “handle-bar”.Thanks for your time!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_6' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-01-11T12:50:04Z' class='post-time'>
+                    January 11, 2018, 12:50pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-01-11T12:50:04Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Have you considered using vehicles like the Wild Thing or the UpRider or the Dareway … where steering can be controlled via buttons/joystick input?  Or any 12V - 2 motor vehicle, if you’re willing to make the necessary mechanical and electrical modifications to allow “steering by motor”.  Willing to bet there’s plenty of people on this forum who’d be willing to help talk to you through those modifications if you wanted to add those designs to your offerings for kiddos <img src="https://discourse-cdn-sjc1.com/standard6/images/emoji/google/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_7' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/farquhara.html'><span itemprop='name'>farquhara</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-01-29T22:45:17Z' class='post-time'>
+                    January 29, 2018, 10:45pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-01-29T22:45:17Z'>
+              <span itemprop='position'>7</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi all, I need help in figuring out how we can help our little guy with independent steering. He has a hard time grasping objects so grasping and turning a steering wheel will be difficult. Any help is greatly appreciated.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_8' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/735161690ce03222d70c22b88b7523d99fe54c1c.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-01-30T12:54:33Z' class='post-time'>
+                    January 30, 2018, 12:54pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-01-30T12:54:33Z'>
+              <span itemprop='position'>8</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>There’s a couple of options. You could buy one of the cars that has a remote control &amp; mount that to the dash (within reach) … coolest trick evah thanks to the GBG Israel crew <img src="https://emoji.discourse-cdn.com/google/wink.png?v=9" title=":wink:" class="emoji" alt=":wink:"></p>
+<p>Or you could go w a vehicle like the UpRider (or Wild Thing) that relies on the motors for steering … kinda like a zero turn radius lawn mower … and build a motor control box. If ur game for that there’s a couple of us at least (my crew, the KC crew and Margaret S outta Dallas) that all have different designs we could share w you. The KC crew already have an Instructable done, and we’re finishing ours up after participating at the TOM event at Vanderbilt in Nashville a week ago <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=9" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+<p>Nice to have choices …<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/735161690ce03222d70c22b88b7523d99fe54c1c.jpeg" title="image.jpeg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/735161690ce03222d70c22b88b7523d99fe54c1c_2_375x500.jpeg" alt="image" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/735161690ce03222d70c22b88b7523d99fe54c1c_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/735161690ce03222d70c22b88b7523d99fe54c1c_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/735161690ce03222d70c22b88b7523d99fe54c1c_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/735161690ce03222d70c22b88b7523d99fe54c1c_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">image.jpeg</span><span class="informations">2448×3264 1.84 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="2" />
+              </div>
+
+          </div>
+          <div id='post_9' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/earlywheels.html'><span itemprop='name'>earlywheels</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-01T14:14:55Z' class='post-time'>
+                    February 1, 2018,  2:14pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-01T14:14:55Z'>
+              <span itemprop='position'>9</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hey Pete- can you send me the program that you are using for the uprider above?  What did you make the switch box out of?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_10' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-01T21:48:06Z' class='post-time'>
+                    February 1, 2018,  9:48pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-01T21:48:06Z'>
+              <span itemprop='position'>10</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>be happy to <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:">  and the switch box was made out of whatever heat-moldable plastic was laying around inside Vanderbilt’s Wondry maker space during the TOM event.  I’ll try and confirm with the engineer who built it what material it is … but basically we just hit it with a heat gun and shaped it around a piece of 2x4 timber that was laying around.  we’re fancy like that <img src="https://emoji.discourse-cdn.com/google/stuck_out_tongue_winking_eye.png?v=5" title=":stuck_out_tongue_winking_eye:" class="emoji" alt=":stuck_out_tongue_winking_eye:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_11' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/farquhara.html'><span itemprop='name'>farquhara</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-04T21:03:53Z' class='post-time'>
+                    February 4, 2018,  9:03pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-04T21:03:53Z'>
+              <span itemprop='position'>11</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Wow! Thanks for the suggestions but you are talking to a nontechnical Science teacher with a limited budget. Also, I live in Canada and I am not sure where to purchase what you have suggested. Would you be kind enough to break it down in simple terms so my students and I can figure it out? Thank-you for all of your help, Anna</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_12' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-05T13:32:10Z' class='post-time'>
+                    February 5, 2018,  1:32pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-05T13:32:10Z'>
+              <span itemprop='position'>12</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>You can get the UpRider at Walmart either online or usually in store. It sells for $150 which isnt so bad in the grand scheme of this stuff <img src="https://emoji.discourse-cdn.com/google/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:"> For your little guy who needs help w steering, might be a good option because the UpRider has a somewhat unique / new feature I haven’t seen before … a proportional rotating “switch” attached to the base of the upright handle. If you take the top &amp; bottom plastic shrouds off the vehicle you’ll see it there. There are two fairly hefty springs connected to the mechanism, but if you replace them with something with less resistance maybe the kiddo youre working with might be able to steer using that method? Slap a bumbo seat on the foot platform, rewire the “go” control to something they can reach, then you’re off to the races <img src="https://emoji.discourse-cdn.com/google/blush.png?v=5" title=":blush:" class="emoji" alt=":blush:"><img src="https://emoji.discourse-cdn.com/google/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"> I’ll try &amp; modify one myself in the same way &amp; send u some piccies of the step-by-step if u like?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="2" />
+              </div>
+
+          </div>
+          <div id='post_13' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/farquhara.html'><span itemprop='name'>farquhara</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-05T14:24:24Z' class='post-time'>
+                    February 5, 2018,  2:24pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-05T14:24:24Z'>
+              <span itemprop='position'>13</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Pete, Thanks for the suggestion!  I am meeting with the OT this week and we will see if this works for her client.  Please send the instructions when you have it and I will check at our Walmart ( we do not carry the same stuff as in the States ) as well as online.  Thanks again, Anna</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_14' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/farquhara.html'><span itemprop='name'>farquhara</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/c380de2ba7c5eb7676c21b0a35af20df7420d768.jpg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-13T12:39:39Z' class='post-time'>
+                    February 13, 2018, 12:39pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-13T12:45:03Z'>
+              <span itemprop='position'>14</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Pete, found the following at Toys r us which allows our little one to use the handles to steer.  All we have to do is adjust the seating.  A little pricey but still in our price range.</p>
+<p>Thanks again for your help, Anna</p>
+<p><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/c380de2ba7c5eb7676c21b0a35af20df7420d768.jpg" width="220" height="220"></p>
+<p>[<a href="http://trusca.imageg.net/graphics/product_images/pTRUCA1-24276894reg.jpg" rel="nofollow noopener">http://trusca.imageg.net/graphics/product_images/pTRUCA1-24276894reg.jpg</a>]</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_15' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-13T13:29:14Z' class='post-time'>
+                    February 13, 2018,  1:29pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-13T13:29:14Z'>
+              <span itemprop='position'>15</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>We work with modifying Wild Things alot also, so if u need help taming “the beast” don’t hesitate to ask. Some modifications we have tried include using our own motor controller (Sabertooth 32amp, from Dimension Engineering) to change the steering mechanism such that one hand control makes BOTH wheels go either forwards or backwards, and the other hand control does the steering. We also modify the rear caster housing, because as is the rear caster axle is not vertical which causes the vehicle to tend to veer <img src="https://emoji.discourse-cdn.com/google/confused.png?v=5" title=":confused:" class="emoji" alt=":confused:">  Most of the kiddos we see here at GBG RockyTop can’t manage the OEM controls at all, so we’re usually substituting our MotherBox controller into the mix instead. Best of luck <img src="https://emoji.discourse-cdn.com/google/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_16' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/gavin.wood.html'><span itemprop='name'>gavin.wood</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-15T17:44:51Z' class='post-time'>
+                    February 15, 2018,  5:44pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-15T17:44:51Z'>
+              <span itemprop='position'>16</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Pete, really interested in seeing more about your Wild Thing modifications. We used an Arduino and a couple of Spark speed controllers since our students are familiar with those. We have only done modifications to convert the Wild Thing to a single joystick control (arcade style), since the kiddos we have been building for often don’t have good control in both hands. Also interested in your rear caster mods. Do you have pictures or a manual you have made or anything?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_17' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-16T11:53:40Z' class='post-time'>
+                    February 16, 2018, 11:53am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-16T11:53:40Z'>
+              <span itemprop='position'>17</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Be happy to <img src="https://emoji.discourse-cdn.com/google/blush.png?v=5" title=":blush:" class="emoji" alt=":blush:">  At the recent TOM event in Nashville I was lucky enough to get some Arduino programming help from my team mates (had zero response from FRC locally <img src="https://emoji.discourse-cdn.com/google/pensive.png?v=5" title=":pensive:" class="emoji" alt=":pensive:">), so finally ready to share our “how-to” manual for MotherBox once I update it with the finishing touches <img src="https://emoji.discourse-cdn.com/google/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"><img src="https://emoji.discourse-cdn.com/google/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_18' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/gavin.wood.html'><span itemprop='name'>gavin.wood</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/f950e5a2c41bfa61f5740359e8dd46553db45d8c.png">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-22T23:05:47Z' class='post-time'>
+                    February 22, 2018, 11:05pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-22T23:05:47Z'>
+              <span itemprop='position'>18</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Cool! Looking forward to seeing it. Sorry to hear that you didn’t have any FRC response.</p>
+<p>It just so turns out that the Smoky Mountains Regional will be held in Knoxville this year. Dates are March 22nd to 24th.</p>
+<p>Here is a link to the event:<br>
+<a href="http://tnfirst.org/?page_id=2410" class="onebox" target="_blank" rel="nofollow noopener">http://tnfirst.org/?page_id=2410</a></p>
+<p>Here is a link to the team list for that competition. Looks like there are several teams based in Knoxville. I would be happy to reach out to them on your behalf, but it might also be valuable to stop by and meet some of the teams.<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/f950e5a2c41bfa61f5740359e8dd46553db45d8c.png" class="site-icon" width="32" height="32">
+      <a href="https://www.thebluealliance.com/event/2018tnkn" target="_blank" rel="nofollow noopener">The Blue Alliance</a>
+  </header>
+  <article class="onebox-body">
+    <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/45ffd7140bcf1a0cdcb977454e0adbb5b6ba5e00.png" class="thumbnail onebox-avatar" width="500" height="500">
+
+<h3><a href="https://www.thebluealliance.com/event/2018tnkn" target="_blank" rel="nofollow noopener">2018 Smoky Mountains Regional</a></h3>
+
+<p>Videos and match results for the 2018 Smoky Mountains Regional FIRST Robotics Competition in Knoxville, TN 37996, USA.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>If you are still interested in working with a FIRST team, this would be a great way for you to show them what you do. You could get a feel for the teams and whether they might be a good fit for your program.</p>
+<p>Keep us posted on the manual!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_19' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-02-23T21:53:24Z' class='post-time'>
+                    February 23, 2018,  9:53pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-02-23T21:53:24Z'>
+              <span itemprop='position'>19</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Thanks for the info.  Maybe a two-pronged approach might have better results … I’ll continue to try and connect locally and perhaps if you had the time to reach out to any / all of the teams to give them a quick blurb about how cool a partnership bn GBG and FRC can be (based on your experiences).  Betting nobody going to be interested until after the local derby on Mar 22 is over, but I’m in this for the long haul so I can (continue to) be patient <img src="https://emoji.discourse-cdn.com/google/wink.png?v=5" title=":wink:" class="emoji" alt=":wink:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_20' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/bwatkins.html'><span itemprop='name'>bwatkins</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="47.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-05-22T16:45:21Z' class='post-time'>
+                    May 22, 2018,  4:45pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-05-22T16:45:21Z'>
+              <span itemprop='position'>20</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi! I can’t open the PDF for your steering modification Kendra, and I’d love to see it. We are getting lots of the same feedback from parents too. Can I get it some other way? email? Thanks so much! Beth Watkins</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+    </div>
+
+    <div role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement' class="topic-body crawler-post">
+        <span itemprop='name'><b><a rel="next" itemprop="url" href="47%3Fpage=2.html">next page →</a></b></span>
+    </div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

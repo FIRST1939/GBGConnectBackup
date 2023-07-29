@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Best Choice Jeep motors not activating</title>
+    <link>https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779</link>
+    <description>We did the wiring modifications to the Best Choice Jeep including kill switch and red button activation switch.  The vehicle was working when we left the build day.  It sat in my garage for about 2 months.  Now the motors will not activate.  I fully charged the battery.  The car turns on, and the switch gets power.  I removed the kill switch from the circuit to test, but the motors still do not activate.  The team that worked on this vehicle put the kill switch on the negative terminal wiring instead of the positive.  Is this the problem?  Did they fry something?  Any ideas are appreciated.  Thank you!</description>
+    
+    <lastBuildDate>Mon, 30 Jan 2023 17:29:20 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Best Choice Jeep motors not activating</title>
+        <dc:creator><![CDATA[mkwillison]]></dc:creator>
+        <description><![CDATA[
+            <p>The switch (the big red button) has a light that will light up if you plug the wires into the correct connectors.  That light is lit, so there is current going to the big red button.  I will borrow a multimeter since changing out the breakers that are in line with the motors did not work.</p>
+          <p><a href="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779/4</link>
+        <pubDate>Mon, 30 Jan 2023 17:29:20 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-779-4</guid>
+        <source url="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779.rss">Best Choice Jeep motors not activating</source>
+      </item>
+      <item>
+        <title>Best Choice Jeep motors not activating</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>I second Pete’s suggestion of testing the circuit. It’s quite possible the battery is not holding a charge, even if it’s fairly new. What do you mean when you say the “switch gets power”? Wiring the kill switch on the negative terminal rather than positive should make no difference; it’s just breaking the circuit.</p>
+          <p><a href="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779/3</link>
+        <pubDate>Fri, 27 Jan 2023 15:48:30 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-779-3</guid>
+        <source url="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779.rss">Best Choice Jeep motors not activating</source>
+      </item>
+      <item>
+        <title>Best Choice Jeep motors not activating</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Do you have access to a multimeter where you could check the voltage level at the battery and/or at the motor?</p>
+          <p><a href="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779/2</link>
+        <pubDate>Tue, 24 Jan 2023 18:02:20 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-779-2</guid>
+        <source url="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779.rss">Best Choice Jeep motors not activating</source>
+      </item>
+      <item>
+        <title>Best Choice Jeep motors not activating</title>
+        <dc:creator><![CDATA[mkwillison]]></dc:creator>
+        <description><![CDATA[
+            <p>We did the wiring modifications to the Best Choice Jeep including kill switch and red button activation switch.  The vehicle was working when we left the build day.  It sat in my garage for about 2 months.  Now the motors will not activate.  I fully charged the battery.  The car turns on, and the switch gets power.  I removed the kill switch from the circuit to test, but the motors still do not activate.  The team that worked on this vehicle put the kill switch on the negative terminal wiring instead of the positive.  Is this the problem?  Did they fry something?  Any ideas are appreciated.  Thank you!</p>
+          <p><a href="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779/1</link>
+        <pubDate>Tue, 24 Jan 2023 15:32:51 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-779-1</guid>
+        <source url="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779.rss">Best Choice Jeep motors not activating</source>
+      </item>
+  </channel>
+</rss>

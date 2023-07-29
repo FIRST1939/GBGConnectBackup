@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Battery Testing Suggestions</title>
+    <link>https://www.gbgconnect.com/t/battery-testing-suggestions/580</link>
+    <description>All,
+
+We&#39;re developing a written protocol for repurposing used cars. I know some folks advise just replacing used batteries outright, but that seems wasteful. With that in mind, two related questions:
+
+&lt;ol&gt;
+&lt;li&gt;Other than the fact that the batteries hold charge less well over time, are there other reasons why it might be important to replace them before re-using them? Am I missing some safety issue with older batteries?&lt;/li&gt;
+&lt;li&gt;If it is safe to re-use an old battery, what are best practices for testing the battery before sending it back out into the world? Is it sufficient to charge the battery and slap a voltmeter on it? Are there other steps we could take to make sure the battery will hold a charge?&lt;/li&gt;
+&lt;/ol&gt;
+
+Thanks for any tips!
+
+Bill</description>
+    
+    <lastBuildDate>Thu, 09 Apr 2020 16:36:08 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/battery-testing-suggestions/580.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Battery Testing Suggestions</title>
+        <dc:creator><![CDATA[Parkere]]></dc:creator>
+        <description><![CDATA[
+            <p>Agreed, this is super helpful criteria for evaluating the health/performance of a battery!  We are having the same battery issue as well, and I’m currently looking into best practices with charging the cars (since in reading one of the manuals, it said that the batteries can be damaged by overcharging since they have no smart charge measures).</p>
+<p>If you do test the cars and batteries, please post the results here!  I would love to have some metrics for testing returning batteries or even new ones to make sure they are working before sending them out to be used in the community!</p>
+          <p><a href="https://www.gbgconnect.com/t/battery-testing-suggestions/580/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/battery-testing-suggestions/580/5</link>
+        <pubDate>Thu, 09 Apr 2020 16:36:08 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-580-5</guid>
+        <source url="https://www.gbgconnect.com/t/battery-testing-suggestions/580.rss">Battery Testing Suggestions</source>
+      </item>
+      <item>
+        <title>Battery Testing Suggestions</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>Greg,</p>
+<p>This is incredibly helpful; thank you! Every single point is clear.</p>
+<p>We will do some testing when we can get back into our space. I think we’ll set up a protocol to test the battery under a couple of circumstances (as you described) over time and also to test the charger. We should also be doing more to educate people on proper care of the batteries. We spend a lot of time on explaining our modifications, but honestly we have batteries fail more often than our wiring!</p>
+<p>Those load test write ups would be a great help - when you’re able to get them safely.</p>
+<p>Thank You,<br>
+Bill</p>
+          <p><a href="https://www.gbgconnect.com/t/battery-testing-suggestions/580/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/battery-testing-suggestions/580/4</link>
+        <pubDate>Fri, 03 Apr 2020 18:40:08 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-580-4</guid>
+        <source url="https://www.gbgconnect.com/t/battery-testing-suggestions/580.rss">Battery Testing Suggestions</source>
+      </item>
+      <item>
+        <title>Battery Testing Suggestions</title>
+        <dc:creator><![CDATA[Greg]]></dc:creator>
+        <description><![CDATA[
+            <p>You could adapt the battery testing used for power mobility repair to Go Baby Go cars, the concept is the same - you are just using a very scaled down version with a ride-on car.</p>
+<p>For power mobility repair there are protocols that include testing the voltage when the battery is fully charged and then monitoring the voltage drop while running the motors for 2 minutes (with the ride on car up on little blocks I would imagine).  You would need to know what is normal for a fully charged 6v (12v should be about 12.8v - 13.1v charged, from what I am reading 6.4v - 6.6v is normal for a 6v system) and what a normal drop for a health battery would be.  Then if the voltage drop is too much, the battery is bad.  I am usually running these tests on 24v systems, and in that case a 2v drop over the run time indicates batteries that need replacement.</p>
+<p>Also look for big drops in voltage under load and a return to a more normal voltage when the load is removed - this is also a bad battery.  The inability to move a load up an incline would be another way to check for this.</p>
+<p>There are battery load testers that engage a heating element and monitor the voltage with the element on for 10 seconds or so, but the load itself for these are may damage the small batteries used in ride on toys.  <a href="https://www.harborfreight.com/automotive/diagnostic-testing-scanning/battery-testing/100-amp-612v-battery-load-tester-61747.html" rel="nofollow noopener">https://www.harborfreight.com/automotive/diagnostic-testing-scanning/battery-testing/100-amp-612v-battery-load-tester-61747.html</a></p>
+<p>There are also more expensive specialized load testers that can vary the load and monitor and graph the voltage - but they are very expensive, and will also just be able to tell you that the battery needs replacing.</p>
+<p>You might be able to recondition the batteries using a special battery charger - which we have used with mixed success.  Sorry, i can’t find the link to the one we use.</p>
+<p>It’s almost always the batteries that have gone bad but your protocols should also include testing the chargers, which are another common area of failure, make sure that voltage actually goes up when the charger is attached. For a 12v you should see 13.8v-14.2v with most chargers - the point is there should be an increase in voltage when you attach the charger over the fully charged battery voltage.</p>
+<p>Batteries will loose the ability to hold a charge over time, the more they are run down the faster this occurs.  I do understand not wanting to be wasteful - but batteries will wear out over time, essentially they are consumables not unlike your car’s break pads. Please do make sure they get recycled and not thrown away.</p>
+<p>A huge step in increasing usable battery life is to educate the end users to make sure they fully charge the batteries - a saturation charge that is reached a few hours after the light turns green is much better for the batteries than just pulling off the charger the second the light turns green.  Likewise a simple (non-smart) charger left on too long will overheat the battery and damage it also.</p>
+<p>At some point I might be able to get back into my office and scan the load test write ups of the various power mobility providers, once I do I can forward them to you and you can decide whether or not they are applicable.</p>
+<p>Good Luck,<br>
+Greg (from Together We Grow)</p>
+          <p><a href="https://www.gbgconnect.com/t/battery-testing-suggestions/580/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/battery-testing-suggestions/580/3</link>
+        <pubDate>Fri, 03 Apr 2020 18:20:08 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-580-3</guid>
+        <source url="https://www.gbgconnect.com/t/battery-testing-suggestions/580.rss">Battery Testing Suggestions</source>
+      </item>
+      <item>
+        <title>Battery Testing Suggestions</title>
+        <dc:creator><![CDATA[jacgallo]]></dc:creator>
+        <description><![CDATA[
+            <p>wonderful news on the protocol - please share with the group and if you dont mind i would love a personal copy (jacgallo@udel.edu) - can I use it in our k-12 STEM curriculum?</p>
+<p>very best, Cole</p>
+          <p><a href="https://www.gbgconnect.com/t/battery-testing-suggestions/580/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/battery-testing-suggestions/580/2</link>
+        <pubDate>Fri, 03 Apr 2020 13:27:49 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-580-2</guid>
+        <source url="https://www.gbgconnect.com/t/battery-testing-suggestions/580.rss">Battery Testing Suggestions</source>
+      </item>
+      <item>
+        <title>Battery Testing Suggestions</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>All,</p>
+<p>We’re developing a written protocol for repurposing used cars. I know some folks advise just replacing used batteries outright, but that seems wasteful. With that in mind, two related questions:</p>
+<ol>
+<li>Other than the fact that the batteries hold charge less well over time, are there other reasons why it might be important to replace them before re-using them? Am I missing some safety issue with older batteries?</li>
+<li>If it is safe to re-use an old battery, what are best practices for testing the battery before sending it back out into the world? Is it sufficient to charge the battery and slap a voltmeter on it? Are there other steps we could take to make sure the battery will hold a charge?</li>
+</ol>
+<p>Thanks for any tips!</p>
+<p>Bill</p>
+          <p><a href="https://www.gbgconnect.com/t/battery-testing-suggestions/580/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/battery-testing-suggestions/580/1</link>
+        <pubDate>Fri, 03 Apr 2020 12:55:53 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-580-1</guid>
+        <source url="https://www.gbgconnect.com/t/battery-testing-suggestions/580.rss">Battery Testing Suggestions</source>
+      </item>
+  </channel>
+</rss>

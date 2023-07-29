@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Slow Down Frozen Car</title>
+    <link>https://www.gbgconnect.com/t/slow-down-frozen-car/516</link>
+    <description>Hey Everyone!
+I am rewiring a Frozen car to make the foot pedal into a push button for hand control. But for this child, the car goes a little too fast. What can I buy/do in order to slow down the car a little bit? Thanks so much!</description>
+    
+    <lastBuildDate>Sun, 24 Nov 2019 04:36:07 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/slow-down-frozen-car/516.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Slow Down Frozen Car</title>
+        <dc:creator><![CDATA[mikey]]></dc:creator>
+        <description><![CDATA[
+            <p>Am active power stepdown is probably the best choice but i will note that if there two back motors for each back weel disconnecting one will result in a less powerfull slower car.</p>
+          <p><a href="https://www.gbgconnect.com/t/slow-down-frozen-car/516/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/slow-down-frozen-car/516/4</link>
+        <pubDate>Sun, 24 Nov 2019 04:36:07 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-516-4</guid>
+        <source url="https://www.gbgconnect.com/t/slow-down-frozen-car/516.rss">Slow Down Frozen Car</source>
+      </item>
+      <item>
+        <title>Slow Down Frozen Car</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>We usually add a motor controller. I have most frequently used a Riorand, but Nick has developed an excellent combination motor controller (reduces the speed of the car) that also provides gentle acceleration to the desired speed and gentle deceleration when the switch is released. It is adjustable and also programmable, and very well documented. You can contact him here: <a href="https://www.gbgconnect.com/u/Nick">https://www.gbgconnect.com/u/Nick</a><br>
+Best regards,  – Doug</p>
+          <p><a href="https://www.gbgconnect.com/t/slow-down-frozen-car/516/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/slow-down-frozen-car/516/3</link>
+        <pubDate>Fri, 22 Nov 2019 01:30:40 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-516-3</guid>
+        <source url="https://www.gbgconnect.com/t/slow-down-frozen-car/516.rss">Slow Down Frozen Car</source>
+      </item>
+      <item>
+        <title>Slow Down Frozen Car</title>
+        <dc:creator><![CDATA[jacgallo]]></dc:creator>
+        <description><![CDATA[
+            <p>Seen this done with a potentiometer (spelling?). The folks at Central Conn State University Go Baby Go just did this for Fisher Price Power Wheels Jeep during a recent build.<br>
+Dr Michele Dischino<br>
+Dischinomic@mail.ccsu.edu</p>
+          <p><a href="https://www.gbgconnect.com/t/slow-down-frozen-car/516/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/slow-down-frozen-car/516/2</link>
+        <pubDate>Thu, 21 Nov 2019 20:08:12 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-516-2</guid>
+        <source url="https://www.gbgconnect.com/t/slow-down-frozen-car/516.rss">Slow Down Frozen Car</source>
+      </item>
+      <item>
+        <title>Slow Down Frozen Car</title>
+        <dc:creator><![CDATA[SBU]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey Everyone!<br>
+I am rewiring a Frozen car to make the foot pedal into a push button for hand control. But for this child, the car goes a little too fast. What can I buy/do in order to slow down the car a little bit? Thanks so much!</p>
+          <p><a href="https://www.gbgconnect.com/t/slow-down-frozen-car/516/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/slow-down-frozen-car/516/1</link>
+        <pubDate>Thu, 21 Nov 2019 19:44:52 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-516-1</guid>
+        <source url="https://www.gbgconnect.com/t/slow-down-frozen-car/516.rss">Slow Down Frozen Car</source>
+      </item>
+  </channel>
+</rss>

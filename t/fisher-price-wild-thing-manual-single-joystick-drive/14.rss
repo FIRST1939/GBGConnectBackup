@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Fisher Price Wild Thing Manual - Single Joystick Drive</title>
+    <link>https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14</link>
+    <description>Here is a link to an Instructables manual about how to turn the Fisher Price Wild Thing into a single joystick drive vehicle. FIRST Robotics Team 1939 wrote the manual and has all the necessary files linked in the manual. This modification was a higher level of difficulty, so CAD files for the joystick mount as well as all the code that was written are linked on the manual as well as our team website [here](http://www.frcteam1939.com/gobabygo/).
+
+[LINK TO INSTRUCTABLES MANUAL](http://www.instructables.com/id/Wild-Thing-Modification/)![WildThingManual|405x500](/uploads/gbgconnect/original/1X/1b120e5b9f64f26e0ac8ff3a1b93ed9090fabdf6.jpg)</description>
+    
+    <lastBuildDate>Fri, 07 Jun 2019 12:27:32 +0000</lastBuildDate>
+    <category>Manuals and Guides</category>
+    <atom:link href="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Fisher Price Wild Thing Manual - Single Joystick Drive</title>
+        <dc:creator><![CDATA[jkauppil]]></dc:creator>
+        <description><![CDATA[
+            <p>Here is an alternative to a sensor kill switch.<br>
+</p><aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/gp/product/B0762HH45G/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:437/400;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b269a295523b2a6c1e92bd63619abfc8bce1c3c7.jpeg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/gp/product/B0762HH45G/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">DC 4V 5V 6V 7.4V 9V 12V Wireless Relay Remote Control One Key Switch Receiver +...</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+This setup acts like a dead man’s switch, the remote must be engaged for the car to run. I like it because an responsible person can ensure safety of the driver<p></p>
+          <p><a href="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14/4</link>
+        <pubDate>Fri, 07 Jun 2019 12:27:32 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-14-4</guid>
+        <source url="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14.rss">Fisher Price Wild Thing Manual - Single Joystick Drive</source>
+      </item>
+      <item>
+        <title>Fisher Price Wild Thing Manual - Single Joystick Drive</title>
+        <dc:creator><![CDATA[zuzoom101]]></dc:creator>
+        <description><![CDATA[
+            <p>When we modified the car, the parents and therapists wanted to have a cause and effect system, so that is why we wired the piezo to indicate through the noise that there would be an obstruction ahead.</p>
+<p>I believe you could probably change the code so that when the distance sensor detects an object within X amount of feet, it cuts power to the motors, thus stopping the car.</p>
+          <p><a href="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14/3</link>
+        <pubDate>Mon, 13 May 2019 17:51:45 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-14-3</guid>
+        <source url="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14.rss">Fisher Price Wild Thing Manual - Single Joystick Drive</source>
+      </item>
+      <item>
+        <title>Fisher Price Wild Thing Manual - Single Joystick Drive</title>
+        <dc:creator><![CDATA[Uskobus]]></dc:creator>
+        <description><![CDATA[
+            <p>Has anyone suggested connecting the distance sensor to a kill switch instead of the sound device?  could I just replace the sound device with a kill switch?</p>
+          <p><a href="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14/2</link>
+        <pubDate>Fri, 03 May 2019 05:50:50 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-14-2</guid>
+        <source url="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14.rss">Fisher Price Wild Thing Manual - Single Joystick Drive</source>
+      </item>
+      <item>
+        <title>Fisher Price Wild Thing Manual - Single Joystick Drive</title>
+        <dc:creator><![CDATA[gavin.wood]]></dc:creator>
+        <description><![CDATA[
+            <p>Here is a link to an Instructables manual about how to turn the Fisher Price Wild Thing into a single joystick drive vehicle. FIRST Robotics Team 1939 wrote the manual and has all the necessary files linked in the manual. This modification was a higher level of difficulty, so CAD files for the joystick mount as well as all the code that was written are linked on the manual as well as our team website <a href="http://www.frcteam1939.com/gobabygo/" rel="nofollow noopener">here</a>.</p>
+<p><a href="http://www.instructables.com/id/Wild-Thing-Modification/" rel="nofollow noopener">LINK TO INSTRUCTABLES MANUAL</a></p><div class="lightbox-wrapper"><a class="lightbox" href="https://www.gbgconnect.com/uploads/gbgconnect/original/1X/1b120e5b9f64f26e0ac8ff3a1b93ed9090fabdf6.jpg" title="WildThingManual.jpg"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1b120e5b9f64f26e0ac8ff3a1b93ed9090fabdf6_2_405x500.jpg" alt="WildThingManual" width="405" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1b120e5b9f64f26e0ac8ff3a1b93ed9090fabdf6_2_405x500.jpg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1b120e5b9f64f26e0ac8ff3a1b93ed9090fabdf6_2_607x750.jpg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1b120e5b9f64f26e0ac8ff3a1b93ed9090fabdf6_2_810x1000.jpg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1b120e5b9f64f26e0ac8ff3a1b93ed9090fabdf6_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14/1</link>
+        <pubDate>Wed, 09 Aug 2017 05:12:59 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-14-1</guid>
+        <source url="https://www.gbgconnect.com/t/fisher-price-wild-thing-manual-single-joystick-drive/14.rss">Fisher Price Wild Thing Manual - Single Joystick Drive</source>
+      </item>
+  </channel>
+</rss>

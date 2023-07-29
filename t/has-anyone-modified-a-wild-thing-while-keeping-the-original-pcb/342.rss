@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+    <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342</link>
+    <description>We&#39;ve been working with a wild thing car and trying to find a simple/cheap way to modify one of these cars when I found this website: 
+https://bobparadiso.com/2018/03/16/reverse-engineered-wild-thing/ 
+
+Has anyone attempted something similar to this? I&#39;ve seen some of the builds done by the KC FRC, but cost/procurement time for compatible motor controllers is an issue right now.
+
+If I read his blog properly, it should be simple enough to map the outputs of an Arduino to match the voltages he recorded as going through each wire- and use my own joystick as an input to the controller but I feel like I&#39;m oversimplifying things.
+
+Any thoughts or help is greatly appreciated!</description>
+    
+    <lastBuildDate>Fri, 01 Nov 2019 16:44:05 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[jkauppil]]></dc:creator>
+        <description><![CDATA[
+            <p>this looks quite doable. I will need the code to drive the arduno…are you able to share that as well.<br>
+Thanks in advance</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/12</link>
+        <pubDate>Fri, 01 Nov 2019 16:44:05 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-12</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[earlywheels]]></dc:creator>
+        <description><![CDATA[
+            <p>Here are some PDF’s for the wild thing and mother box.  I did not include specifics on mounting a seat, but will if need be. Let me know what you all think…</p>
+<p><a class="attachment" href="https://www.gbgconnect.com/uploads/short-url/uhk74y2fTyEYpBQv0Ja0b01snrx.pdf">mother box ppt.pdf</a> (1.4 MB) <a class="attachment" href="https://www.gbgconnect.com/uploads/short-url/qa48P5JYJFZPWLYHfGuJ1SvzVNY.pdf">mod charging cable.pdf</a> (1.6 MB) <a class="attachment" href="https://www.gbgconnect.com/uploads/short-url/xuBq1GcBKNvjAWFkuI50T9TK6iM.pdf">Wild thing body mod.pdf</a> (902.0 KB)</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/11</link>
+        <pubDate>Wed, 21 Aug 2019 09:46:19 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-11</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[wheeldawg]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://www.gbgconnect.com/u/earlywheels">@earlywheels</a>, Can you also forward me the powerpoint?</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/10</link>
+        <pubDate>Wed, 21 Aug 2019 04:28:34 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-10</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[joe_k]]></dc:creator>
+        <description><![CDATA[
+            <p>We thought about just breaking out the wires from the seat safety switch and speed selector but haven’t done it yet…replacing them with an on/off and a potentiometer. Not quite sure if it will work like that or not.</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/9</link>
+        <pubDate>Thu, 25 Jul 2019 15:09:18 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-9</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[joe_k]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://www.gbgconnect.com/u/earlywheels">@earlywheels</a> could I also have the powerpoint? You can also save powerpoint as PDF or jpeg if the upload accepts those.</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/8</link>
+        <pubDate>Thu, 25 Jul 2019 15:06:48 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-8</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[jacgallo]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi<br>
+You can email them to me and/or post on GBG Connect - whatever’s easy</p>
+<p>best, C</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/7</link>
+        <pubDate>Wed, 03 Jul 2019 15:06:01 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-7</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[earlywheels]]></dc:creator>
+        <description><![CDATA[
+            <p>HI Cole- I have them as a power point, but will need to convert them to a different type of file to upload them. Email me with a good address, and I will try to get them to you.</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/6</link>
+        <pubDate>Wed, 03 Jul 2019 01:50:18 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-6</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[jacgallo]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey! Love this! Do you have any instructions/hardware list that we can post?<br>
+best, Cole</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/5</link>
+        <pubDate>Tue, 25 Jun 2019 18:15:46 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-5</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[earlywheels]]></dc:creator>
+        <description><![CDATA[
+            <p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/2f2fb737d90852134ea25c0e13f727efbeb326f6.jpeg" title="IMG_1292.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2f2fb737d90852134ea25c0e13f727efbeb326f6_2_375x500.jpeg" alt="IMG_1292" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2f2fb737d90852134ea25c0e13f727efbeb326f6_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2f2fb737d90852134ea25c0e13f727efbeb326f6_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2f2fb737d90852134ea25c0e13f727efbeb326f6_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2f2fb737d90852134ea25c0e13f727efbeb326f6_2_10x10.png"></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/f09aaedb82fff8d27628ecdcc24b7943a43bf83a.jpeg" title="IMG_1300.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f09aaedb82fff8d27628ecdcc24b7943a43bf83a_2_375x500.jpeg" alt="IMG_1300" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f09aaedb82fff8d27628ecdcc24b7943a43bf83a_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f09aaedb82fff8d27628ecdcc24b7943a43bf83a_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f09aaedb82fff8d27628ecdcc24b7943a43bf83a_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f09aaedb82fff8d27628ecdcc24b7943a43bf83a_2_10x10.png"></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/3f4ba80a7b0eb454f850be42bc3a62a140baf8d3.jpeg" title="IMG_1303.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3f4ba80a7b0eb454f850be42bc3a62a140baf8d3_2_375x500.jpeg" alt="IMG_1303" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3f4ba80a7b0eb454f850be42bc3a62a140baf8d3_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3f4ba80a7b0eb454f850be42bc3a62a140baf8d3_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3f4ba80a7b0eb454f850be42bc3a62a140baf8d3_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3f4ba80a7b0eb454f850be42bc3a62a140baf8d3_2_10x10.png"></a></div><p></p>
+<p>I would love to modify the original PCB, but have ended up making a “mother box” (as Pete would call it), as there are a couple of wiring concerns that the wild thing has- there is no real on/off switch and then to charge it, you have to get in under the seat.  I also use a couple of different bases (upriders, wild things, and dareways) to place my seats on. So instead of trying to hack all the electronics in the different vehicles, I make one box that has a charging port, on/off switch, 4 jacks (to control direction) and a pot to control the speed. (has an arduino and motor driver in there as well) Then all I have to do is hook it directly to the motors and battery, and I am done. Then I can mount the seat, and not ever have to move it. I mount the box on the back of the seat so parents can easily access to charge the chair and turn it on/off.</p>
+<p>Lately I have had a bunch of kids needing more supportive seating, and progression of mobility from single switch to joystick. The box allows me to add/take away directions as needed (by plugging in the jacks) until the kid can successfully drive their car with the joystick. While they are using the single switch, the parent can have control of the other directions with the joystick (simple arcade joystick). While I could spend the $400 for a sweet firefly seat, I have started using booster seats (both car and feeding type) as well as high chair seats. (under $50 in most cases) Most are at least 20" tall in the back, and I LOVE the little abductor pummel to help keep my kids in with tone. The feeding booster seats and high chairs all have trays, which makes it easy to mount a joystick, versus having to engineer something.</p>
+<p>For those of you modifying wild things or other other cars with joysticks, can you please post some pictures and share other ideas?  I hope to have a build day, and would love other people’s ideas on how to improve the process of modifying.</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/4</link>
+        <pubDate>Sun, 10 Mar 2019 14:18:53 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-4</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Got excited … then saw the $600 price tag :’(</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/3</link>
+        <pubDate>Tue, 26 Feb 2019 19:53:50 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-3</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[JSedlak]]></dc:creator>
+        <description><![CDATA[
+            <p>The Let’em Play Wild Thing Adapter plugs into the original Fisher Price PCB and enables switches and/or a joystick to operate the Wild Thing.</p>
+<p>The adapter converts switch closures from Buddy Buttons, Egg Switches, or any switch, to Wild Thing drive signals. It also converts the <em>Speed</em> and <em>Direction</em> signals from a joystick plugged into its 9-pin D-sub connector to movement commands for the Wild Thing.</p>
+<p>The Wild Thing Adapter was designed to work with 12 volt joysticks used with power wheelchairs, but it will accept any “voltage divider” joystick with separate forward/reverse and left/right voltage signals.</p>
+<p>Wild Thing Adapter page at Let Em Play:<br>
+<a href="https://letemplay.com/index.php/wild-thing-adapter/" rel="nofollow noopener">https://letemplay.com/index.php/wild-thing-adapter/</a><br>
+In addition to my profile here, you can reach me at jeremy(at)<a href="http://letemplay.com" rel="nofollow noopener">letemplay.com</a></p>
+<p>-Jeremy Sedlak</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/2</link>
+        <pubDate>Mon, 25 Feb 2019 22:04:46 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-2</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+      <item>
+        <title>Has anyone modified a Wild Thing while keeping the original PCB?</title>
+        <dc:creator><![CDATA[Luke_Yak]]></dc:creator>
+        <description><![CDATA[
+            <p>We’ve been working with a wild thing car and trying to find a simple/cheap way to modify one of these cars when I found this website:<br>
+</p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/87a2a571ab7ed18c61d4ad90031fb08b1b815dca.png" class="site-icon" width="32" height="32">
+      <a href="https://bobparadiso.com/2018/03/16/reverse-engineered-wild-thing/" target="_blank" title="01:34PM - 16 March 2018" rel="nofollow noopener">Bob's Electronics Projects – 16 Mar 18</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:600/450;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/e632955a06b3b98b8f9ff26f12daca3ec33bcc15.jpeg" class="thumbnail"></div>
+
+<h3><a href="https://bobparadiso.com/2018/03/16/reverse-engineered-wild-thing/" target="_blank" rel="nofollow noopener">Reverse Engineered Wild Thing</a></h3>
+
+<p>UPDATE: you can see the latest version of our Wild Thing here. I recently came across a Wild Thing Modification by&nbsp;the Barstow School and FRC Team 1939. They did a really amazing job and the end re…</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<p></p>
+<p>Has anyone attempted something similar to this? I’ve seen some of the builds done by the KC FRC, but cost/procurement time for compatible motor controllers is an issue right now.</p>
+<p>If I read his blog properly, it should be simple enough to map the outputs of an Arduino to match the voltages he recorded as going through each wire- and use my own joystick as an input to the controller but I feel like I’m oversimplifying things.</p>
+<p>Any thoughts or help is greatly appreciated!</p>
+          <p><a href="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342/1</link>
+        <pubDate>Thu, 21 Feb 2019 21:59:57 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-342-1</guid>
+        <source url="https://www.gbgconnect.com/t/has-anyone-modified-a-wild-thing-while-keeping-the-original-pcb/342.rss">Has anyone modified a Wild Thing while keeping the original PCB?</source>
+      </item>
+  </channel>
+</rss>

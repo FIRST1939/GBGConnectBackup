@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Reducing Car Speed and Jerking - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="Sometimes we have a car that goes too fast for the child, or starts with a jerk that scares the child. We then install a motor controller and that solves both problems. It was surprising how the controller would slowly a&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="87%3Fpage=2.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Reducing Car Speed and Jerking&#39;" href="87.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/37302d3240ad33e0be141a9dbb3fd1159b96d68a.jpg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/37302d3240ad33e0be141a9dbb3fd1159b96d68a.jpg" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/reducing-car-speed-and-jerking/87?page=2" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/reducing-car-speed-and-jerking/87?page=2" />
+<meta property="og:title" content="Reducing Car Speed and Jerking" />
+<meta name="twitter:title" content="Reducing Car Speed and Jerking" />
+<meta property="og:description" content="OK, the first thing to try is adding a DC motor speed controller to the car’s motor. This is relatively easy. You cut the two wires going to the motor. There are 4 screw connectors on the controller. The two wires still going to the motor go on the “Motor” screws; the other two on the “Input” screws. You have to determine which of the wires supplies positive voltage to the motor and which is ground. Do you have a multimeter available? Then just be sure you put the positive color wires on the two..." />
+<meta name="twitter:description" content="OK, the first thing to try is adding a DC motor speed controller to the car’s motor. This is relatively easy. You cut the two wires going to the motor. There are 4 screw connectors on the controller. The two wires still going to the motor go on the “Motor” screws; the other two on the “Input” screws. You have to determine which of the wires supplies positive voltage to the motor and which is ground. Do you have a multimeter available? Then just be sure you put the positive color wires on the two..." />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="6 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="3 ❤" />
+<meta property="article:published_time" content="2023-01-26T23:06:29+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+        <link rel="prev" href="87.html">
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="87.html">Reducing Car Speed and Jerking</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/technical-discussion/8" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Reducing Car Speed and Jerking'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_21' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-26T23:06:29Z' class='post-time'>
+                    January 26, 2023, 11:06pm
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-26T23:06:29Z'>
+              <span itemprop='position'>21</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>OK, the first thing to try is adding a DC motor speed controller to the car’s motor. This is relatively easy. You cut the two wires going to the motor. There are 4 screw connectors on the controller. The two wires still going to the motor go on the “Motor” screws; the other two on the “Input” screws. You have to determine which of the wires supplies positive voltage to the motor and which is ground. Do you have a multimeter available? Then just be sure you put the positive color wires on the two + screws, and the negative color on the two - screws. Then you adjust the speed of the car with a knob on the controller. This also slows the start-up jerk. The controllers cost about $16 on Amazon. <a href="https://www.amazon.com/s?k=riorand+7-70v+pwm+dc+motor+speed+controller+switch+30a&amp;crid=9L3H42IB277P&amp;sprefix=rioran%2Caps%2C94&amp;ref=nb_sb_ss_ts-doa-p_3_6" rel="noopener nofollow ugc">https://www.amazon.com/s?k=riorand+7-70v+pwm+dc+motor+speed+controller+switch+30a&amp;crid=9L3H42IB277P&amp;sprefix=rioran%2Caps%2C94&amp;ref=nb_sb_ss_ts-doa-p_3_6</a></p>
+<p>Now, is this a 12v car or a 6v car? The link I gave you above will probably work on the 12v car but may not work on a 6v car. Also, these controllers are “one way” – they will allow the car to move forward, but if the car has a “reverse”, don’t out the car in reverse or it may burn something out.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_22' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/SmilerSkyler.html'><span itemprop='name'>SmilerSkyler</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-26T23:27:42Z' class='post-time'>
+                    January 26, 2023, 11:27pm
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-26T23:27:42Z'>
+              <span itemprop='position'>22</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>OK it’s a 6v i dont see anything about Reverse i do see this thing on the floor by the seat 2 white buttons but they dont change anything. like the tires seem to rotate same speed and only in forward in both positions. i do have a multi meter i need some practice with it im sure i can figure it out. thou.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_23' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-27T01:32:11Z' class='post-time'>
+                    January 27, 2023,  1:32am
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-27T01:40:08Z'>
+              <span itemprop='position'>23</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>OK, sounds good. For a 6v car, buy this motor controller:<br>
+<a href="https://www.amazon.com/RioRandTM-Upgraded-6V-90V-Motor-Controller/dp/B00F839VNQ" rel="noopener nofollow ugc">https://www.amazon.com/RioRandTM-Upgraded-6V-90V-Motor-Controller/dp/B00F839VNQ</a></p>
+<p>I have used this kind for several years with pretty good luck.</p>
+<p>Also, on this particular board, the screw connections that don’t go to the motor are usually labeled “Power” instead of “Input”.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_24' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/SmilerSkyler.html'><span itemprop='name'>SmilerSkyler</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/36f56da7160248ff75a4e376a5d6c68fbbfa5693.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-27T12:41:34Z' class='post-time'>
+                    January 27, 2023, 12:41pm
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-27T13:55:48Z'>
+              <span itemprop='position'>24</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>ORDERED ill have it Monday.  this should be pretty straight forward just cut the wires and put this inline. I will take some pictures over the weekend when i take the car apart.<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/36f56da7160248ff75a4e376a5d6c68fbbfa5693.jpeg" data-download-href="/uploads/short-url/7QbBTmNiRAgnZwXv0LDzwC7Riw3.jpeg?dl=1" title="Screen Shot 2023-01-27 at 8.54.19 AM" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/36f56da7160248ff75a4e376a5d6c68fbbfa5693.jpeg" alt="Screen Shot 2023-01-27 at 8.54.19 AM" data-base62-sha1="7QbBTmNiRAgnZwXv0LDzwC7Riw3" width="690" height="498" data-dominant-color="ACB9AD"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screen Shot 2023-01-27 at 8.54.19 AM</span><span class="informations">805×582 50.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>Thank you so much.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_25' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-27T14:25:03Z' class='post-time'>
+                    January 27, 2023,  2:25pm
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-27T14:25:03Z'>
+              <span itemprop='position'>25</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Good. Yes, it is very straight-forward. If you have any questions about checking the polarity of the wires with your multi-meter, let me know and we can shift to step-by-step. That is critical and really the only place someone could make a mistake with this mod.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="2" />
+              </div>
+
+          </div>
+          <div id='post_26' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/SmilerSkyler.html'><span itemprop='name'>SmilerSkyler</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-27T14:39:49Z' class='post-time'>
+                    January 27, 2023,  2:39pm
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-27T14:39:49Z'>
+              <span itemprop='position'>26</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>yes i will need your help with this for sure.</p>
+<p><strong>Michaelangelo Torraco</strong></p>
+<p><strong>QuickTex</strong> Computer Specialists</p>
+<p>23 Melbourne Rd</p>
+<p>Norwalk CT, 06851</p>
+<p>Office: (203) 952.6889</p>
+<p><a href="mailto:MTorraco@QuickTex.com">Email: MTorraco@QuickTex.com</a></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_27' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/SmilerSkyler.html'><span itemprop='name'>SmilerSkyler</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-28T22:27:40Z' class='post-time'>
+                    January 28, 2023, 10:27pm
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-28T22:27:40Z'>
+              <span itemprop='position'>27</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>so just wondering where should i start to take the car apart from the top or the bottom? I think i might have to take all the padding and seat harness off to get to the guts?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_28' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-29T00:58:32Z' class='post-time'>
+                    January 29, 2023, 12:58am
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-29T00:58:32Z'>
+              <span itemprop='position'>28</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Yes, I agree with you. Usually if the manufacturer puts a removable seat in the car, removing that gives access to wiring and a place to mount the motor controller. Based on the picture you sent, I do not recall working on that exact car, although similar ones were easier to work from the top. One other thing you might discover that way is that it actually has two motors. In which case my approach has been to install two motor controllers, one on each motor. You can sometimes make do with one, but I like two better.</p>
+<p>One other thing I wanted to ask based on what I saw in the picture – are you located in Connecticut? Or did you get ideas for your car from someone there?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_29' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/SmilerSkyler.html'><span itemprop='name'>SmilerSkyler</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="87.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2023-01-29T03:19:13Z' class='post-time'>
+                    January 29, 2023,  3:19am
+                  </time>
+                  <meta itemprop='dateModified' content='2023-01-29T03:19:13Z'>
+              <span itemprop='position'>29</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Im in CT go baby go did the car for us.</p>
+<p><strong>Michaelangelo Torraco</strong></p>
+<p><strong>QuickTex</strong> Computer Specialists</p>
+<p>23 Melbourne Rd</p>
+<p>Norwalk CT, 06851</p>
+<p>Office: (203) 952.6889</p>
+<p><a href="mailto:MTorraco@QuickTex.com">Email: MTorraco@QuickTex.com</a></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+    </div>
+
+    <div role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement' class="topic-body crawler-post">
+        <span itemprop='name'><a rel="prev" itemprop="url" href="87.html">← previous page</a></span>
+    </div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

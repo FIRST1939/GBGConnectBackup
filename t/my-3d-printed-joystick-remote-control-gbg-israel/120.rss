@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>My 3d printed joystick remote control (GbG israel)</title>
+    <link>https://www.gbgconnect.com/t/my-3d-printed-joystick-remote-control-gbg-israel/120</link>
+    <description>
+![a46a1e612d436ef04212147b62969de2_preview_featured|628x472](upload://qbaWDwk9zoGJnOnMPjiJxQ1n25T.jpg)
+
+Hey guys. I have designed and built a joy stick remote that can be easy to user for some the kids.
+Its based on simple modification of the remote control that comes with the cars plus.
+some 3D plastic and one joystick (7$-9$) off ebay. 
+
+the design is free here is a link to files.
+https://www.thingiverse.com/thing:2665574
+
+I haven&#39;t taken photos of the remote control modification but soon i will.
+For now any one interested just contact me and i will help you though it, its a simple soldering of 5 (left, right, up, down, gnd) wires to connect the remote to the joystick. 
+
+Its the first version ,i am currently working on the second. i would love any comments or tips.
+
+How to modify a remote control to be a joystick:
+1) Open the remote plastic and take out the electric board.
+![IMG20180117192336|374x500](upload://Y7Fv1lw2zriMfAYy3M8kf6Y16f.jpg)
+
+2) Flip open the circuit - use something sharp (like a screw) to scrap the plastic so you can solider wires instead of the buttons.
+![IMG20180117194629|374x500](upload://4acmtIrT68bnejOQm1OEFN9sE4F.jpg)
+
+Please if you have any problem identifing where you should expose the circuit (because you have some other kind of remote) just message me and i will try to help .
+
+3) expose the GND (negative part)
+
+4) solder the wires on to the exposed circuit.
+&lt;PICTURE WILL COME SOON&gt;
+
+5) connect to joystick.
+   * LEFT ,RIGHT ,UP ,DOWN button wires to the 
+     microswitchs positives pins.
+   * Connect the GND wire to all negatives pins of 
+     the microswitchs
+     (if you have a joystick with only one GND pin 
+     then just connect it to it)
+    &lt;PICTURE WILL COME SOON&gt;</description>
+    
+    <lastBuildDate>Mon, 15 Jan 2018 06:12:24 +0000</lastBuildDate>
+    <category>Build Showcase</category>
+    <atom:link href="https://www.gbgconnect.com/t/my-3d-printed-joystick-remote-control-gbg-israel/120.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>My 3d printed joystick remote control (GbG israel)</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>nice one <img src="https://discourse-cdn-sjc1.com/standard6/images/emoji/google/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+          <p><a href="https://www.gbgconnect.com/t/my-3d-printed-joystick-remote-control-gbg-israel/120/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/my-3d-printed-joystick-remote-control-gbg-israel/120/2</link>
+        <pubDate>Mon, 15 Jan 2018 06:12:24 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-120-2</guid>
+        <source url="https://www.gbgconnect.com/t/my-3d-printed-joystick-remote-control-gbg-israel/120.rss">My 3d printed joystick remote control (GbG israel)</source>
+      </item>
+      <item>
+        <title>My 3d printed joystick remote control (GbG israel)</title>
+        <dc:creator><![CDATA[mikey]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b77bf40a046ed42e638df593a033b709ec711f0d.jpg" alt="a46a1e612d436ef04212147b62969de2_preview_featured" width="628" height="472"></p>
+<p>Hey guys. I have designed and built a joy stick remote that can be easy to user for some the kids.<br>
+Its based on simple modification of the remote control that comes with the cars plus.<br>
+some 3D plastic and one joystick (7$-9$) off ebay.</p>
+<p>the design is free here is a link to files.<br>
+</p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img src="https://cdn.thingiverse.com/site/img/favicons/favicon-192x192.png" class="site-icon" width="192" height="192">
+      <a href="https://www.thingiverse.com/thing:2665574" target="_blank" rel="nofollow noopener">thingiverse.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:628/472;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b77bf40a046ed42e638df593a033b709ec711f0d.jpg" class="thumbnail"></div>
+
+<h3><a href="https://www.thingiverse.com/thing:2665574" target="_blank" rel="nofollow noopener">Joystick remote control (GoBabyGo israel) by houdini</a></h3>
+
+<p>A remote control for disabled kids easy control of car.
+built for GoBabyGo israel.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<p></p>
+<p>I haven’t taken photos of the remote control modification but soon i will.<br>
+For now any one interested just contact me and i will help you though it, its a simple soldering of 5 (left, right, up, down, gnd) wires to connect the remote to the joystick.</p>
+<p>Its the first version ,i am currently working on the second. i would love any comments or tips.</p>
+<p>How to modify a remote control to be a joystick:</p>
+<ol>
+<li>
+<p>Open the remote plastic and take out the electric board.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/06cbe0858374a5d88e6181f685b1ec202b30f027.jpg" title="IMG20180117192336.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/06cbe0858374a5d88e6181f685b1ec202b30f027_2_374x500.jpg" alt="IMG20180117192336" width="374" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/06cbe0858374a5d88e6181f685b1ec202b30f027_2_374x500.jpg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/06cbe0858374a5d88e6181f685b1ec202b30f027_2_561x750.jpg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/06cbe0858374a5d88e6181f685b1ec202b30f027_2_748x1000.jpg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/06cbe0858374a5d88e6181f685b1ec202b30f027_2_10x10.png"></a></div><p></p>
+</li>
+<li>
+<p>Flip open the circuit - use something sharp (like a screw) to scrap the plastic so you can solider wires instead of the buttons.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/1d2fd95584393ebd43060aaaad7d41375681e191.jpg" title="IMG20180117194629.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1d2fd95584393ebd43060aaaad7d41375681e191_2_374x500.jpg" alt="IMG20180117194629" width="374" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1d2fd95584393ebd43060aaaad7d41375681e191_2_374x500.jpg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1d2fd95584393ebd43060aaaad7d41375681e191_2_561x750.jpg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1d2fd95584393ebd43060aaaad7d41375681e191_2_748x1000.jpg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/1d2fd95584393ebd43060aaaad7d41375681e191_2_10x10.png"></a></div><p></p>
+</li>
+</ol>
+<p>Please if you have any problem identifing where you should expose the circuit (because you have some other kind of remote) just message me and i will try to help .</p>
+<ol start="3">
+<li>
+<p>expose the GND (negative part)</p>
+</li>
+<li>
+<p>solder the wires on to the exposed circuit.<br>
+</p>
+</li>
+<li>
+<p>connect to joystick.</p>
+<ul>
+<li>LEFT ,RIGHT ,UP ,DOWN button wires to the<br>
+microswitchs positives pins.</li>
+<li>Connect the GND wire to all negatives pins of<br>
+the microswitchs<br>
+(if you have a joystick with only one GND pin<br>
+then just connect it to it)<br>
+</li>
+</ul>
+</li>
+</ol>
+          <p><a href="https://www.gbgconnect.com/t/my-3d-printed-joystick-remote-control-gbg-israel/120/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/my-3d-printed-joystick-remote-control-gbg-israel/120/1</link>
+        <pubDate>Sat, 13 Jan 2018 21:44:14 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-120-1</guid>
+        <source url="https://www.gbgconnect.com/t/my-3d-printed-joystick-remote-control-gbg-israel/120.rss">My 3d printed joystick remote control (GbG israel)</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Peg Perego rzr900 steering</title>
+    <link>https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668</link>
+    <description>My STEM class is currently working on a Razor 900 for a young man with cerebral palsy. He has mobility on his left side. We are creating a joystick control due to the difficulty on turning even a modified steering wheel. We have built several devices from Wild Things already, but this will be our first device with Servo Steering. My class has researched two other builds that involved steering, 
+https://bobparadiso.com/2015/10/21/go-baby-go-with-buttons-for-steering/
+https://www.instructables.com/Go-Baby-Go-Gracie/
+We wanted to see if anyone here had any other suggestions. We are fine with the coding and electronics, just looking for a  way to make a durable steering setup. Does anyone have any tips before we get started on this last part of this build?
+Thank you!
+
+Matt Nauman
+
+This is our steering setup on the polaris. 
+![IMG_7809|666x500](upload://uZOaIuS1GKcCL9qHht79ZbnBArm.jpeg)</description>
+    
+    <lastBuildDate>Mon, 05 Jul 2021 20:12:47 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Peg Perego rzr900 steering</title>
+        <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+        <description><![CDATA[
+            <p>Just wanted to share the direction we went with this vehicle in case anyone was modifying a similar one. The steering was accomplished using a linear actuator. Little note, most 12 volt actuators travel at 10mm per second. This makes for a very slow turn rate. My kids at school originally chose this actuator in order to control quick turns that may result in a rollover. We were not happy with the 4 seconds it took to turn from one side to the other, so we changed it out for one that turns 50mm per second.  <a href="https://www.amazon.com/dp/B01N1KQLWS/?coliid=I39MFZLWILO8HD&amp;colid=2YAXKBZU0M3EB&amp;psc=1&amp;ref_=lv_ov_lig_dp_it" rel="noopener nofollow ugc">https://www.amazon.com/dp/B01N1KQLWS/?coliid=I39MFZLWILO8HD&amp;colid=2YAXKBZU0M3EB&amp;psc=1&amp;ref_=lv_ov_lig_dp_it</a></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/d7f67da57544d75971b5ef718694047f00b7527a.jpeg" data-download-href="/uploads/short-url/uOuL8rSQz1FpghPxcHnzctL44jw.jpeg?dl=1" title="IMG_8343" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d7f67da57544d75971b5ef718694047f00b7527a_2_666x500.jpeg" alt="IMG_8343" data-base62-sha1="uOuL8rSQz1FpghPxcHnzctL44jw" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d7f67da57544d75971b5ef718694047f00b7527a_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d7f67da57544d75971b5ef718694047f00b7527a_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d7f67da57544d75971b5ef718694047f00b7527a_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d7f67da57544d75971b5ef718694047f00b7527a_2_10x10.png"></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/80fb70b63fb5c934f14b043e8ed8dae7b9394d2d.jpeg" data-download-href="/uploads/short-url/ip1P7vJjzGDkmr87KFrMBheYhZ3.jpeg?dl=1" title="IMG_8347" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/80fb70b63fb5c934f14b043e8ed8dae7b9394d2d_2_666x500.jpeg" alt="IMG_8347" data-base62-sha1="ip1P7vJjzGDkmr87KFrMBheYhZ3" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/80fb70b63fb5c934f14b043e8ed8dae7b9394d2d_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/80fb70b63fb5c934f14b043e8ed8dae7b9394d2d_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/80fb70b63fb5c934f14b043e8ed8dae7b9394d2d_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/80fb70b63fb5c934f14b043e8ed8dae7b9394d2d_2_10x10.png"></a></div><p></p>
+<p>We used Spark motor controllers to power the drive wheels and the actuator. We have used FRC team 1939’s write ups in the past, so we duplicated their wiring diagram and code. The only changes we made were to change pins since we used an Uno instead of a pro Trinket, and we disconnected the speed- potentiometer variable from the mapped speeds for the actuator. We did not want steering to slow down when the drive speed was adjusted.</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://www.frcteam1939.com/go-baby-go">
+  <header class="source">
+      <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/6506f5c7c6be34ac07e1532cdfe19edebf12c0af.png" class="site-icon" width="100" height="107">
+
+      <a href="https://www.frcteam1939.com/go-baby-go" target="_blank" rel="noopener nofollow ugc">First Team 1939</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:291/328;"><img src="http://static1.squarespace.com/static/54adb69fe4b006fcaaba42d5/t/5695927ac647ad2ec252a520/1452642943625/Screenshot+%2820%29.png?format=1500w" class="thumbnail" width="291" height="328"></div>
+
+<h3><a href="https://www.frcteam1939.com/go-baby-go" target="_blank" rel="noopener nofollow ugc">GoBabyGo! — First Team 1939</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+<p>
+The seat was made from plywood with vinyl covered padding. The 4 point seatbelt is just a cheap one designed for dune buggies. The joystick housing and cord wrap were designed by my fifth graders in fusion. The dash was cut out of the vehicle and the steering wheel was removed. This allows more leg room for Wyatt as he grows.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/eecf541e71430b8884943eb1c183abe27463005a.jpeg" data-download-href="/uploads/short-url/y4BPV2WgeMwJS9kxWBr2aEe3V4S.jpeg?dl=1" title="IMG_8391" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/eecf541e71430b8884943eb1c183abe27463005a_2_375x500.jpeg" alt="IMG_8391" data-base62-sha1="y4BPV2WgeMwJS9kxWBr2aEe3V4S" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/eecf541e71430b8884943eb1c183abe27463005a_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/eecf541e71430b8884943eb1c183abe27463005a_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/eecf541e71430b8884943eb1c183abe27463005a_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/eecf541e71430b8884943eb1c183abe27463005a_2_10x10.png"></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/ec2828abeaa16396dc016f0f882bf867b69ae3c7.jpeg" data-download-href="/uploads/short-url/xH8IPgJHNxzhUt1GibqGfAZXL3p.jpeg?dl=1" title="IMG_8398" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ec2828abeaa16396dc016f0f882bf867b69ae3c7_2_375x500.jpeg" alt="IMG_8398" data-base62-sha1="xH8IPgJHNxzhUt1GibqGfAZXL3p" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ec2828abeaa16396dc016f0f882bf867b69ae3c7_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ec2828abeaa16396dc016f0f882bf867b69ae3c7_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ec2828abeaa16396dc016f0f882bf867b69ae3c7_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ec2828abeaa16396dc016f0f882bf867b69ae3c7_2_10x10.png"></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/592c27d237ed26fb694bcd1aed15da3155dfdaea.jpeg" data-download-href="/uploads/short-url/cIR63zgqPKDGx2YMuQlt5isgyUi.jpeg?dl=1" title="IMG_8404" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/592c27d237ed26fb694bcd1aed15da3155dfdaea_2_375x500.jpeg" alt="IMG_8404" data-base62-sha1="cIR63zgqPKDGx2YMuQlt5isgyUi" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/592c27d237ed26fb694bcd1aed15da3155dfdaea_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/592c27d237ed26fb694bcd1aed15da3155dfdaea_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/592c27d237ed26fb694bcd1aed15da3155dfdaea_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/592c27d237ed26fb694bcd1aed15da3155dfdaea_2_10x10.png"></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/fda8650e541734f6e3b921a52c4c9285e786b0ed.jpeg" data-download-href="/uploads/short-url/AbXAdk58Qkx0WiISVb0nCcte7F3.jpeg?dl=1" title="IMG_8406" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/fda8650e541734f6e3b921a52c4c9285e786b0ed_2_375x500.jpeg" alt="IMG_8406" data-base62-sha1="AbXAdk58Qkx0WiISVb0nCcte7F3" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/fda8650e541734f6e3b921a52c4c9285e786b0ed_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/fda8650e541734f6e3b921a52c4c9285e786b0ed_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/fda8650e541734f6e3b921a52c4c9285e786b0ed_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/fda8650e541734f6e3b921a52c4c9285e786b0ed_2_10x10.png"></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/74bc34abeafcb23e28c2d60297a8d25b32149c00.jpeg" data-download-href="/uploads/short-url/gEGCa5zu4zPn15QhOQdOt9a4PLO.jpeg?dl=1" title="IMG_8429" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74bc34abeafcb23e28c2d60297a8d25b32149c00_2_375x500.jpeg" alt="IMG_8429" data-base62-sha1="gEGCa5zu4zPn15QhOQdOt9a4PLO" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74bc34abeafcb23e28c2d60297a8d25b32149c00_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74bc34abeafcb23e28c2d60297a8d25b32149c00_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74bc34abeafcb23e28c2d60297a8d25b32149c00_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74bc34abeafcb23e28c2d60297a8d25b32149c00_2_10x10.png"></a></div><p></p>
+<p>This will be used exclusively outside, but stored in a garage, so the joystick box, and the electronics were sealed.<br>
+We also added head lights and taillights to make it a little more visible.</p>
+          <p><a href="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/5</link>
+        <pubDate>Mon, 05 Jul 2021 20:12:47 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-668-5</guid>
+        <source url="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668.rss">Peg Perego rzr900 steering</source>
+      </item>
+      <item>
+        <title>Peg Perego rzr900 steering</title>
+        <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+        <description><![CDATA[
+            <p>One of the fathers of my students builds custom cars and had made the suggestion that we use a 12 volt linear actuator. We only need about 3 inches of travel from side to side.</p>
+          <p><a href="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/4</link>
+        <pubDate>Fri, 14 May 2021 15:56:59 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-668-4</guid>
+        <source url="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668.rss">Peg Perego rzr900 steering</source>
+      </item>
+      <item>
+        <title>Peg Perego rzr900 steering</title>
+        <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+        <description><![CDATA[
+            <p>We’ve usually used Wild Things for our builds. This vehicle is strictly going to be for outside use, and I am looking for Servo steering setup ideas to incorporate into a larger vehicle like the RZR 900. My build team did look at several examples online that incorporated front casters, but we were worried about how they would perform on the rough terrain. As of right now, they have drawn up some preliminary plans for either: 1. leaving the steering shaft in place and using a motor driven chain drive with stop switches to control the turn, or 2. using a high torque servo to mount to the steering control bar underneath the vehicle. We took apart and inspected the gearbox used on the newer remote operated ride on vehicles as well. Just seeing if anyone had any other ideas we hadn’t thought of.</p>
+          <p><a href="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/3</link>
+        <pubDate>Fri, 14 May 2021 15:52:42 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-668-3</guid>
+        <source url="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668.rss">Peg Perego rzr900 steering</source>
+      </item>
+      <item>
+        <title>Peg Perego rzr900 steering</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>If we want to use motors for steering, we usually lean towards the midwheel drive type (eg Wild Thing). But we’ve done rear wheel drive Jeeps before too. We add 360 pivoting casters at front, that add just enough height to raise OEM front wheels off ground. Then usually find some inner tubes similar in size to OEM rear wheels … split them &amp; stretch onto/over the OEM rear wheels to add extra traction. Is that kinda what you were asking?</p>
+          <p><a href="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/2</link>
+        <pubDate>Thu, 13 May 2021 22:49:10 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-668-2</guid>
+        <source url="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668.rss">Peg Perego rzr900 steering</source>
+      </item>
+      <item>
+        <title>Peg Perego rzr900 steering</title>
+        <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+        <description><![CDATA[
+            <p>My STEM class is currently working on a Razor 900 for a young man with cerebral palsy. He has mobility on his left side. We are creating a joystick control due to the difficulty on turning even a modified steering wheel. We have built several devices from Wild Things already, but this will be our first device with Servo Steering. My class has researched two other builds that involved steering,</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img src="https://s1.wp.com/i/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://bobparadiso.com/2015/10/21/go-baby-go-with-buttons-for-steering/" target="_blank" rel="noopener nofollow ugc" title="06:52PM - 21 October 2015">Bob's Projects – 21 Oct 15</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:440/330;"><img src="https://bobparadiso.files.wordpress.com/2015/10/img_20151021_074422.jpg?w=1200&amp;fit=440%2C330" class="thumbnail" width="440" height="330"></div>
+
+<h3><a href="https://bobparadiso.com/2015/10/21/go-baby-go-with-buttons-for-steering/" target="_blank" rel="noopener nofollow ugc">Go Baby Go with Buttons for Steering</a></h3>
+
+<p>Go Baby Go is an awesome idea from University of Delaware for using a Power Wheels car as an affordable base off of which to build a fun mobility device for a young child. The next 2 links explain …</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img src="https://www.instructables.com/assets/img/siteassets/favicon.ico" class="site-icon" width="" height="">
+      <a href="https://www.instructables.com/Go-Baby-Go-Gracie/" target="_blank" rel="noopener nofollow ugc">Instructables</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:416/500;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_416x500.jpeg" class="thumbnail" width="416" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_416x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_624x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_832x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_10x10.png"></div>
+
+<h3><a href="https://www.instructables.com/Go-Baby-Go-Gracie/" target="_blank" rel="noopener nofollow ugc">Go Baby Go: Gracie</a></h3>
+
+<p>Go Baby Go: Gracie:      Go Baby Go! is an initiative started to provide opportunities for early, independent mobility, socialization and overall skill development for children with mobility limitations.According to the Go Baby Go Initiative, Go Baby...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<p>
+We wanted to see if anyone here had any other suggestions. We are fine with the coding and electronics, just looking for a  way to make a durable steering setup. Does anyone have any tips before we get started on this last part of this build?<br>
+Thank you!</p>
+<p>Matt Nauman</p>
+<p>This is our steering setup on the polaris.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8.jpeg" data-download-href="/uploads/short-url/uZOaIuS1GKcCL9qHht79ZbnBArm.jpeg?dl=1" title="IMG_7809" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_666x500.jpeg" alt="IMG_7809" data-base62-sha1="uZOaIuS1GKcCL9qHht79ZbnBArm" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668/1</link>
+        <pubDate>Mon, 10 May 2021 19:37:35 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-668-1</guid>
+        <source url="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668.rss">Peg Perego rzr900 steering</source>
+      </item>
+  </channel>
+</rss>

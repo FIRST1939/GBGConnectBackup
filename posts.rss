@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>GoBabyGo Connect - Latest posts</title>
+    <link>https://www.gbgconnect.com</link>
+    <description>Latest posts</description>
+      <item>
+        <title>Participants Needed: Survey about GBG program practices</title>
+        <dc:creator><![CDATA[@kziegler14 Kelsey Ziegler]]></dc:creator>
+        <description><![CDATA[ <p>Thank you so much for your participation!  I will definitely be sure to share the results!</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/participants-needed-survey-about-gbg-program-practices/802#post_5</link>
+        <pubDate>Sat, 08 Jul 2023 01:41:04 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2070</guid>
+      </item>
+      <item>
+        <title>Participants Needed: Survey about GBG program practices</title>
+        <dc:creator><![CDATA[@Dr_Mama_Brown Cameron Brown]]></dc:creator>
+        <description><![CDATA[ <p>Oh, and please let us know where we can see the results when you are done - I would love to know what you find!</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/participants-needed-survey-about-gbg-program-practices/802#post_4</link>
+        <pubDate>Wed, 05 Jul 2023 23:23:24 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2069</guid>
+      </item>
+      <item>
+        <title>Participants Needed: Survey about GBG program practices</title>
+        <dc:creator><![CDATA[@Dr_Mama_Brown Cameron Brown]]></dc:creator>
+        <description><![CDATA[ <p>I took the survey as well and it only took me 10-15 minutes</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/participants-needed-survey-about-gbg-program-practices/802#post_3</link>
+        <pubDate>Wed, 05 Jul 2023 23:22:51 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2067</guid>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[@Bill_Janes William E. Janes]]></dc:creator>
+        <description><![CDATA[ <p>Andrew,</p>
+<p>That picture helps a lot! That is indeed a fuse (or more accurately, a circuit breaker). You want to keep that intact.</p>
+<p>If Google is right, you’re in south Florida? There are some great robotics teams and GoBabyGo chapters up in Gainesville and Tampa, but that probably doesn’t help much. They might be able to put you in touch with someone closer. Feel free to email me at janesw@missouri.edu and I’ll try to connect you!</p>
+<p>Bill</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805#post_5</link>
+        <pubDate>Wed, 05 Jul 2023 20:23:01 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2066</guid>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[@Andrewleif Andrew Leif Hanssen]]></dc:creator>
+        <description><![CDATA[ <p>Thanks for your response Bill.</p>
+<p>I don’t know of any team nearby that could help but I should look into that.</p>
+<p>I’ve attached what is on the red box between the wires<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb.jpeg" data-download-href="/uploads/short-url/upMcivhaQjqWE5gq7hn1RkdTgCv.jpeg?dl=1" title="20230702_170650" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb_2_375x500.jpeg" alt="20230702_170650" data-base62-sha1="upMcivhaQjqWE5gq7hn1RkdTgCv" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb_2_750x1000.jpeg 2x" data-dominant-color="6F747C"></a></div><p></p>
+<p>I’ll add the only picture I currently have of the relays in the dashboard. Those black boxes are connected to the “gear stick” that selects hi/low speed and reverse.</p>
+<p>Thank you for the help.</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805#post_4</link>
+        <pubDate>Wed, 05 Jul 2023 20:04:23 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2064</guid>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[@Bill_Janes William E. Janes]]></dc:creator>
+        <description><![CDATA[ <p>Welcome, Andrew!</p>
+<p>I haven’t wired this particular car, so I’m not certain, but a couple of thoughts…</p>
+<p>That box at the end of the red wires in your first picture is probably a fuse. Does it have any markings on it? If it were a relay, it would have more wires running to/from it. I can’t tell from the picture, but the black object directly above that in the picture looks like an automotive relay.</p>
+<p>You definitely want the Big Red wired to a relay. This is helpful in 6v cars, necessary in 12v cars. What you want (both switches operable) is possible, but we don’t have enough information on the wiring to give good advice. Do you have a robotics team nearby you could ask for some hands-on assistance?</p>
+<p>Good Luck!<br>
+Bill</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805#post_3</link>
+        <pubDate>Wed, 05 Jul 2023 13:49:38 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2063</guid>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[@Andrewleif Andrew Leif Hanssen]]></dc:creator>
+        <description><![CDATA[ <p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/64335f64eef205543c4a92906d8d9423b9741407.jpeg" data-download-href="/uploads/short-url/eipOmSWxAA1OnGC3P70vxFzNJt5.jpeg?dl=1" title="20230702_170610" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/64335f64eef205543c4a92906d8d9423b9741407_2_375x500.jpeg" alt="20230702_170610" data-base62-sha1="eipOmSWxAA1OnGC3P70vxFzNJt5" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/64335f64eef205543c4a92906d8d9423b9741407_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/64335f64eef205543c4a92906d8d9423b9741407_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/64335f64eef205543c4a92906d8d9423b9741407_2_750x1000.jpeg 2x" data-dominant-color="367E9D"></a></div><p></p> ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805#post_2</link>
+        <pubDate>Sun, 02 Jul 2023 23:45:05 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2062</guid>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[@Andrewleif Andrew Leif Hanssen]]></dc:creator>
+        <description><![CDATA[ <p>Hi, we just picked up a used Disney Frozen SUV 12v car and a Big Red button but I’m having trouble knowing which wires to cut, splice, remove, etc.</p>
+<p>I have 2 kids who will be using this car. 1 needs the Big Red Button, the other will want to use the pedal. So, idealy I’d like both to be functional. Is that even possible?</p>
+<p>It has 2 speeds + Reverse<br>
+40A battery</p>
+<p>The foot pedal has Red, Yellow and Black wires</p>
+<p>I can only add 1 image for reference so it’s the wiring under the car. You’ll see the Red wire going from the pedal (into a relay?) and back into the battery, yellow going into the dash, and black going from the pedal to the dashboard to the battery. The other red, black, white and blue wires are running from the motors up to the dashboard.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93.jpeg" data-download-href="/uploads/short-url/aF6c50owrHG1gSnwHEwqoYr40Lx.jpeg?dl=1" title="16883327336966080597992184032355" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_375x500.jpeg" alt="16883327336966080597992184032355" data-base62-sha1="aF6c50owrHG1gSnwHEwqoYr40Lx" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_750x1000.jpeg 2x" data-dominant-color="536F7C"></a></div><p></p> ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805#post_1</link>
+        <pubDate>Sun, 02 Jul 2023 21:19:36 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2061</guid>
+      </item>
+      <item>
+        <title>Participants Needed: Survey about GBG program practices</title>
+        <dc:creator><![CDATA[@Bill_Janes William E. Janes]]></dc:creator>
+        <description><![CDATA[ <p>I participated in this survey and recommend it to all OTs and PTs here! It took me less than 45 minutes (don’t worry!) and asks some really insightful questions about MROC’s. If you are an OT or PT who does GoBabyGo, please take the time to participate!</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/participants-needed-survey-about-gbg-program-practices/802#post_2</link>
+        <pubDate>Tue, 06 Jun 2023 16:28:32 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2058</guid>
+      </item>
+      <item>
+        <title>Participants Needed: Survey about GBG program practices</title>
+        <dc:creator><![CDATA[@kziegler14 Kelsey Ziegler]]></dc:creator>
+        <description><![CDATA[ <p>Seeking physical and occupational therapists who are involved in providing modified ride-on cars (MROCs) to young children with disabilities. This research study involves completing a survey answering questions about the characteristics of the MROC program you are involved in, how you evaluate children for MROC use, your follow-up with children to whom you provide MROCs, and challenges you face in providing MROCs. This study should take no more than 45 minutes to complete. If you are interested in participating, please click on the link below. There is a potential risk of loss of confidentiality in all email, downloading, electronic meetings, and internet transactions. Participation is voluntary. For more information, please contact Kelsey Ziegler, PT, DPT, PhD(c) (kziegler@twu.edu).</p>
+<p><a href="https://twu.qualtrics.com/jfe/form/SV_bvX0KeFqQ1dn94y" class="onebox" target="_blank" rel="noopener nofollow ugc">https://twu.qualtrics.com/jfe/form/SV_bvX0KeFqQ1dn94y</a></p> ]]></description>
+        <link>https://www.gbgconnect.com/t/participants-needed-survey-about-gbg-program-practices/802#post_1</link>
+        <pubDate>Wed, 31 May 2023 01:28:47 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2057</guid>
+      </item>
+      <item>
+        <title>New Car/Vehicle Recommendations</title>
+        <dc:creator><![CDATA[@Bill_Janes William E. Janes]]></dc:creator>
+        <description><![CDATA[ <p>Kimber,<br>
+I’m sorry for not seeing this post sooner! Unfortunately, I haven’t seen any new build guides in quite a while. The wiring is not always identical, particularly when you get into models with lots of options (e.g.: variable speed, independently switch-operated lights and sounds, and especially remote controls). Remote controlled cars are particularly tricky.</p>
+<p>This is where a local robotics team can come in handy. They are really good at working through the wiring of a car and figuring out exactly how to modify it.</p>
+<p>This makes me think we may want to start producing and collecting some new build guides…</p>
+<p>Take Care,<br>
+Bill</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/new-car-vehicle-recommendations/784#post_2</link>
+        <pubDate>Tue, 30 May 2023 13:48:21 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2055</guid>
+      </item>
+      <item>
+        <title>GBG Nassau Community College (NY)</title>
+        <dc:creator><![CDATA[@NicoleSchiffmacher Nicole Schiffmacher]]></dc:creator>
+        <description><![CDATA[ <p>Hello!<br>
+I’ve started a GBG program with the Physical Therapist Assistant Club at Nassau Community College.  We modified and donated a car to the Children’s Learning Center at United Cerebral Palsy of Nassau County in May '21 and are now looking for families who would like a car in our area! We will be at the Nassau County Games for the Physically Challenged with a car on display on Friday June 2, 2023.<br>
+<a href="https://cpnassau.org/blog/go-baby-go/" rel="noopener nofollow ugc">https://cpnassau.org/blog/go-baby-go/</a></p> ]]></description>
+        <link>https://www.gbgconnect.com/t/gbg-nassau-community-college-ny/799#post_1</link>
+        <pubDate>Thu, 25 May 2023 21:13:04 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2053</guid>
+      </item>
+      <item>
+        <title>Adding an oxygen bottle to a 6v car</title>
+        <dc:creator><![CDATA[@Dr_Mama_Brown Cameron Brown]]></dc:creator>
+        <description><![CDATA[ <p>That looks perfect! Great to know for future reference</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/adding-an-oxygen-bottle-to-a-6v-car/787#post_5</link>
+        <pubDate>Thu, 11 May 2023 17:27:39 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2048</guid>
+      </item>
+      <item>
+        <title>Adding an oxygen bottle to a 6v car</title>
+        <dc:creator><![CDATA[@ddegrendel Dan DeGrendel]]></dc:creator>
+        <description><![CDATA[ <p>Thanks for the input. This is for a type D oxygen bottle - for a child. I found a tank holder that works on Amazon.</p><aside class="onebox amazon" data-onebox-src="https://www.amazon.com/Vive-Mobility-Tank-Holder-Gray/dp/B08G1X7D7P">
+  <header class="source">
+
+      <a href="https://www.amazon.com/Vive-Mobility-Tank-Holder-Gray/dp/B08G1X7D7P" target="_blank" rel="noopener nofollow ugc">amazon.com</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://www.amazon.com/Vive-Mobility-Tank-Holder-Gray/dp/B08G1X7D7P" target="_blank" rel="noopener nofollow ugc">Amazon.com: Vive Oxygen Tank Holder for Wheelchair - Portable Medical Cylinder...</a></h3>
+
+
+
+<p>Buy Vive Oxygen Tank Holder for Wheelchair - Portable Medical Cylinder Backpack for Travel - Carrier Accessories Bag for Walker, Rollator, Scooter - Case Fits Canister Sizes M2, M4, M6, M9, C, D, E on Amazon.com ✓ FREE SHIPPING on qualified orders</p>
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+<p>
+The holder will strap to a PVC frame behind the seat. With this holder the parents can easily add/remove the bottle.</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/adding-an-oxygen-bottle-to-a-6v-car/787#post_4</link>
+        <pubDate>Thu, 11 May 2023 02:19:32 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2047</guid>
+      </item>
+      <item>
+        <title>Adding an oxygen bottle to a 6v car</title>
+        <dc:creator><![CDATA[@Dr_Mama_Brown Cameron Brown]]></dc:creator>
+        <description><![CDATA[ <p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/3644334ea8c843d0cd10b9716408b06e7d3baf0e.jpeg" data-download-href="/uploads/short-url/7K3TVMnfNnAg01KYd75KeKGPKzk.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3644334ea8c843d0cd10b9716408b06e7d3baf0e_2_500x500.jpeg" alt="image" data-base62-sha1="7K3TVMnfNnAg01KYd75KeKGPKzk" width="500" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3644334ea8c843d0cd10b9716408b06e7d3baf0e_2_500x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3644334ea8c843d0cd10b9716408b06e7d3baf0e_2_750x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3644334ea8c843d0cd10b9716408b06e7d3baf0e_2_1000x1000.jpeg 2x" data-dominant-color="BBA3A4"></a></div><p></p> ]]></description>
+        <link>https://www.gbgconnect.com/t/adding-an-oxygen-bottle-to-a-6v-car/787#post_3</link>
+        <pubDate>Wed, 10 May 2023 21:22:36 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2046</guid>
+      </item>
+      <item>
+        <title>Adding an oxygen bottle to a 6v car</title>
+        <dc:creator><![CDATA[@Dr_Mama_Brown Cameron Brown]]></dc:creator>
+        <description><![CDATA[ <p>Is this an oxygen tank that will be connected to the child? I have not modified for that specifically, but with our kids who use ventilators, we order larger trunks with space in the back to store the equipment. Something like this could work: <a href="https://www.walmart.com/ip/Kalee-6V-Red-Chevy-Silverado-Pickup-Truck-Battery-Powered-Ride-On/150893305?wmlspartner=wlpa&amp;selectedSellerId=0" class="inline-onebox" rel="noopener nofollow ugc">Robot or human?</a> or this one: <a href="https://www.walmart.com/ip/Rollplay-GMC-Sierra-Denali-6-Volt-Battery-Ride-On-Vehicle-Black/899479114?from=/search" class="inline-onebox" rel="noopener nofollow ugc">Robot or human?</a></p>
+<p>I hope that helps!</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/adding-an-oxygen-bottle-to-a-6v-car/787#post_2</link>
+        <pubDate>Wed, 10 May 2023 21:21:22 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2045</guid>
+      </item>
+      <item>
+        <title>Go Baby Go Buffalo NY</title>
+        <dc:creator><![CDATA[@Emruth18 Eric Ruth]]></dc:creator>
+        <description><![CDATA[ <p>You could simply get a bigger battery with more capacity. Doesn’t have to be on brand but you will have to do some light wiring work to make the connections work.<br>
+There are lots of conversion kits that let you use a standard Lithium ion battery from Milwaukee or dewalt. So if you have a standard set of tools with Li Ion that’s an option and just bring multiple batteries with ya.</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/go-baby-go-buffalo-ny/786#post_3</link>
+        <pubDate>Sun, 07 May 2023 16:09:05 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2039</guid>
+      </item>
+      <item>
+        <title>Go Baby Go Buffalo NY</title>
+        <dc:creator><![CDATA[@Eyesofibad Bill Brown]]></dc:creator>
+        <description><![CDATA[ <p>Hi!  I’m brand new to this.  I live in Rochester, NY.  My 4 year old daughter has a form of muscular dystrophy that includes short stature and muscle weakness.  We were just given an off brand power wheels by a neighbor which is incredible for her independence.  She loves it, but the battery lasts at best about an hour.  It doesn’t look particularly easy to get to (for getting an extra battery and swapping out when it gets low).  I’d love to be able to use this (or something like it) for festivals, walks around town, etc.  The speed is great and this model has an adjustable seat so it fits her great.  I’m looking for a way to either swap batteries easily, or somehow increase the drive time to several hours worth of driving.  Do you have any suggestions?</p>
+<p>I’m not opposed to simply getting a different model if it seems the easiest way to do this but in my Google search for “disabled child hot wheels” this is the first thing that came up.</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/3b27cb4db9366e0d68fdb23409e4d3ef7a1c668f.jpeg" data-download-href="/uploads/short-url/8rjqCnGDawq92vB3Xq0CsG0C0ZV.jpeg?dl=1" title="IMG_20230506_161707_484" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3b27cb4db9366e0d68fdb23409e4d3ef7a1c668f_2_376x500.jpeg" alt="IMG_20230506_161707_484" data-base62-sha1="8rjqCnGDawq92vB3Xq0CsG0C0ZV" width="376" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3b27cb4db9366e0d68fdb23409e4d3ef7a1c668f_2_376x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3b27cb4db9366e0d68fdb23409e4d3ef7a1c668f_2_564x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/3b27cb4db9366e0d68fdb23409e4d3ef7a1c668f_2_752x1000.jpeg 2x" data-dominant-color="88767D"></a></div><p></p> ]]></description>
+        <link>https://www.gbgconnect.com/t/go-baby-go-buffalo-ny/786#post_2</link>
+        <pubDate>Sun, 07 May 2023 13:09:48 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2037</guid>
+      </item>
+      <item>
+        <title>Adding an oxygen bottle to a 6v car</title>
+        <dc:creator><![CDATA[@ddegrendel Dan DeGrendel]]></dc:creator>
+        <description><![CDATA[ <p>I have a build that will require a 7 pound oxygen bottle. Does anyone have ideas on the best way to secure the bottle behind the seat? I want to make sure the bottle does not move around, is easy to install/remove, and the valve/connection point is protected from getting hit.</p>
+<p>Thank you!</p>
+<p>Dan DeGrendel</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/adding-an-oxygen-bottle-to-a-6v-car/787#post_1</link>
+        <pubDate>Fri, 17 Feb 2023 02:08:36 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2035</guid>
+      </item>
+      <item>
+        <title>Go Baby Go Buffalo NY</title>
+        <dc:creator><![CDATA[@Emruth18 Eric Ruth]]></dc:creator>
+        <description><![CDATA[ <p>Hi Everyone! Just chiming in to let you know I’m setting up shop in Buffalo NY under the name Go Buffalo Go, Inc.</p>
+<p>Stay tuned for more details.</p>
+<p>Peace, love and mobility,</p>
+<p>Eric Ruth</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/go-baby-go-buffalo-ny/786#post_1</link>
+        <pubDate>Sun, 12 Feb 2023 16:58:01 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2034</guid>
+      </item>
+      <item>
+        <title>New Car/Vehicle Recommendations</title>
+        <dc:creator><![CDATA[@kmk Kimber Kurr]]></dc:creator>
+        <description><![CDATA[ <p>Hi,<br>
+We are planning a GBG event in Ithaca, NY.  I have been looking through the available manuals and then looking at what vehicles are available online.  It does not look like lightning mcqueen or towmater are available anymore and I also did not see power wheels that were available with car option for a single driver, it looks like they are all 2 seat options.  I saw on the walmart website they have a lot of different brands of cars that are single seats, would the wiring still be the same with a different brand?  What has everyone else been using?<br>
+Thanks,<br>
+Kimber</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/new-car-vehicle-recommendations/784#post_1</link>
+        <pubDate>Sat, 11 Feb 2023 16:53:24 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2032</guid>
+      </item>
+      <item>
+        <title>Best Choice Jeep motors not activating</title>
+        <dc:creator><![CDATA[@mkwillison Katie]]></dc:creator>
+        <description><![CDATA[ <p>The switch (the big red button) has a light that will light up if you plug the wires into the correct connectors.  That light is lit, so there is current going to the big red button.  I will borrow a multimeter since changing out the breakers that are in line with the motors did not work.</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779#post_4</link>
+        <pubDate>Mon, 30 Jan 2023 17:29:20 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2027</guid>
+      </item>
+      <item>
+        <title>Reducing Car Speed and Jerking</title>
+        <dc:creator><![CDATA[@SmilerSkyler Michael Torraco]]></dc:creator>
+        <description><![CDATA[ <p>Im in CT go baby go did the car for us.</p>
+<p><strong>Michaelangelo Torraco</strong></p>
+<p><strong>QuickTex</strong> Computer Specialists</p>
+<p>23 Melbourne Rd</p>
+<p>Norwalk CT, 06851</p>
+<p>Office: (203) 952.6889</p>
+<p><a href="mailto:MTorraco@QuickTex.com">Email: MTorraco@QuickTex.com</a></p> ]]></description>
+        <link>https://www.gbgconnect.com/t/reducing-car-speed-and-jerking/87?page=2#post_29</link>
+        <pubDate>Sun, 29 Jan 2023 03:19:13 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2026</guid>
+      </item>
+      <item>
+        <title>Reducing Car Speed and Jerking</title>
+        <dc:creator><![CDATA[@Doug Doug Tietz]]></dc:creator>
+        <description><![CDATA[ <p>Yes, I agree with you. Usually if the manufacturer puts a removable seat in the car, removing that gives access to wiring and a place to mount the motor controller. Based on the picture you sent, I do not recall working on that exact car, although similar ones were easier to work from the top. One other thing you might discover that way is that it actually has two motors. In which case my approach has been to install two motor controllers, one on each motor. You can sometimes make do with one, but I like two better.</p>
+<p>One other thing I wanted to ask based on what I saw in the picture – are you located in Connecticut? Or did you get ideas for your car from someone there?</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/reducing-car-speed-and-jerking/87?page=2#post_28</link>
+        <pubDate>Sun, 29 Jan 2023 00:58:32 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2025</guid>
+      </item>
+      <item>
+        <title>Reducing Car Speed and Jerking</title>
+        <dc:creator><![CDATA[@SmilerSkyler Michael Torraco]]></dc:creator>
+        <description><![CDATA[ <p>so just wondering where should i start to take the car apart from the top or the bottom? I think i might have to take all the padding and seat harness off to get to the guts?</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/reducing-car-speed-and-jerking/87?page=2#post_27</link>
+        <pubDate>Sat, 28 Jan 2023 22:27:40 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2024</guid>
+      </item>
+      <item>
+        <title>Best Choice Jeep motors not activating</title>
+        <dc:creator><![CDATA[@Bill_Janes William E. Janes]]></dc:creator>
+        <description><![CDATA[ <p>I second Pete’s suggestion of testing the circuit. It’s quite possible the battery is not holding a charge, even if it’s fairly new. What do you mean when you say the “switch gets power”? Wiring the kill switch on the negative terminal rather than positive should make no difference; it’s just breaking the circuit.</p> ]]></description>
+        <link>https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779#post_3</link>
+        <pubDate>Fri, 27 Jan 2023 15:48:30 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-2022</guid>
+      </item>
+  </channel>
+</rss>

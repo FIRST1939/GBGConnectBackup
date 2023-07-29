@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wild thing wondergears seat question - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="I am working to continue a couple wild thing builds with my STEAM students via digital conferencing during quarantine. We have improved the rear castor, and built our seat frames. I ordered a couple of seat/harness combi&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="583.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Wild thing wondergears seat question&#39;" href="583.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_1024x768.jpeg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_1024x768.jpeg" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/wild-thing-wondergears-seat-question/583" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/wild-thing-wondergears-seat-question/583" />
+<meta property="og:title" content="Wild thing wondergears seat question" />
+<meta name="twitter:title" content="Wild thing wondergears seat question" />
+<meta property="og:description" content="I am working to continue a couple wild thing builds with my STEAM students via digital conferencing during quarantine. We have improved the rear castor, and built our seat frames. I ordered a couple of seat/harness combinations from Wondergears.com.  https://www.wondergears.com/products/child-secure-seatbelt-vest  Has anyone used these for their builds yet? The website has all the measurements posted online except for the overall width. I am trying to find out how wide the seat is at its widest ..." />
+<meta name="twitter:description" content="I am working to continue a couple wild thing builds with my STEAM students via digital conferencing during quarantine. We have improved the rear castor, and built our seat frames. I ordered a couple of seat/harness combinations from Wondergears.com.  https://www.wondergears.com/products/child-secure-seatbelt-vest  Has anyone used these for their builds yet? The website has all the measurements posted online except for the overall width. I am trying to find out how wide the seat is at its widest ..." />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta property="article:published_time" content="2020-04-08T22:54:13+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="583.html">Wild thing wondergears seat question</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/technical-discussion/8" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Wild thing wondergears seat question'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Mattnauman.html'><span itemprop='name'>Mattnauman</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="583.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-04-08T22:54:13Z' class='post-time'>
+                    April 8, 2020, 10:54pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-04-08T22:54:13Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>I am working to continue a couple wild thing builds with my STEAM students via digital conferencing during quarantine. We have improved the rear castor, and built our seat frames. I ordered a couple of seat/harness combinations from <a href="http://Wondergears.com" rel="nofollow noopener">Wondergears.com</a>.<br>
+<a href="https://www.wondergears.com/products/child-secure-seatbelt-vest" rel="nofollow noopener">https://www.wondergears.com/products/child-secure-seatbelt-vest</a><br>
+Has anyone used these for their builds yet? The website has all the measurements posted online except for the overall width. I am trying to find out how wide the seat is at its widest point.<br>
+Thanks for the help!!</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b.jpeg" data-download-href="/uploads/short-url/thIyTyzI1VC0SL65yjMt7vilVVh.jpeg?dl=1" title="image" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_666x500.jpeg" alt="image" data-base62-sha1="thIyTyzI1VC0SL65yjMt7vilVVh" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">image</span><span class="informations">4032×3024 2.65 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/jacgallo'><span itemprop='name'>jacgallo</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="583.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-04-10T15:34:09Z' class='post-time'>
+                    April 10, 2020,  3:34pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-04-10T15:34:09Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I dont know but will ask Andrina Sabet - who I go to for all things ‘seating’!<br>
+best, Cole</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Mattnauman.html'><span itemprop='name'>Mattnauman</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="583.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-04-10T15:46:23Z' class='post-time'>
+                    April 10, 2020,  3:46pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-04-10T15:46:23Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Thanks! I finally got notice that the seats have shipped but I imagine delivery may be slow right now.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/traverc.html'><span itemprop='name'>traverc</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="583.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-08-19T20:49:13Z' class='post-time'>
+                    August 19, 2020,  8:49pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-08-19T20:49:13Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I am curious about how you improved the caster wheel?<br>
+Thanks,<br>
+Cherrice</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Mattnauman.html'><span itemprop='name'>Mattnauman</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="583.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/ee0e18446de4bde76c198635830d8bbac609d5f1.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-08-19T23:38:18Z' class='post-time'>
+                    August 19, 2020, 11:38pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-08-19T23:38:18Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I removed the rear castor, created a steel plate, and mounted a heavy duty nylon castor with bearings on the rear. The plastic wheel would often get stuck at an angle and cause the vehicle to veer to the side. Now they track straight even before the addition of the gyro.</p>
+<p>Here’s a few shots of the two we made for our LEAP Pre K classes.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/ee0e18446de4bde76c198635830d8bbac609d5f1.jpeg" data-download-href="/uploads/short-url/xXVPPi6QP79D9dJ65X6Fs8007uh.jpeg?dl=1" title="IMG_4325" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ee0e18446de4bde76c198635830d8bbac609d5f1_2_375x500.jpeg" alt="IMG_4325" data-base62-sha1="xXVPPi6QP79D9dJ65X6Fs8007uh" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ee0e18446de4bde76c198635830d8bbac609d5f1_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ee0e18446de4bde76c198635830d8bbac609d5f1_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ee0e18446de4bde76c198635830d8bbac609d5f1_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ee0e18446de4bde76c198635830d8bbac609d5f1_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_4325</span><span class="informations">3024×4032 1.52 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/970fc38accf873f5d58bc2a2d38636f5717275ac.jpeg" data-download-href="/uploads/short-url/lylS3AGQcvOMxw73EuxNZbuAyNC.jpeg?dl=1" title="IMG_4323" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/970fc38accf873f5d58bc2a2d38636f5717275ac_2_375x500.jpeg" alt="IMG_4323" data-base62-sha1="lylS3AGQcvOMxw73EuxNZbuAyNC" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/970fc38accf873f5d58bc2a2d38636f5717275ac_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/970fc38accf873f5d58bc2a2d38636f5717275ac_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/970fc38accf873f5d58bc2a2d38636f5717275ac_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/970fc38accf873f5d58bc2a2d38636f5717275ac_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_4323</span><span class="informations">3024×4032 3.68 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/865d6b05fff14363c69ed57ba5835863b2857ba3.jpeg" data-download-href="/uploads/short-url/jaE7XeaO5UB5N5NHz0ehkHqVqlJ.jpeg?dl=1" title="IMG_4321" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/865d6b05fff14363c69ed57ba5835863b2857ba3_2_375x500.jpeg" alt="IMG_4321" data-base62-sha1="jaE7XeaO5UB5N5NHz0ehkHqVqlJ" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/865d6b05fff14363c69ed57ba5835863b2857ba3_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/865d6b05fff14363c69ed57ba5835863b2857ba3_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/865d6b05fff14363c69ed57ba5835863b2857ba3_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/865d6b05fff14363c69ed57ba5835863b2857ba3_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_4321</span><span class="informations">3024×4032 2.2 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/8387ff77296547fd1ad0fede695091f128e3f310.jpeg" data-download-href="/uploads/short-url/iLzVdhOX162b2ft4zoGsvAa3uMM.jpeg?dl=1" title="IMG_4365" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8387ff77296547fd1ad0fede695091f128e3f310_2_666x500.jpeg" alt="IMG_4365" data-base62-sha1="iLzVdhOX162b2ft4zoGsvAa3uMM" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8387ff77296547fd1ad0fede695091f128e3f310_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8387ff77296547fd1ad0fede695091f128e3f310_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8387ff77296547fd1ad0fede695091f128e3f310_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/8387ff77296547fd1ad0fede695091f128e3f310_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_4365</span><span class="informations">4032×3024 2.55 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b.jpeg" data-download-href="/uploads/short-url/thIyTyzI1VC0SL65yjMt7vilVVh.jpeg?dl=1" title="3A04E32C-961B-4C57-9255-B4B822AC26A7" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_666x500.jpeg" alt="3A04E32C-961B-4C57-9255-B4B822AC26A7" data-base62-sha1="thIyTyzI1VC0SL65yjMt7vilVVh" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">3A04E32C-961B-4C57-9255-B4B822AC26A7</span><span class="informations">4032×3024 2.65 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/bfd39c072dd606c216e780737132e67a0b56d923.jpeg" data-download-href="/uploads/short-url/rmYzdIFTMRBwFv9CSvCjATUEhJp.jpeg?dl=1" title="IMG_5569" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/bfd39c072dd606c216e780737132e67a0b56d923_2_375x500.jpeg" alt="IMG_5569" data-base62-sha1="rmYzdIFTMRBwFv9CSvCjATUEhJp" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/bfd39c072dd606c216e780737132e67a0b56d923_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/bfd39c072dd606c216e780737132e67a0b56d923_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/bfd39c072dd606c216e780737132e67a0b56d923_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/bfd39c072dd606c216e780737132e67a0b56d923_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_5569</span><span class="informations">3024×4032 2.46 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_6' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/traverc.html'><span itemprop='name'>traverc</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="583.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-08-20T02:47:01Z' class='post-time'>
+                    August 20, 2020,  2:47am
+                  </time>
+                  <meta itemprop='dateModified' content='2020-08-20T02:47:01Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Thank you - very helpful!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

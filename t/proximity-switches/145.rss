@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Proximity switches</title>
+    <link>https://www.gbgconnect.com/t/proximity-switches/145</link>
+    <description>so my electrician is starting to play with the possibility of proximity switches, and I wondered if anyone else had done this and had words of wisdom?</description>
+    
+    <lastBuildDate>Tue, 21 Sep 2021 20:47:04 +0000</lastBuildDate>
+    <category>Problem Solver</category>
+    <atom:link href="https://www.gbgconnect.com/t/proximity-switches/145.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Proximity switches</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Bill,<br>
+Good to hear from you. Yes, we got them working. For the timer version I was describing in this post, I ended up putting it in a separate box powered by its own 9v battery. That works well and we have put them on many cars. We Velcro the box to the rear of the car. It would work fine with a proximity switch. It looks like this:</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/46a9a4ce8082d1520efd302a10e629d5ba5e6c61.jpeg" data-download-href="/uploads/short-url/a56SKqoqUaFHQ7OVOUorISYHtYZ.jpeg?dl=1" title="Inline image" rel="noopener nofollow ugc"><img title="Inline image" alt="Inline image" src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/46a9a4ce8082d1520efd302a10e629d5ba5e6c61_2_690x388.jpeg" width="690" height="388" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/46a9a4ce8082d1520efd302a10e629d5ba5e6c61_2_690x388.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/46a9a4ce8082d1520efd302a10e629d5ba5e6c61_2_1035x582.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/46a9a4ce8082d1520efd302a10e629d5ba5e6c61_2_1380x776.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/46a9a4ce8082d1520efd302a10e629d5ba5e6c61_2_10x10.png"></a></div><p></p>
+<p>The parts for this are around $15 or so.</p>
+<p>However, Nick</p>
+<aside class="onebox">
+  <article class="onebox-body user-onebox">
+    <img alt="" width="60" height="60" src="https://avatars.discourse-cdn.com/v4/letter/n/f9ae1b/120.png" class="avatar onebox-full-image">
+    <h3><a href="https://www.gbgconnect.com/u/Nick">Nick</a></h3>
+    <div>
+        <span class="full-name"></span>
+        <span class="location">
+          <svg class="fa d-icon d-icon-map-marker-alt svg-icon" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="#map-marker-alt"></use>
+          </svg>
+          Phoenix, AZ
+        </span>
+    </div>
+    <span>Joined April 10, 2018</span>
+  </article>
+  <div class="clearfix"></div>
+</aside>
+
+<p>has a far better approach. He has designed timers that can in fact operate off the car’s battery even if it is only 6v, and you can build them right into the car. No external box to get knocked off, no separate battery where they can forget to turn it off and have to replace it. He calls it a Go Baby Go Interval Timer and sent me an evaluation board. It is impressive in its operation, design, and documentation. I don’t know if he is still making these or not. We had to suspend our GBG program when COVID hit, and since have been running only limited operations using virtual evals on Zoom. So I have not needed any more boards and haven’t been in contact with Nick. I don’t know what they might cost.</p>
+<p>My suggestion is that you contact him directly to get the current info – availability and cost, etc.</p>
+<p>Best regards,<br>
+– Doug</p>
+          <p><a href="https://www.gbgconnect.com/t/proximity-switches/145/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/proximity-switches/145/8</link>
+        <pubDate>Tue, 21 Sep 2021 20:47:04 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-145-8</guid>
+        <source url="https://www.gbgconnect.com/t/proximity-switches/145.rss">Proximity switches</source>
+      </item>
+      <item>
+        <title>Proximity switches</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>Doug, did you ever get those timer boards working? Could you share more info on what they are called, exactly? Considering a similar implementation for proximity switches and hoping for something that doesn’t cost $200!</p>
+<p>Thank You!</p>
+          <p><a href="https://www.gbgconnect.com/t/proximity-switches/145/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/proximity-switches/145/7</link>
+        <pubDate>Tue, 21 Sep 2021 13:48:44 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-145-7</guid>
+        <source url="https://www.gbgconnect.com/t/proximity-switches/145.rss">Proximity switches</source>
+      </item>
+      <item>
+        <title>Proximity switches</title>
+        <dc:creator><![CDATA[BEnnis47]]></dc:creator>
+        <description><![CDATA[
+            <p>Enabling technologies has some pros switches with latch timers already attached.  <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=9" title=":slight_smile:" class="emoji" alt=":slight_smile:"> )</p>
+          <p><a href="https://www.gbgconnect.com/t/proximity-switches/145/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/proximity-switches/145/6</link>
+        <pubDate>Fri, 25 Oct 2019 17:54:21 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-145-6</guid>
+        <source url="https://www.gbgconnect.com/t/proximity-switches/145.rss">Proximity switches</source>
+      </item>
+      <item>
+        <title>Proximity switches</title>
+        <dc:creator><![CDATA[BEnnis47]]></dc:creator>
+        <description><![CDATA[
+            <p>we do put relays in our 12 volt cars, but have also discovered that the 12 v cars with remote controls already use relays in their circuits.  <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+          <p><a href="https://www.gbgconnect.com/t/proximity-switches/145/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/proximity-switches/145/5</link>
+        <pubDate>Tue, 12 Jun 2018 16:54:32 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-145-5</guid>
+        <source url="https://www.gbgconnect.com/t/proximity-switches/145.rss">Proximity switches</source>
+      </item>
+      <item>
+        <title>Proximity switches</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>To solve the problem that the child cannot hold the button down and therefore the car jerks, an  easier approach is to put a Latch and Timer switch between the activation switch and the car. You can set the amount of time the switch is “held down”. We usually try about 3 seconds. See this:<br>
+<a href="https://www.ablenetinc.com/dual-switch-latch-timer" class="onebox" target="_blank" rel="nofollow noopener">https://www.ablenetinc.com/dual-switch-latch-timer</a><br>
+We keep one of these in our switch kit. The main problem is that these are expensive – $135.<br>
+I have experimented with timer boards, but don’t have all the kinks worked out yet. See this: <a href="https://www.facebook.com/GoBabyGoCentralOhioTechnical/photos/a.766656976876035.1073741828.766647003543699/766660296875703/?type=3" rel="nofollow noopener">https://www.facebook.com/GoBabyGoCentralOhioTechnical/photos/a.766656976876035.1073741828.766647003543699/766660296875703/?type=3</a></p>
+          <p><a href="https://www.gbgconnect.com/t/proximity-switches/145/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/proximity-switches/145/4</link>
+        <pubDate>Thu, 22 Mar 2018 18:24:18 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-145-4</guid>
+        <source url="https://www.gbgconnect.com/t/proximity-switches/145.rss">Proximity switches</source>
+      </item>
+      <item>
+        <title>Proximity switches</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>We have used them successfully, and in fact keep one in our kit of evaluation switches. I have one suggestion. Their current-handling capability is less than that of most mechanical switches. If the car is wired such that full motor current goes through the switch (e.g. Fisher-Price) it could burn out the proximity switch. If the car uses relays to control the motor, the proximity switch will work OK. If the car does not use relays to control the motor, you should add a relay board before trying the proximity switch.</p>
+          <p><a href="https://www.gbgconnect.com/t/proximity-switches/145/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/proximity-switches/145/3</link>
+        <pubDate>Thu, 22 Mar 2018 18:15:50 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-145-3</guid>
+        <source url="https://www.gbgconnect.com/t/proximity-switches/145.rss">Proximity switches</source>
+      </item>
+      <item>
+        <title>Proximity switches</title>
+        <dc:creator><![CDATA[earlywheels]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi! I will take a stab at this- I have flirted with the thought of proximity switches, but have also thought about the stand alone capacitive touch sensor’s (momentary and toggle) instead. <a href="https://www.adafruit.com/product/1374" rel="nofollow noopener">https://www.adafruit.com/product/1374</a><br>
+Seems like the kids that have difficulty maintaining touch on a button switch might do better touching something, but I’ve also wondered about the wisdom of using a toggle switch with these kids instead.<br>
+Another thought I’m about to dig into is using a bluetooth module on the arduino to use either as an emergency stop for parents (using their cell phones to connect) or letting these kiddos use a joystick program on the phones to control the cars.  The technology is there, but there is more  learning on my side that would need to be done-<br>
+I’m really digging the site in the UK called <a href="http://www.oneswitch.org.uk/art.php?id=10" rel="nofollow noopener">http://www.oneswitch.org.uk/art.php?id=10</a>   They have all sorts of cool mods for switches and resources.<br>
+BTW, I love what you all are doing modding toys- would love to chat sometime!</p>
+          <p><a href="https://www.gbgconnect.com/t/proximity-switches/145/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/proximity-switches/145/2</link>
+        <pubDate>Wed, 21 Mar 2018 02:31:12 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-145-2</guid>
+        <source url="https://www.gbgconnect.com/t/proximity-switches/145.rss">Proximity switches</source>
+      </item>
+      <item>
+        <title>Proximity switches</title>
+        <dc:creator><![CDATA[BEnnis47]]></dc:creator>
+        <description><![CDATA[
+            <p>so my electrician is starting to play with the possibility of proximity switches, and I wondered if anyone else had done this and had words of wisdom?</p>
+          <p><a href="https://www.gbgconnect.com/t/proximity-switches/145/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/proximity-switches/145/1</link>
+        <pubDate>Thu, 15 Mar 2018 18:01:02 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-145-1</guid>
+        <source url="https://www.gbgconnect.com/t/proximity-switches/145.rss">Proximity switches</source>
+      </item>
+  </channel>
+</rss>

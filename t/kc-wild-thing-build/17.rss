@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KC Wild Thing Build</title>
+    <link>https://www.gbgconnect.com/t/kc-wild-thing-build/17</link>
+    <description>Here is a link to a video that the Barstow Robotics Team made about the Wild Thing build. Special thanks to Variety KC for sponsoring the purchase of the car. We had a lot of good coverage from the news media about this as well.
+
+[Link to Video](https://www.youtube.com/watch?v=MlgeQtfYeIs&amp;t=0s)</description>
+    
+    <lastBuildDate>Wed, 09 Aug 2017 15:36:54 +0000</lastBuildDate>
+    <category>Build Showcase</category>
+    <atom:link href="https://www.gbgconnect.com/t/kc-wild-thing-build/17.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KC Wild Thing Build</title>
+        <dc:creator><![CDATA[gavin.wood]]></dc:creator>
+        <description><![CDATA[
+            <p>Here is a link to a video that the Barstow Robotics Team made about the Wild Thing build. Special thanks to Variety KC for sponsoring the purchase of the car. We had a lot of good coverage from the news media about this as well.</p>
+<p><a href="https://www.youtube.com/watch?v=MlgeQtfYeIs&amp;t=0s">Link to Video</a></p>
+          <p><a href="https://www.gbgconnect.com/t/kc-wild-thing-build/17/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/kc-wild-thing-build/17/1</link>
+        <pubDate>Wed, 09 Aug 2017 15:36:54 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-17-1</guid>
+        <source url="https://www.gbgconnect.com/t/kc-wild-thing-build/17.rss">KC Wild Thing Build</source>
+      </item>
+  </channel>
+</rss>

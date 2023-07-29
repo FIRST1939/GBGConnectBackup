@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sensors for Visually Impaired</title>
+    <link>https://www.gbgconnect.com/t/sensors-for-visually-impaired/534</link>
+    <description>Our chapter has recently been asked to modify a car for a visually impaired child.  They are requesting sensors on each of the four sides of the car alerting the child when he or she is close to an object.  Has anyone attempted to use sensors in this fashion?  The car would have a remote override for safety purposes.</description>
+    
+    <lastBuildDate>Wed, 25 Dec 2019 12:38:58 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Sensors for Visually Impaired</title>
+        <dc:creator><![CDATA[mikey]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi. I haven’t usef sensors for a car but did use some in other projects.<br>
+It will help to understand what are the requirements, how far from object sould the sensor activate, how wide and what points around the car do you want sensors to be, cost, false positive situations, etc.<br>
+solution can range from microswitchs to 360 lidar.</p>
+          <p><a href="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/sensors-for-visually-impaired/534/3</link>
+        <pubDate>Wed, 25 Dec 2019 12:34:40 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-534-3</guid>
+        <source url="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534.rss">Sensors for Visually Impaired</source>
+      </item>
+      <item>
+        <title>Sensors for Visually Impaired</title>
+        <dc:creator><![CDATA[GaryLiseo]]></dc:creator>
+        <description><![CDATA[
+            <p>While I have worked with children who have visual impairments, I have not worked with sensors in this manner. That being said, I would think you could attah proximity sensors to the car and connect them to a notification system (possibly speakers?). I would also recommend speaking with the parens and OTs or PTs involved as well as others on here who have done this task before.</p>
+          <p><a href="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/sensors-for-visually-impaired/534/2</link>
+        <pubDate>Tue, 24 Dec 2019 19:21:43 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-534-2</guid>
+        <source url="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534.rss">Sensors for Visually Impaired</source>
+      </item>
+      <item>
+        <title>Sensors for Visually Impaired</title>
+        <dc:creator><![CDATA[longenee]]></dc:creator>
+        <description><![CDATA[
+            <p>Our chapter has recently been asked to modify a car for a visually impaired child.  They are requesting sensors on each of the four sides of the car alerting the child when he or she is close to an object.  Has anyone attempted to use sensors in this fashion?  The car would have a remote override for safety purposes.</p>
+          <p><a href="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/sensors-for-visually-impaired/534/1</link>
+        <pubDate>Thu, 19 Dec 2019 20:42:45 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-534-1</guid>
+        <source url="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534.rss">Sensors for Visually Impaired</source>
+      </item>
+  </channel>
+</rss>

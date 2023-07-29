@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+    <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805</link>
+    <description>Hi, we just picked up a used Disney Frozen SUV 12v car and a Big Red button but I&#39;m having trouble knowing which wires to cut, splice, remove, etc.
+
+I have 2 kids who will be using this car. 1 needs the Big Red Button, the other will want to use the pedal. So, idealy I&#39;d like both to be functional. Is that even possible? 
+
+It has 2 speeds + Reverse
+40A battery
+
+The foot pedal has Red, Yellow and Black wires
+
+I can only add 1 image for reference so it&#39;s the wiring under the car. You&#39;ll see the Red wire going from the pedal (into a relay?) and back into the battery, yellow going into the dash, and black going from the pedal to the dashboard to the battery. The other red, black, white and blue wires are running from the motors up to the dashboard. 
+![16883327336966080597992184032355|375x500](upload://aF6c50owrHG1gSnwHEwqoYr40Lx.jpeg)</description>
+    
+    <lastBuildDate>Wed, 05 Jul 2023 20:23:01 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>Andrew,</p>
+<p>That picture helps a lot! That is indeed a fuse (or more accurately, a circuit breaker). You want to keep that intact.</p>
+<p>If Google is right, you’re in south Florida? There are some great robotics teams and GoBabyGo chapters up in Gainesville and Tampa, but that probably doesn’t help much. They might be able to put you in touch with someone closer. Feel free to email me at janesw@missouri.edu and I’ll try to connect you!</p>
+<p>Bill</p>
+          <p><a href="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/5</link>
+        <pubDate>Wed, 05 Jul 2023 20:23:01 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-805-5</guid>
+        <source url="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805.rss">Help wiring Big Red Button to Frozen 12v SUV</source>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[Andrewleif]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks for your response Bill.</p>
+<p>I don’t know of any team nearby that could help but I should look into that.</p>
+<p>I’ve attached what is on the red box between the wires<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb.jpeg" data-download-href="/uploads/short-url/upMcivhaQjqWE5gq7hn1RkdTgCv.jpeg?dl=1" title="20230702_170650" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb_2_375x500.jpeg" alt="20230702_170650" data-base62-sha1="upMcivhaQjqWE5gq7hn1RkdTgCv" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d52b2c385046d3f2ee20fa6b908dfbbc76a010eb_2_750x1000.jpeg 2x" data-dominant-color="6F747C"></a></div><p></p>
+<p>I’ll add the only picture I currently have of the relays in the dashboard. Those black boxes are connected to the “gear stick” that selects hi/low speed and reverse.</p>
+<p>Thank you for the help.</p>
+          <p><a href="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/4</link>
+        <pubDate>Wed, 05 Jul 2023 20:04:23 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-805-4</guid>
+        <source url="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805.rss">Help wiring Big Red Button to Frozen 12v SUV</source>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>Welcome, Andrew!</p>
+<p>I haven’t wired this particular car, so I’m not certain, but a couple of thoughts…</p>
+<p>That box at the end of the red wires in your first picture is probably a fuse. Does it have any markings on it? If it were a relay, it would have more wires running to/from it. I can’t tell from the picture, but the black object directly above that in the picture looks like an automotive relay.</p>
+<p>You definitely want the Big Red wired to a relay. This is helpful in 6v cars, necessary in 12v cars. What you want (both switches operable) is possible, but we don’t have enough information on the wiring to give good advice. Do you have a robotics team nearby you could ask for some hands-on assistance?</p>
+<p>Good Luck!<br>
+Bill</p>
+          <p><a href="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/3</link>
+        <pubDate>Wed, 05 Jul 2023 13:49:38 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-805-3</guid>
+        <source url="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805.rss">Help wiring Big Red Button to Frozen 12v SUV</source>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[Andrewleif]]></dc:creator>
+        <description><![CDATA[
+            <p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/64335f64eef205543c4a92906d8d9423b9741407.jpeg" data-download-href="/uploads/short-url/eipOmSWxAA1OnGC3P70vxFzNJt5.jpeg?dl=1" title="20230702_170610" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/64335f64eef205543c4a92906d8d9423b9741407_2_375x500.jpeg" alt="20230702_170610" data-base62-sha1="eipOmSWxAA1OnGC3P70vxFzNJt5" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/64335f64eef205543c4a92906d8d9423b9741407_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/64335f64eef205543c4a92906d8d9423b9741407_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/64335f64eef205543c4a92906d8d9423b9741407_2_750x1000.jpeg 2x" data-dominant-color="367E9D"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/2</link>
+        <pubDate>Sun, 02 Jul 2023 23:45:05 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-805-2</guid>
+        <source url="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805.rss">Help wiring Big Red Button to Frozen 12v SUV</source>
+      </item>
+      <item>
+        <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+        <dc:creator><![CDATA[Andrewleif]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, we just picked up a used Disney Frozen SUV 12v car and a Big Red button but I’m having trouble knowing which wires to cut, splice, remove, etc.</p>
+<p>I have 2 kids who will be using this car. 1 needs the Big Red Button, the other will want to use the pedal. So, idealy I’d like both to be functional. Is that even possible?</p>
+<p>It has 2 speeds + Reverse<br>
+40A battery</p>
+<p>The foot pedal has Red, Yellow and Black wires</p>
+<p>I can only add 1 image for reference so it’s the wiring under the car. You’ll see the Red wire going from the pedal (into a relay?) and back into the battery, yellow going into the dash, and black going from the pedal to the dashboard to the battery. The other red, black, white and blue wires are running from the motors up to the dashboard.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93.jpeg" data-download-href="/uploads/short-url/aF6c50owrHG1gSnwHEwqoYr40Lx.jpeg?dl=1" title="16883327336966080597992184032355" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_375x500.jpeg" alt="16883327336966080597992184032355" data-base62-sha1="aF6c50owrHG1gSnwHEwqoYr40Lx" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_750x1000.jpeg 2x" data-dominant-color="536F7C"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805/1</link>
+        <pubDate>Sun, 02 Jul 2023 21:19:36 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-805-1</guid>
+        <source url="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805.rss">Help wiring Big Red Button to Frozen 12v SUV</source>
+      </item>
+  </channel>
+</rss>

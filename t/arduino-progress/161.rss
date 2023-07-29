@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Arduino progress</title>
+    <link>https://www.gbgconnect.com/t/arduino-progress/161</link>
+    <description>HI!  For those who are doing modifications using an arduino to program your steering, I have a question- I have been playing with a bluetooth shield connected to the arduino to provide an emergency stop for a parent via their cell phone (and hopefully eventually to drive remotely as well). But as I have looked at some other people&#39;s set up, it looks like an ultrasonic sensor to avoid running into walls/people is another option that can easily be added. 
+For those using the sensors, do you like the outcome? Can you tell me some pros or cons? Or would it be better to have a remote cut off instead? 
+Thanks!</description>
+    
+    <lastBuildDate>Tue, 03 Apr 2018 14:09:41 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/arduino-progress/161.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Arduino progress</title>
+        <dc:creator><![CDATA[gavin.wood]]></dc:creator>
+        <description><![CDATA[
+            <p>We chose to use an ultrasonic on our first Wild Thing modification because the child that we were building for didn’t have excellent vision. Per the mom’s request, we chose not to have it cut power to the wheels when the ultrasonic detected an obstacle. Instead, we attached it to a piezo that beeped when an obstacle was detected. The mom wanted her son to learn to control the car on his own and to learn to react when the beeper went off. Our understanding is that the piezo solution has worked well for that family, but of course, each case is unique.</p>
+<p>That said, the bluetooth Arduino shield e-stop is a great idea. I think parents would definitely like having that extra safety feature especially when operating outdoors and/or at higher speeds. The Wild Thing can go pretty fast, so we made sure to provide a potentiometer to control the max speed. I think that is one of the most important safety features to make sure that they start really slow.</p>
+          <p><a href="https://www.gbgconnect.com/t/arduino-progress/161/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/arduino-progress/161/2</link>
+        <pubDate>Tue, 03 Apr 2018 14:09:41 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-161-2</guid>
+        <source url="https://www.gbgconnect.com/t/arduino-progress/161.rss">Arduino progress</source>
+      </item>
+      <item>
+        <title>Arduino progress</title>
+        <dc:creator><![CDATA[earlywheels]]></dc:creator>
+        <description><![CDATA[
+            <p>HI!  For those who are doing modifications using an arduino to program your steering, I have a question- I have been playing with a bluetooth shield connected to the arduino to provide an emergency stop for a parent via their cell phone (and hopefully eventually to drive remotely as well). But as I have looked at some other people’s set up, it looks like an ultrasonic sensor to avoid running into walls/people is another option that can easily be added.<br>
+For those using the sensors, do you like the outcome? Can you tell me some pros or cons? Or would it be better to have a remote cut off instead?<br>
+Thanks!</p>
+          <p><a href="https://www.gbgconnect.com/t/arduino-progress/161/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/arduino-progress/161/1</link>
+        <pubDate>Sun, 01 Apr 2018 21:07:25 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-161-1</guid>
+        <source url="https://www.gbgconnect.com/t/arduino-progress/161.rss">Arduino progress</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wiring via Pedal is Easier Than Cutting - Why Not? - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="All, 
+Sorry if this is a silly question. I’m not an EE; I’m an OT with just enough knowledge to get myself in trouble. 
+I’m wondering why most build guides advocate cutting existing wiring to splice in the momentary swit&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="296.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Wiring via Pedal is Easier Than Cutting - Why Not?&#39;" href="296.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_1024x576.jpeg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_1024x576.jpeg" />
+<meta property="og:url" content="../../t/wiring-via-pedal-is-easier-than-cutting-why-not/296" />
+<meta name="twitter:url" content="../../t/wiring-via-pedal-is-easier-than-cutting-why-not/296" />
+<meta property="og:title" content="Wiring via Pedal is Easier Than Cutting - Why Not?" />
+<meta name="twitter:title" content="Wiring via Pedal is Easier Than Cutting - Why Not?" />
+<meta property="og:description" content="All,  Sorry if this is a silly question. I’m not an EE; I’m an OT with just enough knowledge to get myself in trouble.  I’m wondering why most build guides advocate cutting existing wiring to splice in the momentary switch (e.g.: Big Red) rather than disconnecting and using the existing spade connectors to the foot pedal switch. This seems like an easier solution with the added benefit of maintaining full (or near-full) speed and direction functionality.  Consider the venerable 6v Frozen. The pe..." />
+<meta name="twitter:description" content="All,  Sorry if this is a silly question. I’m not an EE; I’m an OT with just enough knowledge to get myself in trouble.  I’m wondering why most build guides advocate cutting existing wiring to splice in the momentary switch (e.g.: Big Red) rather than disconnecting and using the existing spade connectors to the foot pedal switch. This seems like an easier solution with the added benefit of maintaining full (or near-full) speed and direction functionality.  Consider the venerable 6v Frozen. The pe..." />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta property="article:published_time" content="2018-12-13T20:38:55+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="../../.html">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="296.html">Wiring via Pedal is Easier Than Cutting - Why Not?</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="../../c/technical-discussion/8.html" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Wiring via Pedal is Easier Than Cutting - Why Not?'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Bill_Janes.html'><span itemprop='name'>Bill_Janes</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="296.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-12-13T20:38:55Z' class='post-time'>
+                    December 13, 2018,  8:38pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-12-13T20:38:55Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>All,</p>
+<p>Sorry if this is a silly question. I’m not an EE; I’m an OT with just enough knowledge to get myself in trouble.</p>
+<p>I’m wondering why most build guides advocate cutting existing wiring to splice in the momentary switch (e.g.: Big Red) rather than disconnecting and using the existing spade connectors to the foot pedal switch. This seems like an easier solution with the added benefit of maintaining full (or near-full) speed and direction functionality.</p>
+<p>Consider the venerable 6v Frozen. The pedal is simple to pop out using just your thumbs. Inside is a SPDT momentary switch:</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e.jpeg" title="IMG_20181213_142021536.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_690x388.jpeg" alt="IMG_20181213_142021536" width="690" height="388" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_690x388.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_1035x582.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_1380x776.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adf0ad272da09dccc0cadcf7ae224beb4f8d309e_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_20181213_142021536.jpg</span><span class="informations">4032×2268 2.07 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>Blue-white is normally closed, causing a braking effect. Green-white is normally open - that’s your “go” circuit. Each wire ends with a female spade terminal. Why not just put pull them off the switch with needle-nose pliers, crimp male spade terminals onto the wires from your Big Red, and connect directly to the green and white wires? Then tuck the connections back into the pedal cavity, snap the (disconnected) pedal back in place, and proceed to wiring the kill switch.</p>
+<p>Sure, you lose the braking function, but we’re losing that when we cut the wires anyway! This way you cut fewer wires, maintain forward/reverse function, and preserve the ability to revert back to pedal control later. I don’t see a downside.</p>
+<p>Heck, this is even easier with some of the 12-volt cars we’ve done lately. The manufacturers have gotten smart and put the pedal on an isolated relay. That means the same SPDT switch only has two tiny 18AWG wires running to it. No guess work as to which wires to use!</p>
+<p>This gets more complicated with the big DPDT switches, but I haven’t come across many of those.</p>
+<p>So, bottom line: Why not use this approach instead of cutting unnecessarily? What am I missing?</p>
+<p>Thanks!<br>
+Bill</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/jkauppil.html'><span itemprop='name'>jkauppil</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="296.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-12-14T19:20:39Z' class='post-time'>
+                    December 14, 2018,  7:20pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-12-14T19:20:39Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>My experience is that it is much easier to wire in a relay, than fuss with getting to the foot pedal. I use a relay to minimize current to what ever switch ( and student) I use.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/asabet.html'><span itemprop='name'>asabet</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="296.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-12-18T15:38:26Z' class='post-time'>
+                    December 18, 2018,  3:38pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-12-18T15:38:26Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hey Bill!<br>
+Love the suggestion.<br>
+I do know that many builds are now including a relay (as stated earlier) to (conceptually) ask the switch to only be a switch and not deal with too much current</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/GaryLiseo.html'><span itemprop='name'>GaryLiseo</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="296.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-12-19T01:51:47Z' class='post-time'>
+                    December 19, 2018,  1:51am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-12-19T01:51:47Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hello Bill,<br>
+We found that wiring the button directly to a vehicle without using a relay can sometimes fry the button and effectively cost us more than adding a relay. I do like the idea you have on using existing wires from the button, but not all pedals operate similar to the 6V Frozen car, meaning it may not be possible with all cars to do this.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Bill_Janes.html'><span itemprop='name'>Bill_Janes</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="296.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-12-19T02:15:01Z' class='post-time'>
+                    December 19, 2018,  2:15am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-12-19T02:15:01Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I understand the value of relays and use them quite a bit, depending on the car. The question of relays is really ancillary to the point.</p>
+<p>We have numerous build guides that call for cutting wires when A) it’s not necessary and B) it reduces functionality of the car. My question to the group is: in cars that start with a simple switch is there any reason not to interface the switch (potentially including relay) via the existing spade terminals rather than cutting into the wires?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_6' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="296.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-12-19T18:12:57Z' class='post-time'>
+                    December 19, 2018,  6:12pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-12-19T18:22:07Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>If it works, do it to it <img src="https://emoji.discourse-cdn.com/google/wink.png?v=6" title=":wink:" class="emoji" alt=":wink:"> Depending on circumstances (type of switch the kiddo needs, wattage capacity of wiring setup, etc), sounds like your solution is entirely valid, &amp; maybe even easier. Thanks for the suggestion <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=6" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_7' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/BEnnis47.html'><span itemprop='name'>BEnnis47</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="296.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-05-01T23:02:11Z' class='post-time'>
+                    May 1, 2019, 11:02pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-05-01T23:02:11Z'>
+              <span itemprop='position'>7</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>FYI, the various cars that come with remote controls have relays already wired in, which keeps the various types of switches from frying.  <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=9" title=":slight_smile:" class="emoji" alt=":slight_smile:"> This is probably already widely known, but was a wonderful surprise from our electrician when we found it.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='../../tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='../../privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

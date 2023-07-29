@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Wild Thing Adaptation</title>
+    <link>https://www.gbgconnect.com/t/wild-thing-adaptation/458</link>
+    <description>Hello everyone! I am working on adapting Fisher-Price Power Wheels® Wild Thing. I read the blog of [Reverse Engineered Wild Thing](https://bobparadiso.com/2018/03/16/reverse-engineered-wild-thing/), and want to do the similar modification that controls the wild thing with mechanical switch running in a lower speed.
+
+I have the Arduino connect to the low pass filters and an operational amplifier. The Arduino controls the voltage output on green and black wire which means velocity and on-off signal. However, with a same voltage output, the power wheel behaves differently, please see the video: [Video](https://drive.google.com/file/d/10bNjikXH4Q43Zh4ewBhVHdbKjqtdmV-3/view?usp=sharing)
+
+Just want to ask if anyone runs into a similar situation or knows how to deal with it?</description>
+    
+    <lastBuildDate>Mon, 19 Aug 2019 22:14:08 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/wild-thing-adaptation/458.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Wild Thing Adaptation</title>
+        <dc:creator><![CDATA[Damon]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello everyone! I am working on adapting Fisher-Price Power Wheels® Wild Thing. I read the blog of <a href="https://bobparadiso.com/2018/03/16/reverse-engineered-wild-thing/" rel="nofollow noopener">Reverse Engineered Wild Thing</a>, and want to do the similar modification that controls the wild thing with mechanical switch running in a lower speed.</p>
+<p>I have the Arduino connect to the low pass filters and an operational amplifier. The Arduino controls the voltage output on green and black wire which means velocity and on-off signal. However, with a same voltage output, the power wheel behaves differently, please see the video: <a href="https://drive.google.com/file/d/10bNjikXH4Q43Zh4ewBhVHdbKjqtdmV-3/view?usp=sharing" rel="nofollow noopener">Video</a></p>
+<p>Just want to ask if anyone runs into a similar situation or knows how to deal with it?</p>
+          <p><a href="https://www.gbgconnect.com/t/wild-thing-adaptation/458/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/wild-thing-adaptation/458/1</link>
+        <pubDate>Mon, 19 Aug 2019 22:14:08 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-458-1</guid>
+        <source url="https://www.gbgconnect.com/t/wild-thing-adaptation/458.rss">Wild Thing Adaptation</source>
+      </item>
+  </channel>
+</rss>

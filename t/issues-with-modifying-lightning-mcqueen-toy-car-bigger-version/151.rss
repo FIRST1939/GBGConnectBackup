@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+    <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151</link>
+    <description>Hi everyone, I&#39;m trying to modify a Lightning McQueen toy car (battery: 6V, 9Ah capacity) and ran into some issues that hopefully someone might have insight on. Any help will be greatly appreciated. 
+
+Unlike the smaller Lightning McQueen toy car, the bigger version I got came with 2 motors (instead of 1) and a larger battery capacity. While trying to rewire the circuit to include a Big Red Button and a kill switch (toggle), I ran into overheating issues so I added in a relay component. Please see below for original and modified circuit diagram.
+
+However, whenever I press the Big Red Button, the car does not run at all. Instead, the relay will make a buzzing sound and start vibrating/moving across the table. Has anyone used a relay and seen this happen before? I made sure all the connections were intact and wired correctly, the battery was fully charged, and the toggle switch was on. I&#39;m not sure how to proceed with troubleshooting this issue. Does anyone have ideas on what I can try? 
+
+![Original%20vs%20Modified%20Relay%20Circuit%20System|403x500](upload://n1pbH02FzrggjCJrQklqsFVKTtp.png)</description>
+    
+    <lastBuildDate>Mon, 26 Mar 2018 18:28:30 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks Doug! I’m glad you think so. I actually just used Paint <img src="https://emoji.discourse-cdn.com/google/grin.png?v=5" title=":grin:" class="emoji" alt=":grin:"></p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/13</link>
+        <pubDate>Mon, 26 Mar 2018 18:28:30 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-13</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>I think in a month or so!</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/12</link>
+        <pubDate>Mon, 26 Mar 2018 18:26:26 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-12</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Nice drawings. What software do you use?</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/11</link>
+        <pubDate>Sat, 24 Mar 2018 18:49:35 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-11</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Congratulations! When do you place the car?</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/10</link>
+        <pubDate>Sat, 24 Mar 2018 18:49:16 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-10</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>And here’s a drawing of the circuit diagram with the modifications <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=9" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/350fbe8e8437b58cab4ffdd42d5bcc1182bdee13.png" title="Original vs RE Modified Relay Circuit System.png" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/350fbe8e8437b58cab4ffdd42d5bcc1182bdee13_2_403x500.png" alt="Original%20vs%20RE%20Modified%20Relay%20Circuit%20System" width="403" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/350fbe8e8437b58cab4ffdd42d5bcc1182bdee13_2_403x500.png, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/350fbe8e8437b58cab4ffdd42d5bcc1182bdee13_2_604x750.png 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/350fbe8e8437b58cab4ffdd42d5bcc1182bdee13_2_806x1000.png 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/350fbe8e8437b58cab4ffdd42d5bcc1182bdee13_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/9</link>
+        <pubDate>Sat, 24 Mar 2018 02:35:26 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-9</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>Good news! The modifications suggested worked <img src="https://emoji.discourse-cdn.com/google/rainbow.png?v=5" title=":rainbow:" class="emoji" alt=":rainbow:"> Thank you so much Doug and Pete for your help!! You guys are awesome <img src="https://emoji.discourse-cdn.com/google/grinning.png?v=5" title=":grinning:" class="emoji" alt=":grinning:"><img src="https://emoji.discourse-cdn.com/google/+1.png?v=5" title=":+1:" class="emoji" alt=":+1:"></p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/8</link>
+        <pubDate>Sat, 24 Mar 2018 02:31:07 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-8</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Pete,<br>
+Thanks very much for checking and confirming the circuit suggestion. I am always a little uneasy suggesting something I cannot try here first, so your post was great to see.</p>
+<p>Since we are talking about the braking, here are two more thoughts. I, too, almost always wire the cars as you apparently do, without retaining the braking. But it is actually a child-dependent decision – we have found it is better for some kids without braking, and better for others to retain it. I think the braking tends to snap their heads forward more when they release the switch. When they are in a harness and/or have weaker head control, that’s not what we want.</p>
+<p>Another detail. Beyond braking, shorting the motors reduces a possibility that the motors will put higher voltage electricity into the car wiring when rotating without power applied, and / or create RFI / EMI. (They act like little generators.)  I have never personally seen any bad effect from this, so I choose to ignore it. But I can see where it’s possible. Older cars sometimes put a resistor across the motors when power was not applied. That is a superior approach, and I bet they dropped it for cost-cutting.</p>
+<p>Thanks again for the feedback!</p>
+<pre><code>             -- Doug</code></pre>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/7</link>
+        <pubDate>Fri, 23 Mar 2018 17:37:48 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-7</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks for the save Doug.  I was the one who gave Amy the somewhat hasty advice and misinformed wiring diagram at an event we were attending together.  What I failed to understand (that I do now, thanks to you) is how to wire the relay correctly to take advantage of the regenerative braking mechanism.  Normally when we modify our two motor vehicles we’re using MotherBox which connects directly to the motors and circumvents any regen braking mechanism … so I wasn’t taking that into account.  Now, after a couple of coffees and drawing several pictures in many shades of ink, I can see how the circuit changes you recommended should work like a charm.  In short … you rock <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:">  many hands make light work, &amp; so glad we have each other’s backs when it comes to this stuff.  Happy Friday to y’all</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/6</link>
+        <pubDate>Fri, 23 Mar 2018 14:35:20 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-6</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>Thank you Doug! Appreciate the fast reply. I will try these suggestions and let you know how it works out.</p>
+<p>As for the braking function provided by the footswitch in the original circuit, I believe the Big Red Button also provides braking when released from being pressed down because it’s default position also shorts the circuit.</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/5</link>
+        <pubDate>Thu, 22 Mar 2018 23:29:56 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-5</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>So what that might look like is: 1) Remove the 3-way off of Relay 87. Move wire from Pin 2 to Relay 30. Move the wire now on Relay 30 to Relay 87. Remove red wire from Pin 5 off of 3-way connector and put it on Relay 87a. See if that helps.</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/4</link>
+        <pubDate>Thu, 22 Mar 2018 23:04:20 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-4</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Many of these cars short the motors when the footswitch is released, to provide braking. I think the original circuit you show has that. The modified circuit above does not support that feature. If you want to retain it, I can give you a circuit that will do so.</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/3</link>
+        <pubDate>Thu, 22 Mar 2018 22:53:48 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-3</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>It looks to me like the modified version shorts  battery and ground together at Pin 5.</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/2</link>
+        <pubDate>Thu, 22 Mar 2018 22:36:04 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-2</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+      <item>
+        <title>Issues with modifying Lightning McQueen Toy Car (bigger version)</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi everyone, I’m trying to modify a Lightning McQueen toy car (battery: 6V, 9Ah capacity) and ran into some issues that hopefully someone might have insight on. Any help will be greatly appreciated.</p>
+<p>Unlike the smaller Lightning McQueen toy car, the bigger version I got came with 2 motors (instead of 1) and a larger battery capacity. While trying to rewire the circuit to include a Big Red Button and a kill switch (toggle), I ran into overheating issues so I added in a relay component. Please see below for original and modified circuit diagram.</p>
+<p>However, whenever I press the Big Red Button, the car does not run at all. Instead, the relay will make a buzzing sound and start vibrating/moving across the table. Has anyone used a relay and seen this happen before? I made sure all the connections were intact and wired correctly, the battery was fully charged, and the toggle switch was on. I’m not sure how to proceed with troubleshooting this issue. Does anyone have ideas on what I can try?</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/a15ab23ec999ccda540ad04f8e02e299fa1042fb.png" title="Original vs Modified Relay Circuit System.png" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/a15ab23ec999ccda540ad04f8e02e299fa1042fb_2_403x500.png" alt="Original%20vs%20Modified%20Relay%20Circuit%20System" width="403" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/a15ab23ec999ccda540ad04f8e02e299fa1042fb_2_403x500.png, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/a15ab23ec999ccda540ad04f8e02e299fa1042fb_2_604x750.png 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/a15ab23ec999ccda540ad04f8e02e299fa1042fb_2_806x1000.png 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/a15ab23ec999ccda540ad04f8e02e299fa1042fb_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151/1</link>
+        <pubDate>Thu, 22 Mar 2018 22:08:46 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-151-1</guid>
+        <source url="https://www.gbgconnect.com/t/issues-with-modifying-lightning-mcqueen-toy-car-bigger-version/151.rss">Issues with modifying Lightning McQueen Toy Car (bigger version)</source>
+      </item>
+  </channel>
+</rss>

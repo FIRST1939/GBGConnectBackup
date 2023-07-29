@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wiring for McLaren 12V - Problem Solver - GoBabyGo Connect</title>
+    <meta name="description" content="We are using a big red button switch, and we cannot get the car to go. We are using a relay, but need some assistance for wiring to determine what we are doing wrong. Any help is greatly appreciated!">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="727.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Wiring for McLaren 12V&#39;" href="727.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/wiring-for-mclaren-12v/727" />
+<meta property="og:title" content="Wiring for McLaren 12V" />
+<meta name="twitter:title" content="Wiring for McLaren 12V" />
+<meta property="og:description" content="We are using a big red button switch, and we cannot get the car to go. We are using a relay, but need some assistance for wiring to determine what we are doing wrong. Any help is greatly appreciated!" />
+<meta name="twitter:description" content="We are using a big red button switch, and we cannot get the car to go. We are using a relay, but need some assistance for wiring to determine what we are doing wrong. Any help is greatly appreciated!" />
+<meta property="og:article:section" content="Problem Solver" />
+<meta property="og:article:section:color" content="25AAE2" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="1 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="1 ❤" />
+<meta property="article:published_time" content="2022-02-19T14:01:16+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="727.html">Wiring for McLaren 12V</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/problem-solver/11" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #25AAE2'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Problem Solver</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Wiring for McLaren 12V'>
+        <meta itemprop='articleSection' content='Problem Solver'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/alidasteen.html'><span itemprop='name'>alidasteen</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-19T14:01:16Z' class='post-time'>
+                    February 19, 2022,  2:01pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-19T14:01:16Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>We are using a big red button switch, and we cannot get the car to go. We are using a relay, but need some assistance for wiring to determine what we are doing wrong. Any help is greatly appreciated!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-22T17:48:02Z' class='post-time'>
+                    February 22, 2022,  5:48pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-22T17:48:02Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>if you could post some pictures i / we will have a better chance of figuring it out.  happy to help if possible</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-26T01:19:13Z' class='post-time'>
+                    February 26, 2022,  1:19am
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-26T01:19:13Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>When you press the Big Red button switch, can you hear the relay click? This will help us determine whether the problem is "in front of the relay " or “behind” it.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/alidasteen.html'><span itemprop='name'>alidasteen</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-26T14:04:39Z' class='post-time'>
+                    February 26, 2022,  2:04pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-26T14:04:39Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi all!! I am adding some photos for reference. We took the wiring apart just so it is easier for you to see where everything would connect. Underneath there are two different sets of wires. The black, red, and white ones go to the dashboard and battery. A white and orange one go to the dashboard and the motor. A green/brown, white, and red go to the dashboard and the pedal. I labeled the wires on the inside of the car.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e.jpeg" data-download-href="/uploads/short-url/pbVkhbGvcXDXhdGf6nYrPx9mhJA.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_666x500.jpeg" alt="image" data-base62-sha1="pbVkhbGvcXDXhdGf6nYrPx9mhJA" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/b08f6d7855ee55aa22ba0cd5177e472134d0414e_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1920×1440 213 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd.jpeg" data-download-href="/uploads/short-url/63n12S3khHkj19UzCp7JeaHQPG5.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_375x500.jpeg" alt="image" data-base62-sha1="63n12S3khHkj19UzCp7JeaHQPG5" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/2a6e9a0b1668431e33f2da62b43c1dc4aa91c5cd_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1920×2560 221 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe.jpeg" data-download-href="/uploads/short-url/b90vRnkFQ49jyw1NeeldFh3HY2q.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_375x500.jpeg" alt="image" data-base62-sha1="b90vRnkFQ49jyw1NeeldFh3HY2q" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4e1c991e6ce32ff4c8d9e6e42c428e1eb65ddbfe_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1920×2560 280 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c.jpeg" data-download-href="/uploads/short-url/9W8J001dgrrMBvJ2q7kh4DqnE0.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_375x500.jpeg" alt="image" data-base62-sha1="9W8J001dgrrMBvJ2q7kh4DqnE0" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/011f94e3cfd1f189daae51292ed9bfa36657d76c_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1920×2560 336 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/74c9b7120ed30b0e762155ac1656319fea3352e0.jpeg" data-download-href="/uploads/short-url/gF9yFEgnmkknQPURBoC2etESS1q.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_273x500.jpeg" alt="image" data-base62-sha1="gF9yFEgnmkknQPURBoC2etESS1q" width="273" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_273x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_409x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_546x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/74c9b7120ed30b0e762155ac1656319fea3352e0_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1206×2208 197 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/alidasteen.html'><span itemprop='name'>alidasteen</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-26T14:28:52Z' class='post-time'>
+                    February 26, 2022,  2:28pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-26T14:28:52Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>We do not hear a click</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_6' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-26T15:03:32Z' class='post-time'>
+                    February 26, 2022,  3:03pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-26T15:03:32Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Thank you, that helps a lot. I apologize for the next request, but I can’t see what I need to in the pictures. Could you please take a closeup of the relay with the highest resolution your camera or phone has? We now need to see the pins on the relay and which wires are connected to which pins. The pictures I am getting on this web page are too fuzzy when I try to look for details. Another option would be to directly email me the new pictures as attachments in case they are somehow being compressed via the posting here. Does this make sense?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_7' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/alidasteen.html'><span itemprop='name'>alidasteen</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-26T15:33:41Z' class='post-time'>
+                    February 26, 2022,  3:33pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-26T15:33:41Z'>
+              <span itemprop='position'>7</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Doug,</p>
+<p>We are using a SARL-112DF relay. I can definitely email you pictures if that would be easier!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_8' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-26T16:04:51Z' class='post-time'>
+                    February 26, 2022,  4:04pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-26T16:04:51Z'>
+              <span itemprop='position'>8</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Well, that relay should work for what you are trying to do. Let’s do both – post the pictures of the relay and its connections here, and then email them to me, too. I need to be able to read the numbers off the relay pins. They should be something like 30, 85, 86, 87, etc. and I need to see which wires go to each pin. The reason for continuing to post here is so Pete and others can help. The reason for emailing them is so I can see if that improves the detail. Are you working from a drawing or instructions on how to wire the relay in? If so, could you please send those along since there are several ways to do this? Also, do you have access to a multi-meter and know how to use it to measure voltage?.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_9' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/alidasteen.html'><span itemprop='name'>alidasteen</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/452f891bfe627a39deb876e14ede2533da7030ea.png">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-26T18:00:18Z' class='post-time'>
+                    February 26, 2022,  6:00pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-26T18:00:18Z'>
+              <span itemprop='position'>9</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Below are the directions we are following. I got them from <a href="https://www.instructables.com/GoBabyGo-Riley/" class="inline-onebox" rel="noopener nofollow ugc">GoBabyGo - Riley : 8 Steps - Instructables</a></p>
+<p>"For ease of use, we removed the pedal in the floorboard which moved the car, and added a Big Red Button.</p>
+<p>However, this complicates things, as we don’t want the full power going across the Big Red Button, so we’re going to use a Relay. We chose the SARL- 112DF, with the wiring diagram pictured.</p>
+<p>To power the coil of the relay, we’re going to tap into the battery power and run it through the big button to power the relay, and then from the relay to the battery ground. To simplify things, we’ll use the hot wire coming off of the emergency stop switch we installed earlier.</p>
+<p>To activate the car, we’ll just use the wires from the pedal we removed to actually start the car. You can see from the picture that the pedal was just a simple switch that connected two leads. These leads are what we’re going to run across the N/O and common connectors. Make sure that 1) you use the normally open connection on the relay, and 2) you connect the “hot” wire to the lead marked 87 (not 87a).</p>
+<p>You can identify the hot wire by turning on the car, and reading the voltage between each wire and ground. The one that shows 12V is the hot wire. (above, the brown wire with the electrical tape is the hot wire from the pedal; the brown wire without the electrical tape is the not-hot wire from the pedal)</p>
+<p>We opted to use quick disconnects on the wires going to the steering wheel so that we could run them easily through the chassis, but it’s not required.</p>
+<p>We installed the relay itself underneath the seat, with the other electronics and battery. Since the relay had a mounting hole on one side, we drilled a small hole in the side wall of the car’s chassis, and connected it with a bolt and nut."</p>
+<p><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/452f891bfe627a39deb876e14ede2533da7030ea.png" alt="image" data-base62-sha1="9S2MYG2X6ERP93DVKRnFQe6vtlU" width="650" height="431"></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_10' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="727.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2022-02-26T19:16:43Z' class='post-time'>
+                    February 26, 2022,  7:16pm
+                  </time>
+                  <meta itemprop='dateModified' content='2022-02-26T19:16:43Z'>
+              <span itemprop='position'>10</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>OK, thank you, this is commonly used approach and since it requires you to measure voltage I assume you have the multi-meter and know how to use it. When you have a chance to send me the picture of the wires attached to your relay so I can look at which pins they go to, we can decide what to do next. Since you do not hear the relay click we will probably look first at pins 85 and 86.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

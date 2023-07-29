@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Technical Discussion - GoBabyGo Connect</title>
+    <link>https://www.gbgconnect.com/c/technical-discussion/8</link>
+    <description>Topics in the &#39;Technical Discussion&#39; category The Technical Discussion category is the place to discuss best practices when it comes to the actual modification of ride-on cars or other devices for the purposes of GoBabyGo! This is where you should post questions and answers regarding safety, wiring, mechanical modifications, and any of the other technical aspects that come into play as we work together to provide greater mobility for children with special needs. All groups are encouraged to have cars or other devices inspected by a professional engineer before distributing them to the families.</description>
+    
+      <lastBuildDate>Sun, 02 Jul 2023 21:19:36 +0000</lastBuildDate>
+      <atom:link href="https://www.gbgconnect.com/c/technical-discussion/8.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Help wiring Big Red Button to Frozen 12v SUV</title>
+          <dc:creator><![CDATA[Andrewleif]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hi, we just picked up a used Disney Frozen SUV 12v car and a Big Red button but I’m having trouble knowing which wires to cut, splice, remove, etc.</p>
+<p>I have 2 kids who will be using this car. 1 needs the Big Red Button, the other will want to use the pedal. So, idealy I’d like both to be functional. Is that even possible?</p>
+<p>It has 2 speeds + Reverse<br>
+40A battery</p>
+<p>The foot pedal has Red, Yellow and Black wires</p>
+<p>I can only add 1 image for reference so it’s the wiring under the car. You’ll see the Red wire going from the pedal (into a relay?) and back into the battery, yellow going into the dash, and black going from the pedal to the dashboard to the battery. The other red, black, white and blue wires are running from the motors up to the dashboard.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93.jpeg" data-download-href="/uploads/short-url/aF6c50owrHG1gSnwHEwqoYr40Lx.jpeg?dl=1" title="16883327336966080597992184032355" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_375x500.jpeg" alt="16883327336966080597992184032355" data-base62-sha1="aF6c50owrHG1gSnwHEwqoYr40Lx" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/4abb19daf24644cd3d776c25089c4b44b18a6e93_2_750x1000.jpeg 2x" data-dominant-color="536F7C"></a></div><p></p>
+            <p><small>5 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805</link>
+          <pubDate>Sun, 02 Jul 2023 21:19:36 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-805</guid>
+          <source url="https://www.gbgconnect.com/t/help-wiring-big-red-button-to-frozen-12v-suv/805.rss">Help wiring Big Red Button to Frozen 12v SUV</source>
+        </item>
+        <item>
+          <title>Adding an oxygen bottle to a 6v car</title>
+          <dc:creator><![CDATA[ddegrendel]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>I have a build that will require a 7 pound oxygen bottle. Does anyone have ideas on the best way to secure the bottle behind the seat? I want to make sure the bottle does not move around, is easy to install/remove, and the valve/connection point is protected from getting hit.</p>
+<p>Thank you!</p>
+<p>Dan DeGrendel</p>
+            <p><small>5 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/adding-an-oxygen-bottle-to-a-6v-car/787">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/adding-an-oxygen-bottle-to-a-6v-car/787</link>
+          <pubDate>Fri, 17 Feb 2023 02:08:36 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-787</guid>
+          <source url="https://www.gbgconnect.com/t/adding-an-oxygen-bottle-to-a-6v-car/787.rss">Adding an oxygen bottle to a 6v car</source>
+        </item>
+        <item>
+          <title>Best Choice Jeep motors not activating</title>
+          <dc:creator><![CDATA[mkwillison]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>We did the wiring modifications to the Best Choice Jeep including kill switch and red button activation switch.  The vehicle was working when we left the build day.  It sat in my garage for about 2 months.  Now the motors will not activate.  I fully charged the battery.  The car turns on, and the switch gets power.  I removed the kill switch from the circuit to test, but the motors still do not activate.  The team that worked on this vehicle put the kill switch on the negative terminal wiring instead of the positive.  Is this the problem?  Did they fry something?  Any ideas are appreciated.  Thank you!</p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779</link>
+          <pubDate>Tue, 24 Jan 2023 15:32:51 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-779</guid>
+          <source url="https://www.gbgconnect.com/t/best-choice-jeep-motors-not-activating/779.rss">Best Choice Jeep motors not activating</source>
+        </item>
+        <item>
+          <title>6v Battery Guts</title>
+          <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Has anyone ever dissected one of the <a href="https://shop.mattel.com/products/power-wheels-toddler-6-volt-rechargeable-replacement-battery-p6828">blue 6v batteries</a> from the old Lightning McQueen cars? The upper section appears to be a separate plastic piece, and I suspect it’s just a cap covering the battery terminals.</p>
+<p>We have a bunch of Lightnings with dead batteries. The replacements are absurdly pricey. If possible, I would like to salvage as much of that wire &amp; connector as possible and just put them on a <a href="https://www.amazon.com/Casil-CA640-4Ah-Rechargeable-Battery/dp/B085TRXV9R/">standard 6V 4Ah battery</a>.</p>
+<p>(To be clear, I am <strong>NOT</strong> advocating that anyone try dissecting a battery housing; just curious if anyone already has.)</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://www.gbgconnect.com/t/6v-battery-guts/769">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/6v-battery-guts/769</link>
+          <pubDate>Wed, 09 Nov 2022 20:11:01 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-769</guid>
+          <source url="https://www.gbgconnect.com/t/6v-battery-guts/769.rss">6v Battery Guts</source>
+        </item>
+        <item>
+          <title>Public 3D printed parts</title>
+          <dc:creator><![CDATA[mikey]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hi everyone.<br>
+I wanted to start a discussion to share models and thoughts on 3D printed parts that may be of use.</p>
+<p>Here in GbG israel i designed a bunch of 3D parts, some we use in all builds and some only when required.</p>
+<p>I would love to have any feedback on my own models and also hear from you guys what you use or would love to see modeled.<br>
+What is the most time consuming task in your build?</p>
+<p>Parts:</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://www.thingiverse.com/thing:5363913">
+  <header class="source">
+      <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/8fd2808ba64e3fd6c9e2bd3fc9c90bddb1ddf04f.png" class="site-icon" width="192" height="192">
+
+      <a href="https://www.thingiverse.com/thing:5363913" target="_blank" rel="noopener nofollow ugc">thingiverse.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:628/472;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/3466f692fcf851d5b684d8d467ec333664fd71ed.png" class="thumbnail" width="628" height="472"></div>
+
+<h3><a href="https://www.thingiverse.com/thing:5363913" target="_blank" rel="noopener nofollow ugc">Audio plug holder (GoBabyGo israel) by houdini</a></h3>
+
+  <p>Go baby go a non profit that fits electric cars for disabled kids.
+Designs are used to hold and connect a simple audio plug to the car dash, plug is used to connect a push button. 
+https://www.gobabygo.org.il/</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://www.thingiverse.com/thing:4888212">
+  <header class="source">
+      <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/8fd2808ba64e3fd6c9e2bd3fc9c90bddb1ddf04f.png" class="site-icon" width="192" height="192">
+
+      <a href="https://www.thingiverse.com/thing:4888212" target="_blank" rel="noopener nofollow ugc">thingiverse.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:628/472;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/dd09011790c87b657ff4dc1c7185915d37dba64f.jpeg" class="thumbnail" width="628" height="472"></div>
+
+<h3><a href="https://www.thingiverse.com/thing:4888212" target="_blank" rel="noopener nofollow ugc">Connectors for Logitech adaptive gaming kit (GoBabyGo israel) by houdini</a></h3>
+
+  <p>Go baby go a non profit that fits electric cars for disabled kids.
+Designs are used to connect push buttons easily to a car with a many configuration to fit the actual needs of the kids.
+Connectors are for the Logitech gaming kit push buttons.
+The...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://www.thingiverse.com/thing:3853387">
+  <header class="source">
+      <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/8fd2808ba64e3fd6c9e2bd3fc9c90bddb1ddf04f.png" class="site-icon" width="192" height="192">
+
+      <a href="https://www.thingiverse.com/thing:3853387" target="_blank" rel="noopener nofollow ugc">thingiverse.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:628/472;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/5ef6c5bf5c5b900a8af6612cb2d365546137cb24.jpeg" class="thumbnail" width="628" height="472"></div>
+
+<h3><a href="https://www.thingiverse.com/thing:3853387" target="_blank" rel="noopener nofollow ugc">PVC hindge (GoBabyGo israel)  by houdini</a></h3>
+
+  <p>Go baby go a non profit that fits electric cars for disabled kids.
+Design is used to move a tray down to the kids lap in the car and up to allow easy exit and enter.
+Hinge is used to move two peaces of PCV in a 360 degree range around a center pvc...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://www.thingiverse.com/thing:3668860">
+  <header class="source">
+      <img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/8fd2808ba64e3fd6c9e2bd3fc9c90bddb1ddf04f.png" class="site-icon" width="192" height="192">
+
+      <a href="https://www.thingiverse.com/thing:3668860" target="_blank" rel="noopener nofollow ugc">thingiverse.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:628/472;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/07d185717be27fbacf7e327cec9ca5a64d1e3d59.jpeg" class="thumbnail" width="628" height="472"></div>
+
+<h3><a href="https://www.thingiverse.com/thing:3668860" target="_blank" rel="noopener nofollow ugc">Push botton connector (GoBabyGo israel)  by houdini</a></h3>
+
+  <p>Go baby go a non profit that fits electric cars for disabled kids.
+Designs are used to connect push buttons easily to a car with a many configuration to fit the actual needs of the kids. 
+Bottom replacement for big and small bottoms are replacement...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+<p>
+Ping me if you need help printing</p>
+<p>PS:<br>
+We use <a href="https://www.logitechg.com/en-us/products/gamepads/adaptive-gaming-kit-accessories.943-000318.html" class="inline-onebox" rel="noopener nofollow ugc">Logitech G Adaptive Gaming Kit for the Xbox Adaptive Controller</a> for our bush buttons which have 3.5mm male mono plug.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://www.gbgconnect.com/t/public-3d-printed-parts/737">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/public-3d-printed-parts/737</link>
+          <pubDate>Sat, 23 Apr 2022 05:39:29 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-737</guid>
+          <source url="https://www.gbgconnect.com/t/public-3d-printed-parts/737.rss">Public 3D printed parts</source>
+        </item>
+        <item>
+          <title>Motor controllers</title>
+          <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>We have been using Spark Motor Controllers in most of our builds. I see that Rev Robotics lists them as out of stock currently, and we have two wild things that lack only that part to be completed. Does anyone have a suggestion for a direct replacement?<br>
+Thank you!</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/motor-controllers/720">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/motor-controllers/720</link>
+          <pubDate>Wed, 05 Jan 2022 01:48:10 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-720</guid>
+          <source url="https://www.gbgconnect.com/t/motor-controllers/720.rss">Motor controllers</source>
+        </item>
+        <item>
+          <title>HELP with 12v conversion</title>
+          <dc:creator><![CDATA[ginabtheot]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hi all<br>
+We have a Bentley EXP12 and we are stumped with the conversion!  We have located the wiring for the pedal and we see where the accelerator and power are connected.  We do not know if we need a relay or not, because we keep getting different information. We also need clarification of guage size for wires.</p>
+<p>Thank so much</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/help-with-12v-conversion/706">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/help-with-12v-conversion/706</link>
+          <pubDate>Sun, 10 Oct 2021 16:39:00 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-706</guid>
+          <source url="https://www.gbgconnect.com/t/help-with-12v-conversion/706.rss">HELP with 12v conversion</source>
+        </item>
+        <item>
+          <title>Kidzone to joystick</title>
+          <dc:creator><![CDATA[jessOT]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>we are adapting a kidzone and are leaning to move towards using this instead of cars, so the family can use indoors. We are in Chicago. Also want something EI therapists can put in their cars. I saw some directions on wiring, but no finished product. can i get more details please. Thanks</p>
+<p>Also, how are folks comparing kidzone to wildthing?</p>
+<p>Jessica</p>
+            <p><small>28 posts - 9 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/kidzone-to-joystick/674">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/kidzone-to-joystick/674</link>
+          <pubDate>Tue, 18 May 2021 14:29:59 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-674</guid>
+          <source url="https://www.gbgconnect.com/t/kidzone-to-joystick/674.rss">Kidzone to joystick</source>
+        </item>
+        <item>
+          <title>Peg Perego rzr900 steering</title>
+          <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>My STEM class is currently working on a Razor 900 for a young man with cerebral palsy. He has mobility on his left side. We are creating a joystick control due to the difficulty on turning even a modified steering wheel. We have built several devices from Wild Things already, but this will be our first device with Servo Steering. My class has researched two other builds that involved steering,</p><aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img src="https://s1.wp.com/i/favicon.ico" class="site-icon" width="32" height="32">
+      <a href="https://bobparadiso.com/2015/10/21/go-baby-go-with-buttons-for-steering/" target="_blank" rel="noopener nofollow ugc" title="06:52PM - 21 October 2015">Bob's Projects – 21 Oct 15</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:440/330;"><img src="https://bobparadiso.files.wordpress.com/2015/10/img_20151021_074422.jpg?w=1200&amp;fit=440%2C330" class="thumbnail" width="440" height="330"></div>
+
+<h3><a href="https://bobparadiso.com/2015/10/21/go-baby-go-with-buttons-for-steering/" target="_blank" rel="noopener nofollow ugc">Go Baby Go with Buttons for Steering</a></h3>
+
+<p>Go Baby Go is an awesome idea from University of Delaware for using a Power Wheels car as an affordable base off of which to build a fun mobility device for a young child. The next 2 links explain …</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<aside class="onebox allowlistedgeneric">
+  <header class="source">
+      <img src="https://www.instructables.com/assets/img/siteassets/favicon.ico" class="site-icon" width="" height="">
+      <a href="https://www.instructables.com/Go-Baby-Go-Gracie/" target="_blank" rel="noopener nofollow ugc">Instructables</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:416/500;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_416x500.jpeg" class="thumbnail" width="416" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_416x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_624x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_832x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ece4dba369c661d3910b05bdcf8259e59461e062_2_10x10.png"></div>
+
+<h3><a href="https://www.instructables.com/Go-Baby-Go-Gracie/" target="_blank" rel="noopener nofollow ugc">Go Baby Go: Gracie</a></h3>
+
+<p>Go Baby Go: Gracie:      Go Baby Go! is an initiative started to provide opportunities for early, independent mobility, socialization and overall skill development for children with mobility limitations.According to the Go Baby Go Initiative, Go Baby...</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<p>
+We wanted to see if anyone here had any other suggestions. We are fine with the coding and electronics, just looking for a  way to make a durable steering setup. Does anyone have any tips before we get started on this last part of this build?<br>
+Thank you!</p>
+<p>Matt Nauman</p>
+<p>This is our steering setup on the polaris.<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8.jpeg" data-download-href="/uploads/short-url/uZOaIuS1GKcCL9qHht79ZbnBArm.jpeg?dl=1" title="IMG_7809" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_666x500.jpeg" alt="IMG_7809" data-base62-sha1="uZOaIuS1GKcCL9qHht79ZbnBArm" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/d93ddf6d41d587d9ae855fea8b10a1771a0018d8_2_10x10.png"></a></div><p></p>
+            <p><small>5 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668</link>
+          <pubDate>Mon, 10 May 2021 19:37:35 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-668</guid>
+          <source url="https://www.gbgconnect.com/t/peg-perego-rzr900-steering/668.rss">Peg Perego rzr900 steering</source>
+        </item>
+        <item>
+          <title>Foot pedal with three wires (not a ground wire)</title>
+          <dc:creator><![CDATA[BEnnis47]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>all – we have several older children and have obtained this vehicle to use<br>
+Aosom 12V Ride On Car 2- Seater SUV Truck Battery Powered High/Low Speed with Parental Remote Control, 3 Speeds, LED Light Bar, Audio Input - Pink<br>
+the hitch we have run into this that there are three active wires in the foot pedal and all are active (no ground).  combining any two shut the system down.  we moved the foot pedal up to the wheel, but it is clunky and difficult to depress, so I would like to replace with a push button, but have not found one I could use. thoughts or suggestions?  car has a remote, so relay is already in circuit.<br>
+THanks!<br>
+Beth</p>
+<p><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/5e582667e1c85fda35905ba600577f296fab3d78.jpeg" alt="unnamed" data-base62-sha1="dsBK3dZHUi9yFjRFVj0GL5oDeo8" width="200" height="200"></p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/foot-pedal-with-three-wires-not-a-ground-wire/654">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/foot-pedal-with-three-wires-not-a-ground-wire/654</link>
+          <pubDate>Mon, 22 Mar 2021 15:46:40 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-654</guid>
+          <source url="https://www.gbgconnect.com/t/foot-pedal-with-three-wires-not-a-ground-wire/654.rss">Foot pedal with three wires (not a ground wire)</source>
+        </item>
+        <item>
+          <title>Peg Perego rzr900 size</title>
+          <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>My students have been building GobabyGo vehicles for a few years now, and we have a new challenge to work on. We are building an outdoor vehicle for a young man whose left side is affected by CP. He is taller than most of the children we have built for in the past. I am looking at a few UTV style 12 volt vehicles right now and am leaning towards the rzr900. Does anyone have one of these available to check a measurement for me? I need to know the distance between the footwall and the back of the seat to see if this vehicle will work before ordering. Most of the stores we have looked at have them available to order but nothing available in the store to physically check.</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/peg-perego-rzr900-size/647">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/peg-perego-rzr900-size/647</link>
+          <pubDate>Sun, 07 Feb 2021 15:26:29 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-647</guid>
+          <source url="https://www.gbgconnect.com/t/peg-perego-rzr900-size/647.rss">Peg Perego rzr900 size</source>
+        </item>
+        <item>
+          <title>Organizing Training for New Chapter</title>
+          <dc:creator><![CDATA[agremban]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Good morning everyone,</p>
+<p>My name is Alyssa Gremban and I am an Assistant Professor at Touro University Nevada. My colleagues and I are working on creating a GBG Chapter for the Las Vegas area but are having difficulty connecting with someone who can assist us in the actual modification of the cars. I am an occupational therapist by trade and have participated in GBG builds before but my colleagues have not had the opportunity and therefore we would like to organize a “training” of some sort to give everyone the experience of modifying the cars before we launch our first build. We have reached out to the University of Delaware regarding their training program but have had difficulty getting in contact with anyone. Additionally, our engineering/robotics resources in the Las Vegas area (who are also familiar with GBG) are limited.</p>
+<p>Could you please advise me on any next steps you would recommend?</p>
+<p>Thank you and I look forward to connecting with you all!</p>
+<p>Alyssa</p>
+            <p><small>17 posts - 4 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/organizing-training-for-new-chapter/633">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/organizing-training-for-new-chapter/633</link>
+          <pubDate>Fri, 08 Jan 2021 18:57:17 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-633</guid>
+          <source url="https://www.gbgconnect.com/t/organizing-training-for-new-chapter/633.rss">Organizing Training for New Chapter</source>
+        </item>
+        <item>
+          <title>Wild things kids vehicle</title>
+          <dc:creator><![CDATA[Psnow13]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>hello everyone, new to the page, I am curious how you all are bypassing the seat switches on the “wild things” any information would be awesome! I already took the rear switch out and saw the four wires. I’m assuming 2 are open and 2 are closing the relay. but which ones? thanks!</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/wild-things-kids-vehicle/588">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/wild-things-kids-vehicle/588</link>
+          <pubDate>Fri, 10 Jul 2020 03:00:58 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-588</guid>
+          <source url="https://www.gbgconnect.com/t/wild-things-kids-vehicle/588.rss">Wild things kids vehicle</source>
+        </item>
+        <item>
+          <title>Wild thing wondergears seat question</title>
+          <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>I am working to continue a couple wild thing builds with my STEAM students via digital conferencing during quarantine. We have improved the rear castor, and built our seat frames. I ordered a couple of seat/harness combinations from <a href="http://Wondergears.com" rel="nofollow noopener">Wondergears.com</a>.<br>
+<a href="https://www.wondergears.com/products/child-secure-seatbelt-vest" rel="nofollow noopener">https://www.wondergears.com/products/child-secure-seatbelt-vest</a><br>
+Has anyone used these for their builds yet? The website has all the measurements posted online except for the overall width. I am trying to find out how wide the seat is at its widest point.<br>
+Thanks for the help!!</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b.jpeg" data-download-href="/uploads/short-url/thIyTyzI1VC0SL65yjMt7vilVVh.jpeg?dl=1" title="image" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_666x500.jpeg" alt="image" data-base62-sha1="thIyTyzI1VC0SL65yjMt7vilVVh" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/cd3fcbab1492b401128a1037105f2dc2a2f81a9b_2_10x10.png"></a></div><p></p>
+            <p><small>6 posts - 3 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/wild-thing-wondergears-seat-question/583">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/wild-thing-wondergears-seat-question/583</link>
+          <pubDate>Wed, 08 Apr 2020 22:54:13 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-583</guid>
+          <source url="https://www.gbgconnect.com/t/wild-thing-wondergears-seat-question/583.rss">Wild thing wondergears seat question</source>
+        </item>
+        <item>
+          <title>Battery Testing Suggestions</title>
+          <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>All,</p>
+<p>We’re developing a written protocol for repurposing used cars. I know some folks advise just replacing used batteries outright, but that seems wasteful. With that in mind, two related questions:</p>
+<ol>
+<li>Other than the fact that the batteries hold charge less well over time, are there other reasons why it might be important to replace them before re-using them? Am I missing some safety issue with older batteries?</li>
+<li>If it is safe to re-use an old battery, what are best practices for testing the battery before sending it back out into the world? Is it sufficient to charge the battery and slap a voltmeter on it? Are there other steps we could take to make sure the battery will hold a charge?</li>
+</ol>
+<p>Thanks for any tips!</p>
+<p>Bill</p>
+            <p><small>5 posts - 4 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/battery-testing-suggestions/580">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/battery-testing-suggestions/580</link>
+          <pubDate>Fri, 03 Apr 2020 12:55:53 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-580</guid>
+          <source url="https://www.gbgconnect.com/t/battery-testing-suggestions/580.rss">Battery Testing Suggestions</source>
+        </item>
+        <item>
+          <title>V6 Sit-to-Stand Wiring</title>
+          <dc:creator><![CDATA[SBU]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hello Fellow Modifiers!<br>
+My chapter is trying to rewire this particular V6 vehicle for a larger kid. <a href="https://www.amazon.com/dp/B07ZCSF57D/?coliid=I3NJPECVWK49UD&amp;colid=37UW93IBCMCWR&amp;psc=1&amp;ref_=lv_ov_lig_dp_it" rel="nofollow noopener">https://www.amazon.com/dp/B07ZCSF57D/?coliid=I3NJPECVWK49UD&amp;colid=37UW93IBCMCWR&amp;psc=1&amp;ref_=lv_ov_lig_dp_it</a></p>
+<p>The wiring is a little complicated for my small mind, but we are trying to go from a pedal to a reverse switch on the seat (when the child sits down, the car doesn’t go, when the child stands up, the car goes forward). One of the problems that (I think) I have is that the car needs to still be “on” but the “gas” needs to stop.<br>
+Let me know if anyone get give me any advise! I’m not a wiring newbie, but I am especially not a pro…</p>
+<p>Thanks a million!!!</p>
+<p><a href="https://www.gbgconnect.com/uploads/short-url/sOji88StI9mggHmgtIOqqar2M9D.jpeg">image0000001|666x500</a></p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573</link>
+          <pubDate>Mon, 09 Mar 2020 19:40:24 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-573</guid>
+          <source url="https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573.rss">V6 Sit-to-Stand Wiring</source>
+        </item>
+        <item>
+          <title>Sensors for Visually Impaired</title>
+          <dc:creator><![CDATA[longenee]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Our chapter has recently been asked to modify a car for a visually impaired child.  They are requesting sensors on each of the four sides of the car alerting the child when he or she is close to an object.  Has anyone attempted to use sensors in this fashion?  The car would have a remote override for safety purposes.</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/sensors-for-visually-impaired/534</link>
+          <pubDate>Thu, 19 Dec 2019 20:42:44 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-534</guid>
+          <source url="https://www.gbgconnect.com/t/sensors-for-visually-impaired/534.rss">Sensors for Visually Impaired</source>
+        </item>
+        <item>
+          <title>Slow Down Frozen Car</title>
+          <dc:creator><![CDATA[SBU]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hey Everyone!<br>
+I am rewiring a Frozen car to make the foot pedal into a push button for hand control. But for this child, the car goes a little too fast. What can I buy/do in order to slow down the car a little bit? Thanks so much!</p>
+            <p><small>4 posts - 4 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/slow-down-frozen-car/516">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/slow-down-frozen-car/516</link>
+          <pubDate>Thu, 21 Nov 2019 19:44:52 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-516</guid>
+          <source url="https://www.gbgconnect.com/t/slow-down-frozen-car/516.rss">Slow Down Frozen Car</source>
+        </item>
+        <item>
+          <title>Stand and walk behind maserati</title>
+          <dc:creator><![CDATA[kathyd007]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>On another note, we are trying to put pvc behind a maserati while the child has switch access when standing to encourage walking.  Has anyone done this or any ideas or tips?<br>
+thank you,<br>
+Kathy</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://www.gbgconnect.com/t/stand-and-walk-behind-maserati/512">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/stand-and-walk-behind-maserati/512</link>
+          <pubDate>Wed, 06 Nov 2019 20:25:42 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-512</guid>
+          <source url="https://www.gbgconnect.com/t/stand-and-walk-behind-maserati/512.rss">Stand and walk behind maserati</source>
+        </item>
+        <item>
+          <title>Maserati 6V sit to stand</title>
+          <dc:creator><![CDATA[kathyd007]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hi All,<br>
+Does anyone know how to adapt the maserati 6V for sit to stand?  Please let me know.<br>
+thank you,<br>
+Kathy</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/maserati-6v-sit-to-stand/511">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/maserati-6v-sit-to-stand/511</link>
+          <pubDate>Wed, 06 Nov 2019 13:38:27 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-511</guid>
+          <source url="https://www.gbgconnect.com/t/maserati-6v-sit-to-stand/511.rss">Maserati 6V sit to stand</source>
+        </item>
+        <item>
+          <title>Wild Thing Arduino Overview</title>
+          <dc:creator><![CDATA[gavin.wood]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>One of my former students put together this awesome video about working with the Arduino as the control system for modifying a Wild Thing. Thanks to George Whitehill for the time and effort he put into this. Lots of info packed into a short time!</p>
+<div class="lazyYT" data-youtube-id="y9WhI3cmRRw" data-youtube-title="Wild Thing Modification Electrical Overview - FRC 1939" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque"></div>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://www.gbgconnect.com/t/wild-thing-arduino-overview/509">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/wild-thing-arduino-overview/509</link>
+          <pubDate>Mon, 04 Nov 2019 19:34:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-509</guid>
+          <source url="https://www.gbgconnect.com/t/wild-thing-arduino-overview/509.rss">Wild Thing Arduino Overview</source>
+        </item>
+        <item>
+          <title>Power wheels boomerang</title>
+          <dc:creator><![CDATA[BEnnis47]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Has anyone modified this vehicle?  It was purchased for a child by a company due to size and weight.  More complex than our usual.  any help would be appreciated.<br>
+Thanks!</p>
+<p>Beth</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://www.gbgconnect.com/t/power-wheels-boomerang/506">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/power-wheels-boomerang/506</link>
+          <pubDate>Fri, 25 Oct 2019 17:31:13 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-506</guid>
+          <source url="https://www.gbgconnect.com/t/power-wheels-boomerang/506.rss">Power wheels boomerang</source>
+        </item>
+        <item>
+          <title>Uenjoy 12 V sunshine model</title>
+          <dc:creator><![CDATA[kathyd007]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hi, has anyone modified a uenjoy 12 V w wheels suspension, remote control, music, story playing, colorful lights, sunshine model?  I may be out of my league with this.<br>
+thank you,<br>
+Kathy</p>
+            <p><small>7 posts - 5 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/uenjoy-12-v-sunshine-model/503">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/uenjoy-12-v-sunshine-model/503</link>
+          <pubDate>Sun, 20 Oct 2019 21:41:13 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-503</guid>
+          <source url="https://www.gbgconnect.com/t/uenjoy-12-v-sunshine-model/503.rss">Uenjoy 12 V sunshine model</source>
+        </item>
+        <item>
+          <title>Question about relay</title>
+          <dc:creator><![CDATA[anc1985]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hello, non-electrical person here! I have read through many manuals. I’m wondering, does a trailer connector serve the same purpose as a relay? Are these interchangeable?<br>
+Thank you!</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/question-about-relay/495">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/question-about-relay/495</link>
+          <pubDate>Sat, 12 Oct 2019 20:17:11 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-495</guid>
+          <source url="https://www.gbgconnect.com/t/question-about-relay/495.rss">Question about relay</source>
+        </item>
+        <item>
+          <title>Light-Up Switch</title>
+          <dc:creator><![CDATA[MilwaukeeGBG]]></dc:creator>
+          <category>Technical Discussion</category>
+          <description><![CDATA[
+            <p>Hello, all!</p>
+<p>We have a little lady who would benefit from a light-up switch to activate the car, as she is motivated by lights. Has anyone had success with a specific brand/company? We used one from “Health Products For You,” but it would stick in the “ON/activated” position, which is obviously not great. Any ideas?</p>
+<p>Thanks!</p>
+<p>Lizzie, Allison, and Ben<br>
+Milwaukee GBG!</p>
+            <p><small>5 posts - 3 participants</small></p>
+            <p><a href="https://www.gbgconnect.com/t/light-up-switch/492">Read full topic</a></p>
+          ]]></description>
+          <link>https://www.gbgconnect.com/t/light-up-switch/492</link>
+          <pubDate>Thu, 10 Oct 2019 17:33:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">www.gbgconnect.com-topic-492</guid>
+          <source url="https://www.gbgconnect.com/t/light-up-switch/492.rss">Light-Up Switch</source>
+        </item>
+  </channel>
+</rss>

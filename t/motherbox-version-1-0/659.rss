@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Motherbox version 1.0</title>
+    <link>https://www.gbgconnect.com/t/motherbox-version-1-0/659</link>
+    <description>It&#39;s late, I&#39;m tired, I&#39;m reasonably sure this how-to manual will make little to no sense in the light of day .. but here it is.  Please feel free to make suggestions on how we can improve our build.  Hope this helps
+
+[Build your own Motherbox  v1.pdf|attachment](upload://dALq88jv5fKZK4ATAKyjQHpj0KV.pdf) (5.2 MB)</description>
+    
+    <lastBuildDate>Wed, 07 Apr 2021 18:33:32 +0000</lastBuildDate>
+    <category>Manuals and Guides</category>
+    <atom:link href="https://www.gbgconnect.com/t/motherbox-version-1-0/659.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Motherbox version 1.0</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/f8d8760ae4dd2ab6d12738ba1ab547fe93c27184.jpeg" data-download-href="/uploads/short-url/zvob3WYnxfCnOlGauRqxxD0slOk.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f8d8760ae4dd2ab6d12738ba1ab547fe93c27184_2_666x500.jpeg" alt="image" data-base62-sha1="zvob3WYnxfCnOlGauRqxxD0slOk" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f8d8760ae4dd2ab6d12738ba1ab547fe93c27184_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f8d8760ae4dd2ab6d12738ba1ab547fe93c27184_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f8d8760ae4dd2ab6d12738ba1ab547fe93c27184_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f8d8760ae4dd2ab6d12738ba1ab547fe93c27184_2_10x10.png"></a></div> <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/adda640de038ca1c32fb547d71b78fb69dca0517.jpeg" data-download-href="/uploads/short-url/oNYv9Z2IS0LjCzjsiQUYlRl6OY7.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adda640de038ca1c32fb547d71b78fb69dca0517_2_375x500.jpeg" alt="image" data-base62-sha1="oNYv9Z2IS0LjCzjsiQUYlRl6OY7" width="375" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adda640de038ca1c32fb547d71b78fb69dca0517_2_375x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adda640de038ca1c32fb547d71b78fb69dca0517_2_562x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adda640de038ca1c32fb547d71b78fb69dca0517_2_750x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/adda640de038ca1c32fb547d71b78fb69dca0517_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/motherbox-version-1-0/659/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/motherbox-version-1-0/659/3</link>
+        <pubDate>Wed, 07 Apr 2021 18:33:32 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-659-3</guid>
+        <source url="https://www.gbgconnect.com/t/motherbox-version-1-0/659.rss">Motherbox version 1.0</source>
+      </item>
+      <item>
+        <title>Motherbox version 1.0</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Here is the Arduino sketch we’ve been using.  There’s another version of it with some different functionality but that can wait for the light of day <img src="https://emoji.discourse-cdn.com/google/wink.png?v=9" title=":wink:" class="emoji" alt=":wink:"><a class="attachment" href="https://www.gbgconnect.com/uploads/short-url/omC88kXZvXn43vcDMDg3KgHtUjO.docx">FMD sketch converted to Word.docx</a> (30.0 KB)</p>
+<p>Will try and figure out a better way of sharing this tomorrow, seeing as I can’t upload the .ino file format.  Sorry about that.</p>
+          <p><a href="https://www.gbgconnect.com/t/motherbox-version-1-0/659/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/motherbox-version-1-0/659/2</link>
+        <pubDate>Wed, 07 Apr 2021 05:13:22 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-659-2</guid>
+        <source url="https://www.gbgconnect.com/t/motherbox-version-1-0/659.rss">Motherbox version 1.0</source>
+      </item>
+      <item>
+        <title>Motherbox version 1.0</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>It’s late, I’m tired, I’m reasonably sure this how-to manual will make little to no sense in the light of day … but here it is.  Please feel free to make suggestions on how we can improve our build.  Hope this helps</p>
+<p><a class="attachment" href="https://www.gbgconnect.com/uploads/short-url/dALq88jv5fKZK4ATAKyjQHpj0KV.pdf">Build your own Motherbox  v1.pdf</a> (5.2 MB)</p>
+          <p><a href="https://www.gbgconnect.com/t/motherbox-version-1-0/659/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/motherbox-version-1-0/659/1</link>
+        <pubDate>Wed, 07 Apr 2021 05:08:17 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-659-1</guid>
+        <source url="https://www.gbgconnect.com/t/motherbox-version-1-0/659.rss">Motherbox version 1.0</source>
+      </item>
+  </channel>
+</rss>

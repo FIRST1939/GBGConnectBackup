@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Inventory Control</title>
+    <link>https://www.gbgconnect.com/t/inventory-control/646</link>
+    <description>This might be a longshot, but...
+
+Is anyone using an inventory control system to keep track of your cars? Given the way our University is set up, we need to account for every car we send out into the world. We need some way to get ahold of families to get cars returned when kids outgrow them and it would be really helpful if we could document exactly what modifications went into each car. We&#39;ve been using an excel spreadsheet, but honestly it&#39;s a bit unwieldy. We&#39;ve been looking at something like [Sortly](https://www.sortly.com/), but then there are all kinds of privacy issues with using a cloud provider.
+
+How do you track your cars?</description>
+    
+    <lastBuildDate>Mon, 01 Feb 2021 19:18:39 +0000</lastBuildDate>
+    <category>General Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/inventory-control/646.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Inventory Control</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>This might be a longshot, but…</p>
+<p>Is anyone using an inventory control system to keep track of your cars? Given the way our University is set up, we need to account for every car we send out into the world. We need some way to get ahold of families to get cars returned when kids outgrow them and it would be really helpful if we could document exactly what modifications went into each car. We’ve been using an excel spreadsheet, but honestly it’s a bit unwieldy. We’ve been looking at something like <a href="https://www.sortly.com/">Sortly</a>, but then there are all kinds of privacy issues with using a cloud provider.</p>
+<p>How do you track your cars?</p>
+          <p><a href="https://www.gbgconnect.com/t/inventory-control/646/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/inventory-control/646/1</link>
+        <pubDate>Mon, 01 Feb 2021 19:18:39 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-646-1</guid>
+        <source url="https://www.gbgconnect.com/t/inventory-control/646.rss">Inventory Control</source>
+      </item>
+  </channel>
+</rss>

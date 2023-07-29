@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>V6 Sit-to-Stand Wiring</title>
+    <link>https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573</link>
+    <description>Hello Fellow Modifiers!
+My chapter is trying to rewire this particular V6 vehicle for a larger kid. https://www.amazon.com/dp/B07ZCSF57D/?coliid=I3NJPECVWK49UD&amp;colid=37UW93IBCMCWR&amp;psc=1&amp;ref_=lv_ov_lig_dp_it
+
+The wiring is a little complicated for my small mind, but we are trying to go from a pedal to a reverse switch on the seat (when the child sits down, the car doesn&#39;t go, when the child stands up, the car goes forward). One of the problems that (I think) I have is that the car needs to still be &quot;on&quot; but the &quot;gas&quot; needs to stop.
+Let me know if anyone get give me any advise! I&#39;m not a wiring newbie, but I am especially not a pro....
+
+Thanks a million!!!
+
+[image0000001|666x500](upload://sOji88StI9mggHmgtIOqqar2M9D.jpeg)</description>
+    
+    <lastBuildDate>Fri, 03 Apr 2020 12:49:15 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>V6 Sit-to-Stand Wiring</title>
+        <dc:creator><![CDATA[Bill_Janes]]></dc:creator>
+        <description><![CDATA[
+            <p>Sorry, just now seeing this! First things first, I am not an electrical engineer. Use these suggestions at your own risk and consult an EE or your local robotics team. With that out of the way…</p>
+<p><strong>Long story short:</strong> This can be accomplished with a normally-closed relay.</p>
+<p><strong>Short story long:</strong> I would recommend disconnecting ONLY the foot pedal, nothing else (assuming you want the rest of the vehicle power to work, which is how I interpreted “the car needs to still be “on”…”</p>
+<p>Once the foot pedal is disconnected, you’re basically replacing it with the normally-closed relay in place of the foot pedal. We use something like <a href="https://www.amazon.com/gp/product/B00VRUAHLE">this</a>. There are dozens of them on Amazon from different brands, all identical.</p>
+<p>Then you need a switch to go on the seat. You could just re-purpose the foot pedal or replace it with something entirely new.</p>
+<p>Ideally, you will also need a battery (e.g.: a 9-volt in a housing). Alternatively, if you are using the foot pedal and know it can safely handle 12v (at a very low draw), you could just split power off from the car battery. You will need to do some reading on how to wire a normally closed relay, but once you get it, it’s not difficult.</p>
+<p>For a standing car like this, it’s really important to have a good kill switch. You can also wire that into (what used to be) the foot pedal loop, so that it kills just the motor, not the whole car.</p>
+<p>If you need more help, shoot me an email at janesw [at] health [dot] missouri [dot] edu</p>
+<p>and definitely consult your robotics team, an electrician, or an EE!</p>
+          <p><a href="https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573/2</link>
+        <pubDate>Fri, 03 Apr 2020 12:49:15 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-573-2</guid>
+        <source url="https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573.rss">V6 Sit-to-Stand Wiring</source>
+      </item>
+      <item>
+        <title>V6 Sit-to-Stand Wiring</title>
+        <dc:creator><![CDATA[SBU]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello Fellow Modifiers!<br>
+My chapter is trying to rewire this particular V6 vehicle for a larger kid. <a href="https://www.amazon.com/dp/B07ZCSF57D/?coliid=I3NJPECVWK49UD&amp;colid=37UW93IBCMCWR&amp;psc=1&amp;ref_=lv_ov_lig_dp_it" rel="nofollow noopener">https://www.amazon.com/dp/B07ZCSF57D/?coliid=I3NJPECVWK49UD&amp;colid=37UW93IBCMCWR&amp;psc=1&amp;ref_=lv_ov_lig_dp_it</a></p>
+<p>The wiring is a little complicated for my small mind, but we are trying to go from a pedal to a reverse switch on the seat (when the child sits down, the car doesn’t go, when the child stands up, the car goes forward). One of the problems that (I think) I have is that the car needs to still be “on” but the “gas” needs to stop.<br>
+Let me know if anyone get give me any advise! I’m not a wiring newbie, but I am especially not a pro…</p>
+<p>Thanks a million!!!</p>
+<p><a href="https://www.gbgconnect.com/uploads/short-url/sOji88StI9mggHmgtIOqqar2M9D.jpeg">image0000001|666x500</a></p>
+          <p><a href="https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573/1</link>
+        <pubDate>Mon, 09 Mar 2020 19:40:24 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-573-1</guid>
+        <source url="https://www.gbgconnect.com/t/v6-sit-to-stand-wiring/573.rss">V6 Sit-to-Stand Wiring</source>
+      </item>
+  </channel>
+</rss>

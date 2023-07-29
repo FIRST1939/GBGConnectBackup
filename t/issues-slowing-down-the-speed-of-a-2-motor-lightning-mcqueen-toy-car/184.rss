@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+    <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184</link>
+    <description>Hi everyone, I was very fortunate to have received helpful advice on my previous post &quot;Issues with modifying Lightning McQueen Toy Car (bigger version)&quot; and thought we had overcome the last of the technical hurdles. However, we recently tried to fit the modified car with a child and realized the car speed (5 mph) is too fast for the child who could not lift their hand off the switch very fast. Does anyone know how I could slow down the speed of a 2-motor Lightning McQueen Toy Car? Please let me know if you have any ideas or suggestions. Any help will be greatly appreciated!
+
+This is the current modified circuit (battery: 6V, 9Ah capacity) for the car:
+![Modified%20Circuit%20with%20Relay|690x482](upload://h3r2rrX8nkuBCq9GPNkiyS0B2Db.png)</description>
+    
+    <lastBuildDate>Sat, 05 May 2018 10:34:22 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Amy, good to hear from you again. Nick’s drawing is almost exactly what we use. In addition, for safety,  I put a 2200 ohm resistor in series with each potentiometer. (Cut the black lead, solder the resistor in, cover it with heat shrink.) That reduces the highest speed at which they can run the cars which also helps with heating concerns.</p>
+<p>Nick mentions that your relay must handle at least 30 amps. That is correct, the car draws 25 amps with wheels locked. Your toggle switch must also be able to handle that much, be sure to check that too.</p>
+<p>Two comments regarding the heating question. First, the heating would indeed show up when the car is running slow, but it has to be running slow due to a heavy load. So we tested ours by loading it with lead bricks and running it up and down an incline for about 20 minutes with the potentiometers set to the highest speed. No heating. Secondly, Nick, the heating problems Amy had before were due to a circuit drawing error, that’s all.</p>
+<p>Nick is also correct that the capacitor is not needed if you switch the power to the motor controllers as shown. The RioRands “spool up” very nicely with this circuit.</p>
+<p>Good luck, and let us know how it comes out.</p>
+<pre><code>      -- Doug</code></pre>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/11</link>
+        <pubDate>Sat, 05 May 2018 10:34:22 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-11</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[Nick]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi Amy,</p>
+<p>I dropped the relay to save a few components (and dollars) and I was also thinking about making the acceleration and deceleration controllable with a few extra components around the potentiometer, but that was probably getting a bit too complicated.</p>
+<p>One downside with dropping the relay is that the speed controller is always powered when the toggle switch is on. This will slowly drain the battery but should not get hot. (I am curious why not having a relay is causing it to get hot). With the relay in the design the motor controller will be disconnected from the battery when the button is not pressed (and the relay is open) so it won’t drain the battery at all.</p>
+<p>Given that Doug has already done this then it is probably a good idea to go with his design which should be something like this:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/50781a7e4a8a08aeb4c4ceee12825c327eeeb953.png" title="Modified Circuit with Two RioRand.png" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/50781a7e4a8a08aeb4c4ceee12825c327eeeb953_2_690x482.png" alt="Modified%20Circuit%20with%20Two%20RioRand" width="690" height="482" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/50781a7e4a8a08aeb4c4ceee12825c327eeeb953_2_690x482.png, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/50781a7e4a8a08aeb4c4ceee12825c327eeeb953_2_1035x723.png 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/50781a7e4a8a08aeb4c4ceee12825c327eeeb953_2_1380x964.png 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/50781a7e4a8a08aeb4c4ceee12825c327eeeb953_2_10x10.png"></a></div><br>
+Just make sure that the relay contacts are rated to carry a high enough current (probably 30A DC would be good to cover both 15A speed controllers), otherwise you will want two relays as well.<p></p>
+<p>Set the potentiometers to about the same rotation to adjust the speed, otherwise the car may go in circles.</p>
+<p>You may have to reverse the connections between the motor and the speed controller if either motor goes backwards.</p>
+<p>With this design you do end up losing reverse and the ‘regenerative’ braking, but that is probably not a problem for you.</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/10</link>
+        <pubDate>Sat, 05 May 2018 06:40:55 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-10</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>That’s super neat!! It’s cool to know there are other GBG folks also tackling how to slow down a 2-motor car. Thanks for sharing Doug!</p>
+<p>I noticed in the post from the link you shared, it stated that the picture was a test mockup and not the final wiring. Was your team able to ultimately implement the mockup design on an actual 2-motor car and get it to slow down? (if yes, would it be okay to share the circuit design with me?)</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/9</link>
+        <pubDate>Sat, 05 May 2018 03:44:38 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-9</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>Wow Nick thanks for so much for all the information and taking time to redraw the circuit! Really appreciate it.</p>
+<p>I read through everything you wrote and I understand how all the wires would be rerouted. However, could you help explain why the relay was taken out of the new circuit drawing? The relay helped stop an overheating issue we were having before, so I’m concerned the overheating issue might return if it’s taken out.</p>
+<p>As for the motor load concern, I know the 6 V (9 Ah) battery does contain a fuse of some kind but I didn’t see a value. I tried searching for the fuse value using the battery’s model number (please see below), but wasn’t able to find an actual value. I’ve listed the motor’s model number below as well. Not sure if that will help. I will try calling Fisher Price in the day time to see if they know anything.</p>
+<p>Power Wheels Battery Model Number: <strong>00801-0712</strong><br>
+Motor Model Number: <strong>RS-550PC-7520</strong></p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/8</link>
+        <pubDate>Sat, 05 May 2018 03:29:56 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-8</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>I actually haven’t tried anything yet and wanted to see what everyone had to say first (to reduce chances of overheating or having a blown fuse). That sounds like a good idea though! Thanks Pete!</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/7</link>
+        <pubDate>Sat, 05 May 2018 02:26:12 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-7</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>We use the same motor controller you show above, but use two of  them for this kind of car. One on each motor. See this: <a href="https://www.facebook.com/GoBabyGoCentralOhioTechnical/" rel="nofollow noopener">https://www.facebook.com/GoBabyGoCentralOhioTechnical/</a>  Third picture from the top.</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/6</link>
+        <pubDate>Wed, 02 May 2018 10:34:14 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-6</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[Nick]]></dc:creator>
+        <description><![CDATA[
+            <p>I don’t have either the car or the motor controller so this is just an educated guess, but you can try this:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/ae09ec4ae468621f564136e1e9751d1d250a5d40.png" title="Modified Circuit with RioRand.png" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ae09ec4ae468621f564136e1e9751d1d250a5d40_2_690x482.png" alt="Modified%20Circuit%20with%20RioRand" width="690" height="482" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ae09ec4ae468621f564136e1e9751d1d250a5d40_2_690x482.png, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ae09ec4ae468621f564136e1e9751d1d250a5d40_2_1035x723.png 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ae09ec4ae468621f564136e1e9751d1d250a5d40_2_1380x964.png 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ae09ec4ae468621f564136e1e9751d1d250a5d40_2_10x10.png"></a></div><p></p>
+<p>The wiring is pretty much the way it looks. Connect the potentiometer with the supplied connector, but cut the wire that goes to the pin marked ‘5V’ on the PCB, and connect the button in the middle, between the potentiometer and the PCB connector. The idea is that when the button is pressed the car will go at the speed set by the potentiometer, and when the button is released it will stop.</p>
+<p>I think you will want to add a capacitor between the 5V signal and the GND signal at the potentiometer to debounce the switch a bit. A 10uF 16V electrolytic should be good. Just make sure that the ‘+’ lead of the capacitor goes to what used to be the 5V lead of the potentiometer and the ‘-’ lead goes to the GND wire. It is probably easiest to solder this on at the potentiometer pins.</p>
+<p>A couple of notes.</p>
+<ol>
+<li>
+<p>This controller is rated to 15A. I don’t know if the motor load will be too high for it (you might be able to guess by looking at the fuse on the battery and see what value it is). If you need a higher current rating you could try this module <a href="https://www.amazon.com/dp/B01H6QFUF0/ref=psdc_10967761_t1_B0791YHB6P" rel="nofollow noopener">https://www.amazon.com/dp/B01H6QFUF0/ref=psdc_10967761_t1_B0791YHB6P</a> but it will be harder to get to the pins on the potentiometer. You can also try it and make sure that it isn’t getting too hot. (It will get hotter when the car is not going at the maximum speed)</p>
+</li>
+<li>
+<p>It would be nice if the color coding of the wires to the potentiometer was correct (5V=red, GND=black) but from the picture it looks like they may be reversed so you will have to select the wire to cut by looking at the silkscreen on the PCB.</p>
+</li>
+</ol>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/5</link>
+        <pubDate>Wed, 02 May 2018 04:26:20 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-5</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>Have u been game to try plugging the Riorand PWM into the circuit just to give it a try?  Maybe run the positive wire coming off relay terminal 30 into the Power + receiver on the PWM, then connect Motor + to the “2” position.  Motor -ve would connect to the “5” position, then Power -ve would connect to the -ve bus/bundle going back to the -ve battery terminal.  I’ll run this scenario by the guy that helps me alot w electronics and see what he says, then get back to you asap’ish <img src="https://emoji.discourse-cdn.com/google/slight_smile.png?v=5" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/4</link>
+        <pubDate>Wed, 02 May 2018 02:48:35 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-4</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>Just following up with this post and hoping someone can help with this issue!</p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/3</link>
+        <pubDate>Tue, 01 May 2018 05:21:37 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-3</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>Currently, I have a circuit component called a “DC motor speed controller” by RioRand (please see below for pics) but am not sure if it will do the trick or how to even connect/integrate it into the current modified circuit (since the car has 2 motors and there seems to be only a power/ground connector for 1 motor on the speed controller):<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/0d59f04e2e3f3391625fb335ffe80ae2422d54ef.jpeg" title="image1.jpeg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/0d59f04e2e3f3391625fb335ffe80ae2422d54ef_2_668x500.jpeg" alt="image1" width="668" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/0d59f04e2e3f3391625fb335ffe80ae2422d54ef_2_668x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/0d59f04e2e3f3391625fb335ffe80ae2422d54ef_2_1002x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/0d59f04e2e3f3391625fb335ffe80ae2422d54ef.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/0d59f04e2e3f3391625fb335ffe80ae2422d54ef_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/2</link>
+        <pubDate>Thu, 26 Apr 2018 02:13:53 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-2</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+      <item>
+        <title>Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</title>
+        <dc:creator><![CDATA[chaamy]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi everyone, I was very fortunate to have received helpful advice on my previous post “Issues with modifying Lightning McQueen Toy Car (bigger version)” and thought we had overcome the last of the technical hurdles. However, we recently tried to fit the modified car with a child and realized the car speed (5 mph) is too fast for the child who could not lift their hand off the switch very fast. Does anyone know how I could slow down the speed of a 2-motor Lightning McQueen Toy Car? Please let me know if you have any ideas or suggestions. Any help will be greatly appreciated!</p>
+<p>This is the current modified circuit (battery: 6V, 9Ah capacity) for the car:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/7788649456cfb2916c7ea5718326aed81457241d.png" title="Modified Circuit with Relay.png" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7788649456cfb2916c7ea5718326aed81457241d_2_690x482.png" alt="Modified%20Circuit%20with%20Relay" width="690" height="482" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7788649456cfb2916c7ea5718326aed81457241d_2_690x482.png, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7788649456cfb2916c7ea5718326aed81457241d_2_1035x723.png 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7788649456cfb2916c7ea5718326aed81457241d_2_1380x964.png 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7788649456cfb2916c7ea5718326aed81457241d_2_10x10.png"></a></div><p></p>
+          <p><a href="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184/1</link>
+        <pubDate>Thu, 26 Apr 2018 02:11:59 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-184-1</guid>
+        <source url="https://www.gbgconnect.com/t/issues-slowing-down-the-speed-of-a-2-motor-lightning-mcqueen-toy-car/184.rss">Issues slowing down the speed of a 2-motor Lightning McQueen Toy Car</source>
+      </item>
+  </channel>
+</rss>

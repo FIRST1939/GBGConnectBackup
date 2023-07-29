@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Maserati Car is pretty special - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="Hi folks, I found these Maserati cars on sale over Black Friday / Cyber Monday and bought a couple. I was very impressed with the way that they are built. They are small, so will do well with little ones, but they are al&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="101.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Maserati Car is pretty special&#39;" href="101.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/maserati-car-is-pretty-special/101" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/maserati-car-is-pretty-special/101" />
+<meta property="og:title" content="Maserati Car is pretty special" />
+<meta name="twitter:title" content="Maserati Car is pretty special" />
+<meta property="og:description" content="Hi folks, I found these Maserati cars on sale over Black Friday / Cyber Monday and bought a couple. I was very impressed with the way that they are built. They are small, so will do well with little ones, but they are also remote control.  I went to rewire one today and they are the easiest car to rewire - you dont need to cut anything! Just buy a connector and the cables from the accelerator connect under the hood. The cable from the accelerator pedal runs up to the engine compartment and there..." />
+<meta name="twitter:description" content="Hi folks, I found these Maserati cars on sale over Black Friday / Cyber Monday and bought a couple. I was very impressed with the way that they are built. They are small, so will do well with little ones, but they are also remote control.  I went to rewire one today and they are the easiest car to rewire - you dont need to cut anything! Just buy a connector and the cables from the accelerator connect under the hood. The cable from the accelerator pedal runs up to the engine compartment and there..." />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta property="article:published_time" content="2017-12-13T21:34:17+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+        <link rel="next" href="101%3Fpage=2.html">
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="101.html">Maserati Car is pretty special</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/technical-discussion/8" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Maserati Car is pretty special'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Jason_Craig.html'><span itemprop='name'>Jason_Craig</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2017-12-13T21:34:17Z' class='post-time'>
+                    December 13, 2017,  9:34pm
+                  </time>
+                  <meta itemprop='dateModified' content='2017-12-13T21:34:17Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>Hi folks, I found these <a href="https://www.walmart.com/ip/Costway-6V-Licensed-Maserati-Kids-Ride-On-Car-RC-Remote-Control-Opening-Doors-MP3-Swing-Blue/625001803" rel="nofollow noopener">Maserati cars</a> on sale over Black Friday / Cyber Monday and bought a couple. I was very impressed with the way that they are built. They are small, so will do well with little ones, but they are also remote control.</p>
+<p>I went to rewire one today and they are the easiest car to rewire - you dont need to cut anything! Just buy a connector and the cables from the accelerator connect under the hood. The cable from the accelerator pedal runs up to the engine compartment and there is a <a href="https://ae01.alicdn.com/kf/HTB1VhjUc5AKL1JjSZFoq6ygCFXaj/200-Pairs-400pcs-2-pin-SM-JST-LED-Connecting-Wire-Male-Female-Plug-Connector-Terminals-Cable.jpg" rel="nofollow noopener">connector</a> that is easily accessible.</p>
+<p>The thing I liked the most about this car was that it already had built into it a graduated acceleration. I thought the battery was dead at first because I pushed the button and it slowly came up to speed. This cuts down the whiplash that some of our new drivers look like they are getting when they first start.</p>
+<p>The car is also controlled by remote control and we found out today that the remote control will work WHILE the button is usable. This means that while the kiddo is pushing the button to make the car go, dad or mom is steering via remote. It was pretty awesome.</p>
+<p>I know these are not the cheapest cars on the market, but I am leaning this way for all of our really little drivers.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+                <div class='crawler-linkback-list' itemscope itemtype='http://schema.org/ItemList'>
+                      <div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+                        <a itemprop='url' href="../costzon-maserati-manual/281.html">Costzon Maserati Manual</a>
+                        <meta itemprop='position' content='3'>
+                      </div>
+                </div>
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Pete-from-POP.html'><span itemprop='name'>Pete-from-POP</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2017-12-14T13:06:00Z' class='post-time'>
+                    December 14, 2017,  1:06pm
+                  </time>
+                  <meta itemprop='dateModified' content='2017-12-14T13:06:00Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Nice one!! Thanks for sharing … will def have to check that out</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/BEnnis47.html'><span itemprop='name'>BEnnis47</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2017-12-23T03:47:02Z' class='post-time'>
+                    December 23, 2017,  3:47am
+                  </time>
+                  <meta itemprop='dateModified' content='2017-12-23T03:47:02Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>We at GoBabyGo Louisville (Bellarmine University) also built with this car, and a few others with remotes.  We were pleasantly surprised to see that the remotes still worked, and this solved some of the steering concerns discussed in another thread.  We found an Audi, a BMW and one other that is eluding me right now.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/54b7c3e71437625d57cf264d93c5bd443358f125.jpg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-05-19T20:14:14Z' class='post-time'>
+                    May 19, 2018,  8:14pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-05-19T20:14:14Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Here are our Maserati adaptations. <div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/54b7c3e71437625d57cf264d93c5bd443358f125.jpg" title="IMG_2634_cr.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/54b7c3e71437625d57cf264d93c5bd443358f125_2_690x494.jpg" alt="IMG_2634_cr" width="690" height="494" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/54b7c3e71437625d57cf264d93c5bd443358f125_2_690x494.jpg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/54b7c3e71437625d57cf264d93c5bd443358f125_2_1035x741.jpg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/54b7c3e71437625d57cf264d93c5bd443358f125_2_1380x988.jpg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/54b7c3e71437625d57cf264d93c5bd443358f125_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_2634_cr.jpg</span><span class="informations">1481×1061 653 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/51dbd94b779adedc713cf48e2d136098db62e1ed.jpg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-05-19T20:15:21Z' class='post-time'>
+                    May 19, 2018,  8:15pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-05-19T20:15:21Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/51dbd94b779adedc713cf48e2d136098db62e1ed.jpg" title="IMG_2633_cr.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/51dbd94b779adedc713cf48e2d136098db62e1ed_2_460x500.jpg" alt="IMG_2633_cr" width="460" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/51dbd94b779adedc713cf48e2d136098db62e1ed_2_460x500.jpg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/51dbd94b779adedc713cf48e2d136098db62e1ed_2_690x750.jpg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/51dbd94b779adedc713cf48e2d136098db62e1ed_2_920x1000.jpg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/51dbd94b779adedc713cf48e2d136098db62e1ed_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_2633_cr.jpg</span><span class="informations">1072×1165 539 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_6' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/samlogan52.html'><span itemprop='name'>samlogan52</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-07-04T16:39:14Z' class='post-time'>
+                    July 4, 2018,  4:39pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-07-04T16:39:14Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hey All! Does any one have a link to the connector to purchase and a little more info with how that interfaces with the Big Red switch to modify the Maserati? Several of the regular models (McQueen, SpongeBob, Frozen) cars are out of stock and we are looking for new ones. Thanks!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_7' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-07-15T01:12:14Z' class='post-time'>
+                    July 15, 2018,  1:12am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-07-15T01:12:14Z'>
+              <span itemprop='position'>7</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>We just cut and splice the wires. (Soldered, with heat shrink tubing.) They are easy to access. Even if you could get the connector, you would still have to do a similar splice into the cable of the Big Red Button switch, correct? We put jacks in both the front and rear of the car to plug switches into.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_8' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/e2e7f1079bb34484e2049c26163e4779e011e9cd.jpg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-07-15T20:14:12Z' class='post-time'>
+                    July 15, 2018,  8:14pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-07-15T20:14:12Z'>
+              <span itemprop='position'>8</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>You could try these:<br>
+<aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/RGBZONE-20Pairs-Female-Connector-Adapter/dp/B00T2U76V0" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:435/244;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/e2e7f1079bb34484e2049c26163e4779e011e9cd.jpg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/RGBZONE-20Pairs-Female-Connector-Adapter/dp/B00T2U76V0" target="_blank" rel="nofollow noopener">RGBZONE 20Pairs JST SM 2Pin Plug Male to Female EL Wire Cable Connector Adapter for 3528 5050 LED Light Strip - - Amazon.com</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+<aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/yueton-Pairs-Pins-Female-Connector/dp/B013L9N7KQ" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:483/262;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/dd262bf6ee2fbdcce01f8da9ce5cf1c2f355db0d.jpg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/yueton-Pairs-Pins-Female-Connector/dp/B013L9N7KQ" target="_blank" rel="nofollow noopener">Amazon.com: yueton 10 Pairs JST SM 2 Pins Plug Male and Female Wire Connector: Electronics</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+<p>Like I said, we don’t use them, but they look like what’s in the cars.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_9' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/ab3de35bbca512e5e8a8f062689adf510f40a3ce.JPG">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-07-19T19:42:40Z' class='post-time'>
+                    July 19, 2018,  7:42pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-07-19T19:42:40Z'>
+              <span itemprop='position'>9</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Two more Maseratis, almost twins, ready for pickup Saturday. The child requesting the car on the right needed some additional modifications to the steering.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/ab3de35bbca512e5e8a8f062689adf510f40a3ce.JPG" title="IMG_2721 Adj.JPG" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ab3de35bbca512e5e8a8f062689adf510f40a3ce_2_498x500.JPG" alt="IMG_2721%20Adj" width="498" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ab3de35bbca512e5e8a8f062689adf510f40a3ce_2_498x500.JPG, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ab3de35bbca512e5e8a8f062689adf510f40a3ce_2_747x750.JPG 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ab3de35bbca512e5e8a8f062689adf510f40a3ce_2_996x1000.JPG 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ab3de35bbca512e5e8a8f062689adf510f40a3ce_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">IMG_2721 Adj.JPG</span><span class="informations">1068×1072 473 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_10' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Mitch.html'><span itemprop='name'>Mitch</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-08-26T21:13:38Z' class='post-time'>
+                    August 26, 2018,  9:13pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-08-26T21:13:38Z'>
+              <span itemprop='position'>10</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Doug,<br>
+We are looking to modify 10 plus Maserati from Amazon in central MO. This is our first time to host a GBG event. I purchased a Costzon Maserati to test modify for $140 after reading your post. It is similar to the KidTrax version but has a few minor differences. The parent remote, MP3 player, blue tooth capable, key, slow start, horn, sound effects, and led lights are impressive for the cost of this vehicle.<br>
+I noticed in the image above it does not seem to have the big red button steering wheel mount used on most modifications. I was considering trying a 60mm arcade button due to the existing buttons for the horn and music on spokes of the steering wheel. Could you please provide some insight on how the child activated your modifications? Also, there are some broken links in the Maserati build instructions hosted at the Mercer website. Any way I can get access to those instructions?<br>
+Did you use a toggle kill switch at rear of the vehicle even though the remote has a stop button for the parent?<br>
+Did you disable the powered doors? Or just lock them closed? Any other insight as we make the modifications this week?<br>
+Thanks for sharing your modifications.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_11' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-08-26T22:54:19Z' class='post-time'>
+                    August 26, 2018, 10:54pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-08-26T22:54:19Z'>
+              <span itemprop='position'>11</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Mitch,</p>
+<p>Here are some answers to your questions:</p>
+<ol>
+<li>For the Maseratis we have placed so far, we also used the smaller buttons. Usually an Ablenet Specs which has a 2” base. That was secured to the side of the steering wheel rim with Velcro. Of course, that is child dependent. We modify our cars with two jacks (one on the front and one in the rear) so we can plug in any switch the child needs when they come for the car. That’s why the switches don’t appear in some of my pictures.</li>
+</ol>
+<p>If I knew a child required something as large as the Big Red Button I would be inclined to add a mounting bar (e.g. a piece of aluminum stock) across the steering wheel using standoffs and screws through the rim so it cleared the switches and center piece. Then attach the Big Red Button to that. You can do that without dismantling the steering wheel.</p>
+<ol start="2">
+<li>
+<p>I don’t know how to get to anything that’s missing from the Mercer site. Besides, that’s the KidTrax version and there will be differences from what you and I are doing. Several steps in there that don’t apply to the Costzon.</p>
+</li>
+<li>
+<p>We did not add a toggle switch. With the remote, we felt we did not need that.</p>
+</li>
+<li>
+<p>We just suggest the parents leave the doors locked. We do show them how the doors work.</p>
+</li>
+<li>
+<p>Since you are doing an event, you will have volunteers there who have not built one of these before. Here are some things that might confuse them:</p>
+</li>
+</ol>
+<p>a) The grease for the wheels is rather casually tossed in the bottom of the box the car comes in. It’s easy to overlook and discard with the packing material. Also they give you enough grease to make dozens of cars. Don’t let them put too much on the axles.</p>
+<p>b) The manufacturer’s instructions don’t mention installing the battery cover. They have to do that.</p>
+<p>c)  Screws for battery clamp are in plastic bag with the keys. Screws for battery compartment cover are taped to the cover.</p>
+<p>d) It is a whole lot easier to put the wheels on if you do that before putting in the windshield. (I think that’s the reverse of the manufacturer’s instructions.)</p>
+<p>e) The wheels can be a little tricky. When you push the wheel on, you have to bounce it up and down a few times before it snaps, not just “push harder”. The wheel releases if needed by a “pushbutton” that is in the center of the wheel. Pushing this in and out also helps the wheel snap in place.</p>
+<p>f) Straighten the LEDs before putting the interior wheel cover on. Otherwise they may not go through the holes.</p>
+<p>g) The interior wheel cover must align with the wheel. There is a black arrow on the wheel and a silver arrow on the inside cover (which is very hard to see). Those arrows have to align or the LEDs will not go through the holes in the cover.</p>
+<p>h) If the tailpipes don’t press in easily, you have them rotated wrong. (If they are rotated wrong, the inside will latch but the outside will not.)</p>
+<p>If you are going to add a frame like ours, let me know and I can send you the dimensions and mounting points.</p>
+<p>Hope this is helpful!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_12' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Mitch.html'><span itemprop='name'>Mitch</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-08-27T00:00:34Z' class='post-time'>
+                    August 27, 2018, 12:00am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-08-27T00:00:34Z'>
+              <span itemprop='position'>12</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Thanks for the quick feedback Doug! All comments was very useful information.</p>
+<p>I like the aesthetics of your PVC assembly. I would appreciate the specs for the PVC frame assembly if you don’t mind. It will gives a starting point.</p>
+<p>Also any other digital build instructions you can share would be most appreciated. This one is nearly identical to the one you used.</p>
+<p>Did you use the TMart harness referenced at GBGconnect in your modification? Do you have a preference?</p>
+<p>Where did you secure the lower seat harness straps? I can see the upper ones secured at the rear of the vehicle.</p>
+<p>We are considering this harness: <a href="https://www.amazon.com/gp/product/B07G7C71NQ/ref=ox_sc_act_title_9?smid=AVHGJR6CAK15I&amp;th=1" rel="nofollow noopener">https://www.amazon.com/gp/product/B07G7C71NQ/ref=ox_sc_act_title_9?smid=AVHGJR6CAK15I&amp;th=1</a></p>
+<p>I worry about the delivery time however.</p>
+<p>Thanks again for sharing your build on GBGconnect site about the Maserati. We could not get a car we were familiar with that we did last December.</p>
+<p>I really like the remote feature!</p>
+<p>Warm regards,</p>
+<p>Mitch</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="2" />
+              </div>
+
+          </div>
+          <div id='post_13' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-08-27T00:26:15Z' class='post-time'>
+                    August 27, 2018, 12:26am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-08-27T00:26:15Z'>
+              <span itemprop='position'>13</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Mitch,</p>
+<p>I will try to message you with a WORD document that contains the frame dimensions. These are not complete instructions, more like “notes to myself”.</p>
+<p>The harness we use is:<br>
+Wheelchair Butterfly Chest Harness   $25.79/each<br>
+Size Small-SB330<br>
+<a href="http://enableyourlife.com/wheelchair-butterfly-chest-harness.asp" class="onebox" target="_blank" rel="nofollow noopener">http://enableyourlife.com/wheelchair-butterfly-chest-harness.asp</a></p>
+<p>I don’t recall how long it takes to get these.<br>
+The lower part of the harness is attached by 1/4" roundhead bolts to the car body right at the edge of the seat…<br>
+We have never used a harness like the one in your link. Looks like it is well padded. Probably you would need to check that it doesn’t put the child in an uncomfortable position in the car.<br>
+Yes, I think this remote is the best of any remote we have placed.<br>
+Please let me know if you don’t get the WORD document, I will then try something else.<br>
+Best regards.<br>
+– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_14' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='https://www.gbgconnect.com/u/gavin.wood.html'><span itemprop='name'>gavin.wood</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-08-27T19:58:18Z' class='post-time'>
+                    August 27, 2018,  7:58pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-08-27T19:58:18Z'>
+              <span itemprop='position'>14</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I saw a reference to this harness on another channel. It looks pretty good and is surprisingly inexpensive:<br>
+<a href="https://www.tmart.com/Portable-Thickened-Baby-Child-Safety-Car-Seat-Royalblue-S_p363374.html" class="onebox" target="_blank">https://www.tmart.com/Portable-Thickened-Baby-Child-Safety-Car-Seat-Royalblue-S_p363374.html</a></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_15' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Mitch.html'><span itemprop='name'>Mitch</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/7f6dbc841803a1596e145dd6f93fa49b50ba5fe8.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-08-27T22:58:56Z' class='post-time'>
+                    August 27, 2018, 10:58pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-08-27T22:58:56Z'>
+              <span itemprop='position'>15</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Doug,<br>
+I got your PDF build notes. They were a big help as we work on the prototype.</p>
+<p>In the reply post you mention installing two “jacks”. Is this for the <a href="http://ablenet.com" rel="nofollow noopener">ablenet.com</a> style buttons with an 3.5mm/.125" audio male plug? Was your jack like this? A female audio jack that can have wires soldered to the plug.<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/7f6dbc841803a1596e145dd6f93fa49b50ba5fe8.jpeg" title="image.jpg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7f6dbc841803a1596e145dd6f93fa49b50ba5fe8_2_690x286.jpeg" alt="image" width="690" height="286" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7f6dbc841803a1596e145dd6f93fa49b50ba5fe8_2_690x286.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7f6dbc841803a1596e145dd6f93fa49b50ba5fe8_2_1035x429.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/7f6dbc841803a1596e145dd6f93fa49b50ba5fe8.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/7f6dbc841803a1596e145dd6f93fa49b50ba5fe8_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">image.jpg</span><span class="informations">1361×566 234 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>Again - thanks for all of your assistance.</p>
+<p>Warm regards,<br>
+Mitch</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="2" />
+              </div>
+
+          </div>
+          <div id='post_16' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Mwalls11.html'><span itemprop='name'>Mwalls11</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-08-29T21:46:17Z' class='post-time'>
+                    August 29, 2018,  9:46pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-08-29T21:46:17Z'>
+              <span itemprop='position'>16</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I use these all the time - affordable and sturdy.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_17' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/PennStateHealth.html'><span itemprop='name'>PennStateHealth</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-09-10T00:43:24Z' class='post-time'>
+                    September 10, 2018, 12:43am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-09-10T00:43:24Z'>
+              <span itemprop='position'>17</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi! Would I be able to get the instructions for the frame dimensions? I am planning to modify my first car very soon and am working to determine what the best set up for support is and I like what I see in the pictures above, I have selected the Maserati. Any other help would be greatly appreciated as well.</p>
+<p>Emily</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_18' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-09-10T01:53:10Z' class='post-time'>
+                    September 10, 2018,  1:53am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-09-10T01:53:10Z'>
+              <span itemprop='position'>18</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Emily,</p>
+<p>Here is a .pdf with the frame dimensions (p3). These are not complete build instructions, more like “notes to myself”.  Hope they are helpful. If I can help in any other way, please let me know.</p>
+<p>Best regards,</p>
+<pre><code>    -- Doug
+</code></pre>
+<p><a class="attachment" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/d9b7bfc23a62439806cbb016465563953645bdce.pdf" rel="nofollow noopener">Maserati  Modification Instructions.pdf</a> (842 KB)</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_19' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-09-10T02:00:33Z' class='post-time'>
+                    September 10, 2018,  2:00am
+                  </time>
+                  <meta itemprop='dateModified' content='2018-09-10T02:00:33Z'>
+              <span itemprop='position'>19</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Mitch,<br>
+Sorry, I didn’t spot your inquiry until just tonight. No, we use Switchcraft 35PM1 3.5MM jacks. I will try to get a picture tomorrow, but they have a wider mounting surface than the ones above. I order them in bulk from <a href="http://markertek.com" rel="nofollow noopener">markertek.com</a> which has a good price and good service. They will be more expensive than the ones above (about $1.50 ea.) but I think worth it.<br>
+Best regards,<br>
+– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_20' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Doug.html'><span itemprop='name'>Doug</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="101.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2018-09-10T16:34:40Z' class='post-time'>
+                    September 10, 2018,  4:34pm
+                  </time>
+                  <meta itemprop='dateModified' content='2018-09-10T16:34:40Z'>
+              <span itemprop='position'>20</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hi Mitch,<br>
+Still cannot figure out why I did not get a notification about your question. But there is a picture of the Switchcraft 35PM1 on page 7 (last page) of the .pdf I sent you. Notice how wide the surface is that meets the car body (compared to the diameter of the barrel).<br>
+– Doug</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+    </div>
+
+    <div role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement' class="topic-body crawler-post">
+        <span itemprop='name'><b><a rel="next" itemprop="url" href="101%3Fpage=2.html">next page →</a></b></span>
+    </div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

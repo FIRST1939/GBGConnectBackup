@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Motor controllers</title>
+    <link>https://www.gbgconnect.com/t/motor-controllers/720</link>
+    <description>We have been using Spark Motor Controllers in most of our builds. I see that Rev Robotics lists them as out of stock currently, and we have two wild things that lack only that part to be completed. Does anyone have a suggestion for a direct replacement?
+Thank you!</description>
+    
+    <lastBuildDate>Mon, 10 Jan 2022 12:33:37 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/motor-controllers/720.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Motor controllers</title>
+        <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+        <description><![CDATA[
+            <p>I just looked into those. Thank you for the suggestion. I am going to order one and let the team try it out.</p>
+          <p><a href="https://www.gbgconnect.com/t/motor-controllers/720/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/motor-controllers/720/3</link>
+        <pubDate>Mon, 10 Jan 2022 12:33:37 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-720-3</guid>
+        <source url="https://www.gbgconnect.com/t/motor-controllers/720.rss">Motor controllers</source>
+      </item>
+      <item>
+        <title>Motor controllers</title>
+        <dc:creator><![CDATA[Pete-from-POP]]></dc:creator>
+        <description><![CDATA[
+            <p>have you heard of the Sabertooth from Dimension Engineering?  We use the 32amp version and it seems to work pretty well</p>
+          <p><a href="https://www.gbgconnect.com/t/motor-controllers/720/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/motor-controllers/720/2</link>
+        <pubDate>Sat, 08 Jan 2022 17:17:18 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-720-2</guid>
+        <source url="https://www.gbgconnect.com/t/motor-controllers/720.rss">Motor controllers</source>
+      </item>
+      <item>
+        <title>Motor controllers</title>
+        <dc:creator><![CDATA[Mattnauman]]></dc:creator>
+        <description><![CDATA[
+            <p>We have been using Spark Motor Controllers in most of our builds. I see that Rev Robotics lists them as out of stock currently, and we have two wild things that lack only that part to be completed. Does anyone have a suggestion for a direct replacement?<br>
+Thank you!</p>
+          <p><a href="https://www.gbgconnect.com/t/motor-controllers/720/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/motor-controllers/720/1</link>
+        <pubDate>Wed, 05 Jan 2022 01:48:10 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-720-1</guid>
+        <source url="https://www.gbgconnect.com/t/motor-controllers/720.rss">Motor controllers</source>
+      </item>
+  </channel>
+</rss>

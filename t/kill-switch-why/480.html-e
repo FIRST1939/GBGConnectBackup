@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kill Switch? Why? - Technical Discussion - GoBabyGo Connect</title>
+    <meta name="description" content="Dear Tech/Specialists, 
+I am just curious why the focus remains on the kill switch when all of these cars have a clear on/off switch that most typical kids cannot access. As an OT, I say keep things as typical as possibl&amp;hellip;">
+    <meta name="generator" content="Discourse 3.1.0.beta6 - https://github.com/discourse/discourse version 0a56274596f6d5abf65cd8510157f48a0998b237">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/ba88bde07319768378f9cbee85f4b33c41fe2a09_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/268b2f8194710043a8950dbde87b13fe9468ec98_2_180x180.jpg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="480.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GoBabyGo Connect Search">
+
+    <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/color_definitions_base__2_deaf4fc318a15a76d2bf16cd1fc43d22bdd9d26b.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-adplugin_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-adplugin"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-akismet_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-akismet"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-cakeday_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-checklist_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-details_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-footnote_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-footnote"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-lazy-videos_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-local-dates_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-narrative-bot_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-presence_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-solved_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/discourse-spoiler-alert_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/hosted-site_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/poll_desktop_efde768658ad4287f7c423e86a383bf8f54afd36.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sjc6.discourse-cdn.com/standard11/stylesheets/desktop_theme_2_21c340f2b12fe5f55924d04abefefa77d7a347f6.css?__ws=www.gbgconnect.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="2" data-theme-name="default"/>
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Kill Switch? Why?&#39;" href="480.rss" />
+    <meta property="og:site_name" content="GoBabyGo Connect" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:image" content="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/268b2f8194710043a8950dbde87b13fe9468ec98.jpg" />
+<meta property="og:url" content="https://www.gbgconnect.com/t/kill-switch-why/480" />
+<meta name="twitter:url" content="https://www.gbgconnect.com/t/kill-switch-why/480" />
+<meta property="og:title" content="Kill Switch? Why?" />
+<meta name="twitter:title" content="Kill Switch? Why?" />
+<meta property="og:description" content="Dear Tech/Specialists,  I am just curious why the focus remains on the kill switch when all of these cars have a clear on/off switch that most typical kids cannot access. As an OT, I say keep things as typical as possible, esp if this is one more layer of hacking into the wiring.  Would someone please clarify the reason for a Kill Switch/toggle switch on these cars when most of these kiddos are even struggling to sit up?  It just seems like too much extra work for an aspect that makes this proje..." />
+<meta name="twitter:description" content="Dear Tech/Specialists,  I am just curious why the focus remains on the kill switch when all of these cars have a clear on/off switch that most typical kids cannot access. As an OT, I say keep things as typical as possible, esp if this is one more layer of hacking into the wiring.  Would someone please clarify the reason for a Kill Switch/toggle switch on these cars when most of these kiddos are even struggling to sit up?  It just seems like too much extra work for an aspect that makes this proje..." />
+<meta property="og:article:section" content="Technical Discussion" />
+<meta property="og:article:section:color" content="92278F" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="2 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="4 ❤" />
+<meta property="article:published_time" content="2019-09-17T13:31:05+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="https://www.gbgconnect.com/">
+    GoBabyGo Connect
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="480.html">Kill Switch? Why?</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="https://www.gbgconnect.com/c/technical-discussion/8" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Technical Discussion</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <meta itemprop='headline' content='Kill Switch? Why?'>
+        <meta itemprop='articleSection' content='Technical Discussion'>
+      <meta itemprop='keywords' content=''>
+      <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop='name' content='GoBabyGo Connect'>
+          <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop='url' content='https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/765719b16d88179394bfaf43a41d22d3e7256474.jpg'>
+          </div>
+      </div>
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/kerrie333.html'><span itemprop='name'>kerrie333</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-17T13:31:05Z' class='post-time'>
+                    September 17, 2019,  1:31pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-17T13:31:05Z'>
+              <span itemprop='position'>1</span>
+              </span>
+            </div>
+            <div class='post' itemprop='articleBody'>
+              <p>Dear Tech/Specialists,<br>
+I am just curious why the focus remains on the kill switch when all of these cars have a clear on/off switch that most typical kids cannot access. As an OT, I say keep things as typical as possible, esp if this is one more layer of hacking into the wiring.</p>
+<p>Would someone please clarify the reason for a Kill Switch/toggle switch on these cars when most of these kiddos are even struggling to sit up?  It just seems like too much extra work for an aspect that makes this project make them seem MORE needy.  I have bypassed this on many cars to keep the regular on/off switch and families have been happy.  Is there a requirement we must use this?  Please clarify.</p>
+<p>Thanks so much!</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_2' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Parkere.html'><span itemprop='name'>Parkere</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-17T14:59:58Z' class='post-time'>
+                    September 17, 2019,  2:59pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-17T14:59:58Z'>
+              <span itemprop='position'>2</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Hey Kerrie!</p>
+<p>I am a mechanical engineer that worked with Go Baby Go on a head array project, which is how I got started with this group, and we put a kill switch on our car.  While it is an added step in re-wiring the cars, it is a good safety feature.  The point of a kill switch, at least in my opinion, is to put a big, easy to access button on the car somewhere accessible in case the parent/guardian needs to cut the power immediately.</p>
+<p>Take for example if someone wasn’t paying attention for a second, and they looked over and saw their child was about to drive down a slope that is too steep/dangerous, or about to go somewhere that might put them in danger.  Rather than having them have to struggle against the motor to hold the car in place, which could hurt the parent/guardian, they can hit the big kill switch button and it quickly cuts power to the motor, stopping the car dead in its tracks.</p>
+<p>It isn’t necessary, but I would definitely recommend having it for that worst case scenario when a situation gets too dangerous and the car needs to stop.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_3' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/kerrie333.html'><span itemprop='name'>kerrie333</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-17T15:33:07Z' class='post-time'>
+                    September 17, 2019,  3:33pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-17T15:33:07Z'>
+              <span itemprop='position'>3</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>But, there is an obvious on/off switch that is just as accessible on the car for able bodied kids who have a similar need…</p>
+<p>I’m just not sure why this is essential for disabled vs non-disabled.</p>
+<p>Kerrie</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="2" />
+              </div>
+
+          </div>
+          <div id='post_4' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Parkere.html'><span itemprop='name'>Parkere</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/f4d1ea90b719b744f8dcf1add84fdb23962e6d85.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-17T16:28:54Z' class='post-time'>
+                    September 17, 2019,  4:28pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-17T16:28:54Z'>
+              <span itemprop='position'>4</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Could you send a picture of the switch and it’s location on the car?  I’m a little confused at what you mean by the switch being available to able bodied children.  I would say that the kill switch is more so a mechanism for easy parent intervention, regardless of a child’s abilities.</p>
+<p>I attached a picture of our car as an example of the kill switch we used on our car.  It already has a toggle switch, but the benefit of this button is that it is a lot bigger, and easier to see/use in a pinch, in my opinion.</p>
+<p>But honestly if you feel that the switches are easily seeable and easy to use in a pinch if the parent needs to, then a kill switch isn’t necessary because the power switch can perform the same function.  It really depends on the car, button/switch placement, and ease of use.<div class="lightbox-wrapper"><a class="lightbox" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/f4d1ea90b719b744f8dcf1add84fdb23962e6d85.jpeg" data-download-href="/uploads/short-url/yVMfgSdsC0tZbK1cE4rmrPtrlfT.jpeg?dl=1" title="56147647-28CB-4A1E-84B5-E0AC53B75A85.jpeg" rel="nofollow noopener"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f4d1ea90b719b744f8dcf1add84fdb23962e6d85_2_666x500.jpeg" alt="image" data-base62-sha1="yVMfgSdsC0tZbK1cE4rmrPtrlfT" width="666" height="500" srcset="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f4d1ea90b719b744f8dcf1add84fdb23962e6d85_2_666x500.jpeg, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f4d1ea90b719b744f8dcf1add84fdb23962e6d85_2_999x750.jpeg 1.5x, https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f4d1ea90b719b744f8dcf1add84fdb23962e6d85_2_1332x1000.jpeg 2x" data-small-upload="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/optimized/1X/f4d1ea90b719b744f8dcf1add84fdb23962e6d85_2_10x10.png"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">56147647-28CB-4A1E-84B5-E0AC53B75A85.jpeg</span><span class="informations">4032×3024 2.74 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_5' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/kerrie333.html'><span itemprop='name'>kerrie333</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-17T17:31:52Z' class='post-time'>
+                    September 17, 2019,  5:31pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-17T17:31:52Z'>
+              <span itemprop='position'>5</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I dont have a car here, but the on/off switch is usually to the right of the dashboard.  It allows for parents of any child to turn the car off the same that a kill switch does…Just not sure why we need both.  If you use the foot peddle as the source to override for the steering wheel access, then it keeps everything else intact, which is nice bc it is just as the other/out of box cars AND you can keep remote control AND you can revert back to foot pedal if child has lower extremity function and may want to access pedal (or a sibling may want to use).</p>
+<p>I am assuming this is a vestige from the original GBG programs, but again, if there is an on/off switch that is intended for the same purpose, I just dont get why we are adding a “kill switch”.  Just trying to keep things simple and so far, I have not had any kiddos the family needed that extra need for–they are obligated to watch them at all times anyhow.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_6' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Parkere.html'><span itemprop='name'>Parkere</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-17T19:13:02Z' class='post-time'>
+                    September 17, 2019,  7:13pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-17T19:13:02Z'>
+              <span itemprop='position'>6</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I think it is purely circumstantial.  Say there were some build where the switch to power the car was close to the child, or in a spot not easily accessible, then adding a kill switch would make a lot of sense.  If the normal power switch is already accessible and easy to use, then there wouldn’t be much need.  Kill switches are useful, it just depends on the situation.</p>
+<p>I would say that from what you have explained, a kill switch isn’t important for your car build.  It seems like the power switch is easily accessible, and no one has had any problems with turning the car on/off in emergencies.  In that case, it makes sense to remove the kill switch from the build.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_7' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/jkauppil.html'><span itemprop='name'>jkauppil</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+                <link itemprop="image" href="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b269a295523b2a6c1e92bd63619abfc8bce1c3c7.jpeg">
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-18T14:59:12Z' class='post-time'>
+                    September 18, 2019,  2:59pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-18T14:59:12Z'>
+              <span itemprop='position'>7</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>We should do what is necessary to prevent accidents, Having a kill switch can prevent unauthorized use. We have found this “Dead Mans” switch requires a caregiver be present<br>
+<aside class="onebox amazon">
+  <header class="source">
+      <a href="https://www.amazon.com/gp/product/B0762HH45G/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">amazon.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:437/400;"><img src="https://global.discourse-cdn.com/standard11/uploads/gbgconnect/original/1X/b269a295523b2a6c1e92bd63619abfc8bce1c3c7.jpeg" class="thumbnail"></div>
+
+<h3><a href="https://www.amazon.com/gp/product/B0762HH45G/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1" target="_blank" rel="nofollow noopener">DC 4V 5V 6V 7.4V 9V 12V Wireless Relay Remote Control One Key Switch Receiver +...</a></h3>
+
+
+<p>
+  
+  
+  
+  
+  <strong></strong>
+</p>
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="2" />
+              </div>
+
+          </div>
+          <div id='post_8' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/elainej2383.html'><span itemprop='name'>elainej2383</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-18T17:30:32Z' class='post-time'>
+                    September 18, 2019,  5:30pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-18T17:30:32Z'>
+              <span itemprop='position'>8</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>This looks really cool. Can you show a picture of how you wired this up? Did you just place the sensor under the car’s body and when you click the remote, it makes the car stop then? Really cool</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="1" />
+              </div>
+
+          </div>
+          <div id='post_9' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/jkauppil.html'><span itemprop='name'>jkauppil</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-18T18:14:53Z' class='post-time'>
+                    September 18, 2019,  6:14pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-18T18:14:53Z'>
+              <span itemprop='position'>9</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>Don’t have access to the particular car. You have + and - connections, the yellow wires provide a + connection to the motor drive wire. The review on Amazon has one pic demonstrating this.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_10' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/GaryLiseo.html'><span itemprop='name'>GaryLiseo</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-18T20:57:39Z' class='post-time'>
+                    September 18, 2019,  8:57pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-18T20:57:39Z'>
+              <span itemprop='position'>10</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>As previously discussed, toggle switches allow parents or guardians with easy access to cut power to the vehicle when it is unsafe for a kiddo to continue forward (or whatever direction he or she is traveling). While toggle switches aren’t required, per say, they are recommended because not all cars have On/Off switches.<br>
+Also, for cars which do have clear On/Off switches near the driver, kids do not always have the ability to use said switch and likely might not know what it even does.<br>
+Much like how buttons on steering wheels replace the accelerator pedal(s), the toggle switch makes having power go to motors possible or interrupted, like a typical On/Off switch.<br>
+I would also like to note that the toggle switch can (typically) be accessed by anyone outside the car who may need to shut off the power. There are some designs I have seen or heard of where the toggle switch would be operated via something held by whomever is helping a kiddo steer.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_11' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Greg.html'><span itemprop='name'>Greg</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2019-09-19T19:16:47Z' class='post-time'>
+                    September 19, 2019,  7:16pm
+                  </time>
+                  <meta itemprop='dateModified' content='2019-09-19T19:16:47Z'>
+              <span itemprop='position'>11</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>By adding the adaptive switch in an easy to reach location, such as on the steering wheel - you have also added another way to inadvertently start the car by accidently bumping the switch at an inconvenient time, for example when the care-giver is loading or unloading the kiddo, or when the kiddo is entering or exiting the car.</p>
+<p>Having an extra measure of safety at these times seems worthwhile (given the minimal extra work), and it can be wired is several ways, and placed around the car in a variety of locations.</p>
+<p>Is the concern primarily the aesthetics?</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_12' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/Uskobus.html'><span itemprop='name'>Uskobus</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-07-06T01:46:57Z' class='post-time'>
+                    July 6, 2020,  1:46am
+                  </time>
+                  <meta itemprop='dateModified' content='2020-07-06T01:46:57Z'>
+              <span itemprop='position'>12</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>I installed a kill switch with a remote control. It has an on and off button. And is like a garage door opener. You don’t want to have to always be right beside the car to kill the power. They could be headed toward the street, side of the house, tree, or steep slope.  You have to bend over and be able to reach a kill switch that is mounted on the car and that takes time and the car could move and you miss the switch. I have used it with a three year old and want the price of mind that I can stop the car anytime I feel it needs to be stopped quickly.</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="0" />
+              <span class='post-likes'></span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+          <div id='post_13' itemprop='comment' itemscope itemtype='http://schema.org/Comment' class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <a itemprop="url" href='../../u/tracyofleming.html'><span itemprop='name'>tracyofleming</span></a>
+                
+              </span>
+
+              <link itemprop="mainEntityOfPage" href="480.html">
+
+
+              <span class="crawler-post-infos">
+                  <time itemprop='datePublished' datetime='2020-12-13T18:04:21Z' class='post-time'>
+                    December 13, 2020,  6:04pm
+                  </time>
+                  <meta itemprop='dateModified' content='2020-12-13T18:04:21Z'>
+              <span itemprop='position'>13</span>
+              </span>
+            </div>
+            <div class='post' itemprop='text'>
+              <p>So we are a NFP in Syracuse, NY called ARISE Adaptive Design. We have been watching GBG for the past couple of years and have modified a couple of Fisher Price WildThings and used one of these remote switches on both of them. In both cases the parents felt more secure knowing they could shut the device down up to and over 100 feet away if necessary.</p>
+<p>The range isn’t the place to focus however since 15 or 20 ft. away is far enough out of reach for a child to get into trouble with one of these.</p>
+<p>I’m glad to see that this suggestion came up in this thread. I think its time for us to look at getting more directly involved with GBG</p>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+              <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+              <meta itemprop="userInteractionCount" content="1" />
+              <span class='post-likes'>1 Like</span>
+            </div>
+
+            <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+                <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+                <meta itemprop="userInteractionCount" content="0" />
+              </div>
+
+          </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='https://www.gbgconnect.com/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://www.gbgconnect.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    Founded by <a href="https://www.frcteam1939.com/">FIRST Robotics Team 1939</a> from The Barstow School in Kansas City, MO<br>
+Maintained by the <a href="https://healthprofessions.missouri.edu/occupational-therapy/research/assistive-technology-adaptation-and-training/">Assistive Technology Adaptation and Training Laboratory</a> at the University of Missouri
+    
+  </body>
+  
+</html>

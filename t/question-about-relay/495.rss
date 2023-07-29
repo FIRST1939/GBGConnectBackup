@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Question about relay</title>
+    <link>https://www.gbgconnect.com/t/question-about-relay/495</link>
+    <description>Hello, non-electrical person here! I have read through many manuals. I&#39;m wondering, does a trailer connector serve the same purpose as a relay? Are these interchangeable? 
+Thank you!</description>
+    
+    <lastBuildDate>Mon, 14 Oct 2019 00:39:55 +0000</lastBuildDate>
+    <category>Technical Discussion</category>
+    <atom:link href="https://www.gbgconnect.com/t/question-about-relay/495.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Question about relay</title>
+        <dc:creator><![CDATA[Doug]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi,<br>
+Actually they are very different and have different uses. The relay lets a small electrical current control a larger current. A trailer connector temporarily connects two electrical circuits that do not need to be permanently connected. When modifying cars, we use a relay to allow a switch (like a Big Red Button that cannot handle too much current) to turn on the car’s motor (which takes a lot more current). We sometimes use a trailer connector to temporarily connect a battery charger to the car if it doesn’t come with a convenient charging jack.<br>
+Hope this is helpful!<br>
+– Doug</p>
+          <p><a href="https://www.gbgconnect.com/t/question-about-relay/495/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/question-about-relay/495/2</link>
+        <pubDate>Mon, 14 Oct 2019 00:39:55 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-495-2</guid>
+        <source url="https://www.gbgconnect.com/t/question-about-relay/495.rss">Question about relay</source>
+      </item>
+      <item>
+        <title>Question about relay</title>
+        <dc:creator><![CDATA[anc1985]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello, non-electrical person here! I have read through many manuals. I’m wondering, does a trailer connector serve the same purpose as a relay? Are these interchangeable?<br>
+Thank you!</p>
+          <p><a href="https://www.gbgconnect.com/t/question-about-relay/495/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://www.gbgconnect.com/t/question-about-relay/495/1</link>
+        <pubDate>Sat, 12 Oct 2019 20:17:11 +0000</pubDate>
+        <guid isPermaLink="false">www.gbgconnect.com-post-495-1</guid>
+        <source url="https://www.gbgconnect.com/t/question-about-relay/495.rss">Question about relay</source>
+      </item>
+  </channel>
+</rss>
